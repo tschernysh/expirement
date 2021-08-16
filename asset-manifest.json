@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/expirement/static/css/main.c8b6a9a9.chunk.css",
-    "main.js": "/expirement/static/js/main.caf8553c.chunk.js",
-    "main.js.map": "/expirement/static/js/main.caf8553c.chunk.js.map",
+    "main.css": "/expirement/static/css/main.b487c7f8.chunk.css",
+    "main.js": "/expirement/static/js/main.8f9edee8.chunk.js",
+    "main.js.map": "/expirement/static/js/main.8f9edee8.chunk.js.map",
     "runtime-main.js": "/expirement/static/js/runtime-main.3dfddc9e.js",
     "runtime-main.js.map": "/expirement/static/js/runtime-main.3dfddc9e.js.map",
     "static/js/2.48c35704.chunk.js": "/expirement/static/js/2.48c35704.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.9c932bf1.chunk.js": "/expirement/static/js/3.9c932bf1.chunk.js",
     "static/js/3.9c932bf1.chunk.js.map": "/expirement/static/js/3.9c932bf1.chunk.js.map",
     "index.html": "/expirement/index.html",
-    "static/css/main.c8b6a9a9.chunk.css.map": "/expirement/static/css/main.c8b6a9a9.chunk.css.map",
+    "static/css/main.b487c7f8.chunk.css.map": "/expirement/static/css/main.b487c7f8.chunk.css.map",
     "static/js/2.48c35704.chunk.js.LICENSE.txt": "/expirement/static/js/2.48c35704.chunk.js.LICENSE.txt",
     "static/media/index.css": "/expirement/static/media/STIXTwoMath-Regular.a36a0501.ttf",
     "static/media/ContentWrapper.module.scss": "/expirement/static/media/main-2.99ddc373.jpg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.3dfddc9e.js",
     "static/js/2.48c35704.chunk.js",
-    "static/css/main.c8b6a9a9.chunk.css",
-    "static/js/main.caf8553c.chunk.js"
+    "static/css/main.b487c7f8.chunk.css",
+    "static/js/main.8f9edee8.chunk.js"
   ]
 }
