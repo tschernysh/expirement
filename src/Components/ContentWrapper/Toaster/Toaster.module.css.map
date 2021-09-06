@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,gBAAgB,CAAA;EACZ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,YAAY;CAChC",
+    "sources": [
+        "Toaster.module.css"
+    ],
+    "names": [],
+    "file": "Toaster.module.css"
+}

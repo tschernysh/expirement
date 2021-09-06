@@ -1,0 +1,13 @@
+.iknow {
+  font-size: 30px;
+}
+
+.iknow span {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.change_anim {
+  color: transparent;
+}
+/*# sourceMappingURL=Iknow.module.css.map */

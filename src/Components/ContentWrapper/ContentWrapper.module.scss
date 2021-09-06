@@ -1,0 +1,138 @@
+.content_wrapper{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.content_background{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../img/main-2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: backgroundTrip 100s infinite;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@keyframes backgroundTrip {
+    0%{
+        filter: hue-rotate(0deg) brightness(20%);
+    }
+    50%{
+        filter: hue-rotate(360deg) brightness(20%);
+    }
+    100%{
+        filter: hue-rotate(0deg) brightness(20%);
+    }
+}
+.content_container{
+    width: 50%;
+    background-color: #171717;
+    height: 60vh;
+    z-index: 10;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    &::before{
+        content: ' ';
+        z-index: -1;
+        width: 60%;
+        height: 100%;
+        bottom: -15%;
+        left: -15%;
+        position: absolute;
+        background-image: url(../../img/ahegao.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: #171717 -414px 291px 128px -51px inset;
+    }
+    &::after{
+        content: ' ';
+        z-index: -1;
+        width: 60%;
+        height: 100%;
+        top: -30%;
+        right: -8%;
+        position: absolute;
+        background-image: url(../../img/cry.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        box-shadow: #171717 427px -284px 92px -20px inset;
+    }
+}
+.content_block{
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 60%;
+    margin: 0 auto;
+    font-family: 'Roboto-Bold';
+    color: #EDEDED;
+    justify-content: center;
+    user-select: none;
+    text-align: center;
+}
+.content_back{
+    cursor: pointer;
+    z-index: 1;
+    display: flex;
+    font-family: 'Roboto-Bold';
+    color: #EDEDED;
+    margin: 10px 0 0 10px;
+    user-select: none;
+    svg{
+        width: 20px;
+        height: 20px;
+        fill: #EDEDED;
+        margin-right: 5px;
+    }
+}
+.content_back_fetch{
+    cursor: default;
+    color: #444444;
+    svg{
+        fill: #444444;
+    }
+}
+
+.content_poem{
+    position: absolute;
+    width: 250px;
+    z-index: 1;
+    user-select: none;
+    color: #444444;
+    top: 10%;
+    animation: poemAnim 1000s infinite;
+    left: 10px;
+    font-size: 16px;
+    text-align: left;
+    font-family: 'Roboto-Light';
+}
+@keyframes poemAnim {
+    100%{
+        transform: translate(0%, -100%);
+    }
+}
+
+.lightning_anim{
+    position: absolute;
+    img{
+        animation: lightning 0.001s infinite ;
+    }
+}
+@keyframes lightning {
+    0%{
+        transform: translate(0px, 0px);
+        opacity: 0.5;
+    }
+    50%{
+        transform: translate(-200px, -200px);
+    }
+    100%{
+        transform: translate(200px, 200px);
+    }
+}

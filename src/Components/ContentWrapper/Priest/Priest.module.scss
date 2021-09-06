@@ -1,0 +1,16 @@
+.priest{
+    h1{
+        font-size: 30px;
+    }
+}
+.priest_img{
+    display: flex;
+    justify-content: space-around;
+    img{
+        width: 35%;
+    }
+}
+.priest_answer{
+    display: flex;
+    justify-content: space-around;
+}

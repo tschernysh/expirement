@@ -1,0 +1,58 @@
+.video_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.video video {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-animation: reveal 1s 1 ease;
+          animation: reveal 1s 1 ease;
+}
+
+@-webkit-keyframes reveal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.video_answers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 10;
+  position: relative;
+}
+
+.video_answers .opacity_span {
+  opacity: 0.1;
+}
+
+.video_answers span {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+/*# sourceMappingURL=Video.module.css.map */

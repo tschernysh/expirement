@@ -1,0 +1,89 @@
+.preloader{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10000000000;
+}
+.preloader_image{
+    filter: brightness(20%);
+    background-image: url('../../img/preloader.jpg');
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+.preloader_text{
+    margin: 0 auto;
+    font-size: 120px;
+    color: #171717;
+    font-family: 'Didact-Gothic';
+    z-index: 1;
+    user-select: none;
+    position: relative;
+}
+.preloader_text::before,
+.preloader_text::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+.preloader_text::before{
+    left: 4px;
+    text-shadow: -2px 0 red;
+    background: transparent;
+    animation: glitch-anim-1 0.8s infinite linear alternate-reverse;
+}
+.preloader_text::after{
+    left: -4px;
+    text-shadow: -2px 0 #171717;
+    background: transparent;
+    animation: glitch-anim-2 1.2s infinite linear alternate-reverse;
+}
+@keyframes glitch-anim-1{
+  $steps:100;
+  @for $i from 0 through $steps{
+    #{percentage($i*(1/$steps))}{
+      clip:rect(random(100)+px,9999px,random(150)+px,0);
+    }
+  }
+}
+@keyframes glitch-anim-2{
+  $steps:100;
+  @for $i from 0 through $steps{
+    #{percentage($i*(1/$steps))}{
+      clip:rect(random(100)+px,9999px,random(150)+px,0);
+    }
+  }
+}
+.preloader_line{
+    animation: linePulse 2s infinite;
+    width: 100%;
+    height: 150px;
+    position: absolute;
+}
+@keyframes linePulse {
+    0%{
+        background-color: #EDEDED;
+    }
+    50%{
+        background-color: transparent;
+    }
+    100%{
+        background-color: #EDEDED;
+    }
+    
+}
+.off_preloader{
+    animation: offPreloader 1s 1;
+}
+@keyframes offPreloader {
+    100%{
+      filter: blur(10px);
+      opacity: 0;
+    }
+}

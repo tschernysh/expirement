@@ -1,0 +1,93 @@
+.answer_picture{
+    margin: 30px;
+    position: relative;
+    transition: all 0.5s;
+    overflow: hidden;
+    border-radius: 10px;
+    
+    div{
+        position: absolute;
+        z-index: 1;
+        color: #171717;
+        background-color: #da0037;
+        top: 0px;
+        width: 100%;
+        font-size: 20px;
+        padding: 0px 10px;
+        border-bottom-right-radius: 10px;
+        transition: all 0.5s;
+    }
+    &:hover:not(.not_active_choose):not(.active_choose){
+        cursor: pointer;
+        transform: scale(1.1, 1.1);
+        box-shadow: 0 0 30px #DA0037;
+        img{
+            filter: brightness(100%);
+        }
+        div{
+            transform: translate(-100%, 0);
+        }
+    }
+    &:not(:hover):not(.not_active_choose){
+        animation: glow 2s ease infinite;
+    }
+    &::before{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        content: ' ';
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    &::after{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        content: ' ';
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    img{
+        width: 15em;
+        height: 100%;
+        filter: brightness(70%);
+        transition: all 0.5s;
+        position: relative;
+    }
+}
+.active_choose{
+    transform: scale(1.1, 1.1) !important;
+    cursor: default !important;
+    animation: pick 3s ease 1 !important;
+    img{
+        filter: brightness(100%) !important;
+    }
+    div{
+        transform: translate(-100%, 0) !important;
+    }
+}
+.not_active_choose{
+    cursor: default;  
+    opacity: 0; 
+}
+
+@keyframes pick {
+    0%{
+        box-shadow: 40px 0 10px #DA0037,
+        -40px 0 10px blue;
+    }
+    30%{
+        box-shadow: 0px 40px 40px #DA0037,
+        0 -40px 40px blue;
+    }
+    100%{
+        box-shadow: 0px 0px 20px #EDEDED;
+    }
+}
+@keyframes glow {
+    50%{
+        box-shadow: 0 0 15px #DA0037;
+    }
+}

@@ -1,0 +1,60 @@
+.answer_item {
+  margin: 50px;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+.answer_item input {
+  display: none;
+}
+
+.answer_item input[type=radio]:checked + label {
+  color: #EDEDED !important;
+  -webkit-animation: glow 3s 1 ease;
+          animation: glow 3s 1 ease;
+}
+
+.answer_item input[type=radio]:not(:disabled) + label:hover {
+  cursor: pointer;
+  color: #EDEDED;
+}
+
+.answer_item label {
+  font-size: 50px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  color: #ededed5e;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+@-webkit-keyframes glow {
+  0% {
+    text-shadow: 20px 0 10px #DA0037, -20px 0 10px blue;
+  }
+  30% {
+    text-shadow: 0px 20px 10px #DA0037, 0 -20px 10px blue;
+  }
+  100% {
+    text-shadow: 0px 0px 10px #EDEDED;
+  }
+}
+
+@keyframes glow {
+  0% {
+    text-shadow: 20px 0 10px #DA0037, -20px 0 10px blue;
+  }
+  30% {
+    text-shadow: 0px 20px 10px #DA0037, 0 -20px 10px blue;
+  }
+  100% {
+    text-shadow: 0px 0px 10px #EDEDED;
+  }
+}
+
+.not_active_choose {
+  opacity: 0;
+}
+/*# sourceMappingURL=Button.module.css.map */

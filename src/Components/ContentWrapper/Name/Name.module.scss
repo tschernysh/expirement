@@ -1,0 +1,43 @@
+.name{
+    font-size: 1.5em;
+    width: 100%;
+    input{
+        margin-top: 20px;
+        width: 100%;
+        padding: 10px 5px;
+        font-size: 1em;
+        outline: none;
+        border: none;
+        background-color: transparent;
+        border-bottom: 2px solid #DA0037;
+        animation: glow 2s ease infinite;
+        color: #444444;
+        transition: all 0.5s;
+        &:focus{
+            border-bottom: 2px solid #444444 !important;
+        }
+    }
+    button{
+        transition: all 0.5s;
+        margin-top: 50px;
+        border: 2px solid #DA0037;
+        background-color: transparent;
+        color: #444444;
+        font-size: 1em;
+        padding: 5px 10px;
+        &:hover:not(:disabled){
+            color: #EDEDED;
+            box-shadow: 0 0 10px  #DA0037;
+            cursor: pointer;
+        }
+        &:disabled{
+            opacity: 0;
+        }
+    }
+}
+@keyframes glow{
+    50%{
+        border-bottom: 2px solid #444444;
+
+    }
+}

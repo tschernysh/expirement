@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Roboto-Light";
+  src: local("Roboto-Light"), url(./fonts/Roboto-Light.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src: local("Roboto-Bold"), url(./fonts/Roboto-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Didact-Gothic";
+  src: local("Didact-Gothic"),
+    url(./fonts/DidactGothic-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "STIXTwoMath";
+  src: local("STIXTwoMath"),
+    url(./fonts/STIXTwoMath-Regular.ttf) format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

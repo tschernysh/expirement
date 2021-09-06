@@ -1,0 +1,59 @@
+.name {
+  font-size: 1.5em;
+  width: 100%;
+}
+
+.name input {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px 5px;
+  font-size: 1em;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid #DA0037;
+  -webkit-animation: glow 2s ease infinite;
+          animation: glow 2s ease infinite;
+  color: #444444;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.name input:focus {
+  border-bottom: 2px solid #444444 !important;
+}
+
+.name button {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  margin-top: 50px;
+  border: 2px solid #DA0037;
+  background-color: transparent;
+  color: #444444;
+  font-size: 1em;
+  padding: 5px 10px;
+}
+
+.name button:hover:not(:disabled) {
+  color: #EDEDED;
+  -webkit-box-shadow: 0 0 10px  #DA0037;
+          box-shadow: 0 0 10px  #DA0037;
+  cursor: pointer;
+}
+
+.name button:disabled {
+  opacity: 0;
+}
+
+@-webkit-keyframes glow {
+  50% {
+    border-bottom: 2px solid #444444;
+  }
+}
+
+@keyframes glow {
+  50% {
+    border-bottom: 2px solid #444444;
+  }
+}
+/*# sourceMappingURL=Name.module.css.map */

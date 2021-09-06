@@ -1,0 +1,37 @@
+.video_wrapper{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.video{
+    video{
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        transition: all 0.5s;
+        animation: reveal 1s 1 ease ;
+    }
+}
+
+@keyframes reveal {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.video_answers{
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    position: relative;
+    .opacity_span{
+        opacity: 0.1;
+    }
+    span{
+        transition: all 1s;
+    }
+}

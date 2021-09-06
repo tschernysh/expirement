@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAA;EACF,SAAS,EAAE,IAAI;CAIlB;;AALD,AAEI,MAFE,CAEF,IAAI,CAAA;EACA,UAAU,EAAE,MAAM;CACrB;;AAGL,AAAA,YAAY,CAAA;EACR,KAAK,EAAE,WAAW;CACrB",
+    "sources": [
+        "Iknow.module.scss"
+    ],
+    "names": [],
+    "file": "Iknow.module.css"
+}
