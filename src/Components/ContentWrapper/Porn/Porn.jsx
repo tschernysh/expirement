@@ -50,14 +50,14 @@ export default () => {
             <h1>Выбери {data.userSex === 'Работяга' ? 'любимую "актрису"' : 'любимого "актёра"'}</h1>
             <div className={s.porn_answers}>
                 {data.userSex === 'Работяга' 
-                    ? <div>
+                    ? <>
                         <PictureButton nextPhase={'QUESTION SMOKE'} image={Bitch} name={'porn'} text={'Purple Bitch'} />
                         <PictureButton nextPhase={'QUESTION SMOKE'} image={Lana} name={'porn'} text={'Lana Rhoades'} />    
-                    </div>
-                    : <div>
+                    </>
+                    : <>
                         <PictureButton nextPhase={'QUESTION SMOKE'} image={Sins} name={'porn'} text={'Johny Sins'} />
                         <PictureButton nextPhase={'QUESTION SMOKE'} image={Cena} name={'porn'} text={'John Cena'} />    
-                    </div>}
+                    </>}
                 
             </div>
         </div>
