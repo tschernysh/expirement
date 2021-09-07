@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "AAAA,AAAA,aAAa,CAAA;EACT,OAAO,EAAE,IAAI;CAChB",
     "sources": [
-        "Porn.module.css"
+        "Porn.module.scss"
     ],
     "names": [],
     "file": "Porn.module.css"

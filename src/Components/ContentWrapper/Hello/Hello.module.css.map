@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "AAAA,AAAA,MAAM,CAAA;EACF,SAAS,EAAE,KAAK;CACnB",
     "sources": [
-        "Hello.module.css"
+        "Hello.module.scss"
     ],
     "names": [],
     "file": "Hello.module.css"

@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "AAAA,AAAA,eAAe,CAAA;EACX,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,YAAY;CAChC",
     "sources": [
-        "Papich.module.css"
+        "Papich.module.scss"
     ],
     "names": [],
     "file": "Papich.module.css"

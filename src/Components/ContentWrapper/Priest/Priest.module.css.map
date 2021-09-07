@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "AAAA,AACI,OADG,CACH,EAAE,CAAA;EACE,SAAS,EAAE,IAAI;CAClB;;AAEL,AAAA,WAAW,CAAA;EACP,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,YAAY;CAIhC;;AAND,AAGI,WAHO,CAGP,GAAG,CAAA;EACC,KAAK,EAAE,GAAG;CACb;;AAEL,AAAA,cAAc,CAAA;EACV,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,YAAY;CAChC",
     "sources": [
-        "Priest.module.css"
+        "Priest.module.scss"
     ],
     "names": [],
     "file": "Priest.module.css"

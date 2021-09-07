@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "AAAA,AAAA,YAAY,CAAA;EACR,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,YAAY;CAChC",
     "sources": [
-        "Sex.module.css"
+        "Sex.module.scss"
     ],
     "names": [],
     "file": "Sex.module.css"

@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "AAAA,AAAA,gBAAgB,CAAA;EACZ,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,YAAY;CAChC",
     "sources": [
-        "Toaster.module.css"
+        "Toaster.module.scss"
     ],
     "names": [],
     "file": "Toaster.module.css"
