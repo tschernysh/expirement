@@ -25,7 +25,7 @@
 .preloader_text {
   margin: 0 auto;
   font-size: 150px;
-  color: #171717;
+  color: #EDEDED;
   font-family: 'Didact-Gothic';
   z-index: 1;
   -webkit-user-select: none;
@@ -45,2489 +45,3016 @@
 }
 
 .preloader_text::before {
-  left: 6px;
+  left: 7px;
   background: transparent;
-  animation: glitch-anim-1 0.0001s infinite linear alternate-reverse;
+  animation: glitch-anim-1 8s infinite linear alternate-reverse;
 }
 
 .preloader_text::after {
-  left: -6px;
+  left: -7px;
   background: transparent;
-  animation: glitch-anim-2 0.0001s infinite linear alternate-reverse;
+  animation: glitch-anim-2 8s infinite linear alternate-reverse;
 }
 
 @-webkit-keyframes glitch-anim-1 {
   0% {
-    -webkit-filter: hue-rotate(241deg);
-            filter: hue-rotate(241deg);
-    text-shadow: -5px -6px #C400FF;
-    clip: rect(92px, 9999px, 87px, 0);
+    -webkit-filter: hue-rotate(229deg);
+            filter: hue-rotate(229deg);
+    opacity: 0.58;
+    text-shadow: -6px -6px #FC0000;
+    clip: rect(66px, 9999px, 18px, 0);
   }
   1% {
-    -webkit-filter: hue-rotate(88deg);
-            filter: hue-rotate(88deg);
-    text-shadow: -3px -9px #C400FF;
-    clip: rect(96px, 9999px, 83px, 0);
-  }
-  2% {
-    -webkit-filter: hue-rotate(158deg);
-            filter: hue-rotate(158deg);
-    text-shadow: -3px -7px #C400FF;
-    clip: rect(80px, 9999px, 36px, 0);
-  }
-  3% {
-    -webkit-filter: hue-rotate(206deg);
-            filter: hue-rotate(206deg);
-    text-shadow: -4px -9px #C400FF;
-    clip: rect(38px, 9999px, 149px, 0);
-  }
-  4% {
-    -webkit-filter: hue-rotate(73deg);
-            filter: hue-rotate(73deg);
-    text-shadow: -9px -8px #C400FF;
-    clip: rect(16px, 9999px, 185px, 0);
-  }
-  5% {
-    -webkit-filter: hue-rotate(76deg);
-            filter: hue-rotate(76deg);
-    text-shadow: -6px -3px #C400FF;
-    clip: rect(74px, 9999px, 114px, 0);
-  }
-  6% {
-    -webkit-filter: hue-rotate(326deg);
-            filter: hue-rotate(326deg);
-    text-shadow: -6px -3px #C400FF;
-    clip: rect(78px, 9999px, 7px, 0);
-  }
-  7% {
-    -webkit-filter: hue-rotate(225deg);
-            filter: hue-rotate(225deg);
-    text-shadow: -6px -3px #C400FF;
-    clip: rect(74px, 9999px, 175px, 0);
-  }
-  8% {
-    -webkit-filter: hue-rotate(39deg);
-            filter: hue-rotate(39deg);
-    text-shadow: -3px 0px #C400FF;
-    clip: rect(43px, 9999px, 148px, 0);
-  }
-  9% {
-    -webkit-filter: hue-rotate(338deg);
-            filter: hue-rotate(338deg);
-    text-shadow: -7px -3px #C400FF;
-    clip: rect(16px, 9999px, 40px, 0);
-  }
-  10% {
-    -webkit-filter: hue-rotate(174deg);
-            filter: hue-rotate(174deg);
-    text-shadow: -6px -9px #C400FF;
-    clip: rect(7px, 9999px, 113px, 0);
-  }
-  11% {
-    -webkit-filter: hue-rotate(157deg);
-            filter: hue-rotate(157deg);
-    text-shadow: -5px -5px #C400FF;
-    clip: rect(4px, 9999px, 299px, 0);
-  }
-  12% {
-    -webkit-filter: hue-rotate(69deg);
-            filter: hue-rotate(69deg);
-    text-shadow: -3px -2px #C400FF;
-    clip: rect(28px, 9999px, 212px, 0);
-  }
-  13% {
-    -webkit-filter: hue-rotate(276deg);
-            filter: hue-rotate(276deg);
-    text-shadow: -1px -4px #C400FF;
-    clip: rect(1px, 9999px, 106px, 0);
-  }
-  14% {
-    -webkit-filter: hue-rotate(80deg);
-            filter: hue-rotate(80deg);
-    text-shadow: -7px -4px #C400FF;
-    clip: rect(78px, 9999px, 223px, 0);
-  }
-  15% {
-    -webkit-filter: hue-rotate(116deg);
-            filter: hue-rotate(116deg);
-    text-shadow: -5px -8px #C400FF;
-    clip: rect(71px, 9999px, 194px, 0);
-  }
-  16% {
-    -webkit-filter: hue-rotate(150deg);
-            filter: hue-rotate(150deg);
-    text-shadow: -6px -3px #C400FF;
-    clip: rect(11px, 9999px, 217px, 0);
-  }
-  17% {
-    -webkit-filter: hue-rotate(108deg);
-            filter: hue-rotate(108deg);
-    text-shadow: -8px -3px #C400FF;
-    clip: rect(16px, 9999px, 277px, 0);
-  }
-  18% {
-    -webkit-filter: hue-rotate(55deg);
-            filter: hue-rotate(55deg);
-    text-shadow: -1px -6px #C400FF;
-    clip: rect(77px, 9999px, 166px, 0);
-  }
-  19% {
-    -webkit-filter: hue-rotate(140deg);
-            filter: hue-rotate(140deg);
-    text-shadow: -8px -7px #C400FF;
-    clip: rect(74px, 9999px, 227px, 0);
-  }
-  20% {
-    -webkit-filter: hue-rotate(25deg);
-            filter: hue-rotate(25deg);
-    text-shadow: -2px -5px #C400FF;
-    clip: rect(34px, 9999px, 200px, 0);
-  }
-  21% {
-    -webkit-filter: hue-rotate(235deg);
-            filter: hue-rotate(235deg);
-    text-shadow: -5px -7px #C400FF;
-    clip: rect(30px, 9999px, 262px, 0);
-  }
-  22% {
-    -webkit-filter: hue-rotate(302deg);
-            filter: hue-rotate(302deg);
-    text-shadow: -4px 0px #C400FF;
-    clip: rect(31px, 9999px, 268px, 0);
-  }
-  23% {
-    -webkit-filter: hue-rotate(329deg);
-            filter: hue-rotate(329deg);
-    text-shadow: -3px -3px #C400FF;
-    clip: rect(8px, 9999px, 193px, 0);
-  }
-  24% {
-    -webkit-filter: hue-rotate(262deg);
-            filter: hue-rotate(262deg);
-    text-shadow: -7px -8px #C400FF;
-    clip: rect(27px, 9999px, 107px, 0);
-  }
-  25% {
-    -webkit-filter: hue-rotate(32deg);
-            filter: hue-rotate(32deg);
-    text-shadow: -8px -6px #C400FF;
-    clip: rect(60px, 9999px, 262px, 0);
-  }
-  26% {
-    -webkit-filter: hue-rotate(153deg);
-            filter: hue-rotate(153deg);
-    text-shadow: -2px -5px #C400FF;
-    clip: rect(78px, 9999px, 47px, 0);
-  }
-  27% {
-    -webkit-filter: hue-rotate(99deg);
-            filter: hue-rotate(99deg);
-    text-shadow: -6px -2px #C400FF;
-    clip: rect(20px, 9999px, 222px, 0);
-  }
-  28% {
-    -webkit-filter: hue-rotate(218deg);
-            filter: hue-rotate(218deg);
-    text-shadow: -7px -9px #C400FF;
-    clip: rect(93px, 9999px, 74px, 0);
-  }
-  29% {
-    -webkit-filter: hue-rotate(32deg);
-            filter: hue-rotate(32deg);
-    text-shadow: -4px -5px #C400FF;
-    clip: rect(48px, 9999px, 234px, 0);
-  }
-  30% {
-    -webkit-filter: hue-rotate(12deg);
-            filter: hue-rotate(12deg);
-    text-shadow: -1px -8px #C400FF;
-    clip: rect(99px, 9999px, 287px, 0);
-  }
-  31% {
-    -webkit-filter: hue-rotate(130deg);
-            filter: hue-rotate(130deg);
-    text-shadow: -6px -5px #C400FF;
-    clip: rect(40px, 9999px, 100px, 0);
-  }
-  32% {
-    -webkit-filter: hue-rotate(156deg);
-            filter: hue-rotate(156deg);
-    text-shadow: 0px -5px #C400FF;
-    clip: rect(46px, 9999px, 63px, 0);
-  }
-  33% {
-    -webkit-filter: hue-rotate(282deg);
-            filter: hue-rotate(282deg);
-    text-shadow: -2px -8px #C400FF;
-    clip: rect(21px, 9999px, 263px, 0);
-  }
-  34% {
-    -webkit-filter: hue-rotate(305deg);
-            filter: hue-rotate(305deg);
-    text-shadow: -9px -3px #C400FF;
-    clip: rect(30px, 9999px, 210px, 0);
-  }
-  35% {
-    -webkit-filter: hue-rotate(292deg);
-            filter: hue-rotate(292deg);
-    text-shadow: -6px -9px #C400FF;
-    clip: rect(38px, 9999px, 106px, 0);
-  }
-  36% {
-    -webkit-filter: hue-rotate(231deg);
-            filter: hue-rotate(231deg);
-    text-shadow: -4px -4px #C400FF;
-    clip: rect(71px, 9999px, 262px, 0);
-  }
-  37% {
     -webkit-filter: hue-rotate(143deg);
             filter: hue-rotate(143deg);
-    text-shadow: -8px -2px #C400FF;
-    clip: rect(73px, 9999px, 166px, 0);
+    opacity: 0.91;
+    text-shadow: -10px -1px #FC0000;
+    clip: rect(59px, 9999px, 285px, 0);
   }
-  38% {
-    -webkit-filter: hue-rotate(113deg);
-            filter: hue-rotate(113deg);
-    text-shadow: -9px -3px #C400FF;
-    clip: rect(58px, 9999px, 163px, 0);
+  2% {
+    -webkit-filter: hue-rotate(169deg);
+            filter: hue-rotate(169deg);
+    opacity: 0.58;
+    text-shadow: -4px 0px #FC0000;
+    clip: rect(23px, 9999px, 200px, 0);
   }
-  39% {
-    -webkit-filter: hue-rotate(196deg);
-            filter: hue-rotate(196deg);
-    text-shadow: -9px -2px #C400FF;
-    clip: rect(39px, 9999px, 289px, 0);
-  }
-  40% {
-    -webkit-filter: hue-rotate(303deg);
-            filter: hue-rotate(303deg);
-    text-shadow: -4px 0px #C400FF;
-    clip: rect(26px, 9999px, 118px, 0);
-  }
-  41% {
-    -webkit-filter: hue-rotate(111deg);
-            filter: hue-rotate(111deg);
-    text-shadow: -1px -2px #C400FF;
-    clip: rect(28px, 9999px, 182px, 0);
-  }
-  42% {
-    -webkit-filter: hue-rotate(29deg);
-            filter: hue-rotate(29deg);
-    text-shadow: -2px -3px #C400FF;
-    clip: rect(88px, 9999px, 288px, 0);
-  }
-  43% {
-    -webkit-filter: hue-rotate(64deg);
-            filter: hue-rotate(64deg);
-    text-shadow: -5px 0px #C400FF;
-    clip: rect(23px, 9999px, 63px, 0);
-  }
-  44% {
+  3% {
     -webkit-filter: hue-rotate(38deg);
             filter: hue-rotate(38deg);
-    text-shadow: -7px -4px #C400FF;
-    clip: rect(46px, 9999px, 146px, 0);
+    opacity: 0.33;
+    text-shadow: -1px -2px #FC0000;
+    clip: rect(31px, 9999px, 161px, 0);
   }
-  45% {
-    -webkit-filter: hue-rotate(315deg);
-            filter: hue-rotate(315deg);
-    text-shadow: -3px -6px #C400FF;
-    clip: rect(32px, 9999px, 40px, 0);
+  4% {
+    -webkit-filter: hue-rotate(272deg);
+            filter: hue-rotate(272deg);
+    opacity: 0.74;
+    text-shadow: -10px -1px #FC0000;
+    clip: rect(29px, 9999px, 40px, 0);
   }
-  46% {
-    -webkit-filter: hue-rotate(278deg);
-            filter: hue-rotate(278deg);
-    text-shadow: -2px -3px #C400FF;
-    clip: rect(45px, 9999px, 246px, 0);
+  5% {
+    -webkit-filter: hue-rotate(114deg);
+            filter: hue-rotate(114deg);
+    opacity: 0.43;
+    text-shadow: -2px -8px #FC0000;
+    clip: rect(42px, 9999px, 166px, 0);
   }
-  47% {
-    -webkit-filter: hue-rotate(77deg);
-            filter: hue-rotate(77deg);
-    text-shadow: -2px -9px #C400FF;
-    clip: rect(48px, 9999px, 86px, 0);
-  }
-  48% {
-    -webkit-filter: hue-rotate(207deg);
-            filter: hue-rotate(207deg);
-    text-shadow: -4px -7px #C400FF;
-    clip: rect(86px, 9999px, 53px, 0);
-  }
-  49% {
-    -webkit-filter: hue-rotate(289deg);
-            filter: hue-rotate(289deg);
-    text-shadow: -8px -8px #C400FF;
-    clip: rect(45px, 9999px, 48px, 0);
-  }
-  50% {
-    -webkit-filter: hue-rotate(359deg);
-            filter: hue-rotate(359deg);
-    text-shadow: -3px -7px #C400FF;
-    clip: rect(74px, 9999px, 51px, 0);
-  }
-  51% {
-    -webkit-filter: hue-rotate(123deg);
-            filter: hue-rotate(123deg);
-    text-shadow: -3px -8px #C400FF;
-    clip: rect(54px, 9999px, 155px, 0);
-  }
-  52% {
-    -webkit-filter: hue-rotate(335deg);
-            filter: hue-rotate(335deg);
-    text-shadow: -4px -1px #C400FF;
-    clip: rect(79px, 9999px, 126px, 0);
-  }
-  53% {
-    -webkit-filter: hue-rotate(13deg);
-            filter: hue-rotate(13deg);
-    text-shadow: -7px -8px #C400FF;
-    clip: rect(62px, 9999px, 142px, 0);
-  }
-  54% {
-    -webkit-filter: hue-rotate(48deg);
-            filter: hue-rotate(48deg);
-    text-shadow: -2px -4px #C400FF;
-    clip: rect(23px, 9999px, 57px, 0);
-  }
-  55% {
-    -webkit-filter: hue-rotate(141deg);
-            filter: hue-rotate(141deg);
-    text-shadow: -4px -2px #C400FF;
-    clip: rect(86px, 9999px, 104px, 0);
-  }
-  56% {
-    -webkit-filter: hue-rotate(358deg);
-            filter: hue-rotate(358deg);
-    text-shadow: -6px -4px #C400FF;
-    clip: rect(8px, 9999px, 118px, 0);
-  }
-  57% {
-    -webkit-filter: hue-rotate(16deg);
-            filter: hue-rotate(16deg);
-    text-shadow: -8px 0px #C400FF;
-    clip: rect(73px, 9999px, 285px, 0);
-  }
-  58% {
-    -webkit-filter: hue-rotate(123deg);
-            filter: hue-rotate(123deg);
-    text-shadow: -1px -4px #C400FF;
-    clip: rect(78px, 9999px, 198px, 0);
-  }
-  59% {
-    -webkit-filter: hue-rotate(33deg);
-            filter: hue-rotate(33deg);
-    text-shadow: -5px -7px #C400FF;
-    clip: rect(60px, 9999px, 136px, 0);
-  }
-  60% {
-    -webkit-filter: hue-rotate(91deg);
-            filter: hue-rotate(91deg);
-    text-shadow: -9px -1px #C400FF;
-    clip: rect(20px, 9999px, 3px, 0);
-  }
-  61% {
-    -webkit-filter: hue-rotate(278deg);
-            filter: hue-rotate(278deg);
-    text-shadow: -9px -3px #C400FF;
-    clip: rect(87px, 9999px, 14px, 0);
-  }
-  62% {
-    -webkit-filter: hue-rotate(310deg);
-            filter: hue-rotate(310deg);
-    text-shadow: -1px -6px #C400FF;
-    clip: rect(50px, 9999px, 76px, 0);
-  }
-  63% {
-    -webkit-filter: hue-rotate(135deg);
-            filter: hue-rotate(135deg);
-    text-shadow: -3px -1px #C400FF;
-    clip: rect(64px, 9999px, 268px, 0);
-  }
-  64% {
-    -webkit-filter: hue-rotate(266deg);
-            filter: hue-rotate(266deg);
-    text-shadow: 0px -4px #C400FF;
-    clip: rect(60px, 9999px, 97px, 0);
-  }
-  65% {
-    -webkit-filter: hue-rotate(292deg);
-            filter: hue-rotate(292deg);
-    text-shadow: -1px -1px #C400FF;
-    clip: rect(91px, 9999px, 132px, 0);
-  }
-  66% {
-    -webkit-filter: hue-rotate(193deg);
-            filter: hue-rotate(193deg);
-    text-shadow: -9px -2px #C400FF;
-    clip: rect(35px, 9999px, 204px, 0);
-  }
-  67% {
-    -webkit-filter: hue-rotate(286deg);
-            filter: hue-rotate(286deg);
-    text-shadow: -3px -1px #C400FF;
-    clip: rect(71px, 9999px, 18px, 0);
-  }
-  68% {
-    -webkit-filter: hue-rotate(323deg);
-            filter: hue-rotate(323deg);
-    text-shadow: -6px -5px #C400FF;
-    clip: rect(97px, 9999px, 194px, 0);
-  }
-  69% {
-    -webkit-filter: hue-rotate(304deg);
-            filter: hue-rotate(304deg);
-    text-shadow: -7px -1px #C400FF;
-    clip: rect(3px, 9999px, 32px, 0);
-  }
-  70% {
-    -webkit-filter: hue-rotate(265deg);
-            filter: hue-rotate(265deg);
-    text-shadow: -8px -2px #C400FF;
-    clip: rect(70px, 9999px, 9px, 0);
-  }
-  71% {
-    -webkit-filter: hue-rotate(345deg);
-            filter: hue-rotate(345deg);
-    text-shadow: -4px -5px #C400FF;
-    clip: rect(39px, 9999px, 287px, 0);
-  }
-  72% {
-    -webkit-filter: hue-rotate(23deg);
-            filter: hue-rotate(23deg);
-    text-shadow: 0px -7px #C400FF;
-    clip: rect(87px, 9999px, 244px, 0);
-  }
-  73% {
-    -webkit-filter: hue-rotate(130deg);
-            filter: hue-rotate(130deg);
-    text-shadow: 0px -7px #C400FF;
-    clip: rect(4px, 9999px, 37px, 0);
-  }
-  74% {
-    -webkit-filter: hue-rotate(39deg);
-            filter: hue-rotate(39deg);
-    text-shadow: -8px 0px #C400FF;
-    clip: rect(94px, 9999px, 250px, 0);
-  }
-  75% {
-    -webkit-filter: hue-rotate(73deg);
-            filter: hue-rotate(73deg);
-    text-shadow: -1px -9px #C400FF;
-    clip: rect(51px, 9999px, 58px, 0);
-  }
-  76% {
-    -webkit-filter: hue-rotate(36deg);
-            filter: hue-rotate(36deg);
-    text-shadow: -5px -2px #C400FF;
-    clip: rect(34px, 9999px, 149px, 0);
-  }
-  77% {
-    -webkit-filter: hue-rotate(57deg);
-            filter: hue-rotate(57deg);
-    text-shadow: -9px -1px #C400FF;
-    clip: rect(25px, 9999px, 289px, 0);
-  }
-  78% {
-    -webkit-filter: hue-rotate(107deg);
-            filter: hue-rotate(107deg);
-    text-shadow: -9px -5px #C400FF;
-    clip: rect(3px, 9999px, 17px, 0);
-  }
-  79% {
-    -webkit-filter: hue-rotate(315deg);
-            filter: hue-rotate(315deg);
-    text-shadow: -6px -6px #C400FF;
-    clip: rect(41px, 9999px, 158px, 0);
-  }
-  80% {
-    -webkit-filter: hue-rotate(210deg);
-            filter: hue-rotate(210deg);
-    text-shadow: -4px -5px #C400FF;
-    clip: rect(21px, 9999px, 37px, 0);
-  }
-  81% {
-    -webkit-filter: hue-rotate(200deg);
-            filter: hue-rotate(200deg);
-    text-shadow: 0px -8px #C400FF;
-    clip: rect(55px, 9999px, 175px, 0);
-  }
-  82% {
-    -webkit-filter: hue-rotate(310deg);
-            filter: hue-rotate(310deg);
-    text-shadow: 0px -3px #C400FF;
-    clip: rect(61px, 9999px, 190px, 0);
-  }
-  83% {
-    -webkit-filter: hue-rotate(155deg);
-            filter: hue-rotate(155deg);
-    text-shadow: -6px -6px #C400FF;
-    clip: rect(35px, 9999px, 252px, 0);
-  }
-  84% {
-    -webkit-filter: hue-rotate(324deg);
-            filter: hue-rotate(324deg);
-    text-shadow: -6px -4px #C400FF;
-    clip: rect(73px, 9999px, 52px, 0);
-  }
-  85% {
-    -webkit-filter: hue-rotate(330deg);
-            filter: hue-rotate(330deg);
-    text-shadow: 0px -5px #C400FF;
-    clip: rect(81px, 9999px, 9px, 0);
-  }
-  86% {
-    -webkit-filter: hue-rotate(162deg);
-            filter: hue-rotate(162deg);
-    text-shadow: -8px -1px #C400FF;
-    clip: rect(23px, 9999px, 106px, 0);
-  }
-  87% {
-    -webkit-filter: hue-rotate(296deg);
-            filter: hue-rotate(296deg);
-    text-shadow: -1px -4px #C400FF;
-    clip: rect(43px, 9999px, 243px, 0);
-  }
-  88% {
+  6% {
     -webkit-filter: hue-rotate(181deg);
             filter: hue-rotate(181deg);
-    text-shadow: -5px -8px #C400FF;
-    clip: rect(18px, 9999px, 270px, 0);
+    opacity: 0.01;
+    text-shadow: -7px -1px #FC0000;
+    clip: rect(98px, 9999px, 70px, 0);
   }
-  89% {
-    -webkit-filter: hue-rotate(141deg);
-            filter: hue-rotate(141deg);
-    text-shadow: -6px -4px #C400FF;
-    clip: rect(50px, 9999px, 146px, 0);
+  7% {
+    -webkit-filter: hue-rotate(35deg);
+            filter: hue-rotate(35deg);
+    opacity: 0.79;
+    text-shadow: -11px -2px #FC0000;
+    clip: rect(5px, 9999px, 282px, 0);
   }
-  90% {
-    -webkit-filter: hue-rotate(2deg);
-            filter: hue-rotate(2deg);
-    text-shadow: -9px -3px #C400FF;
-    clip: rect(31px, 9999px, 65px, 0);
+  8% {
+    -webkit-filter: hue-rotate(131deg);
+            filter: hue-rotate(131deg);
+    opacity: 0.34;
+    text-shadow: -6px -9px #FC0000;
+    clip: rect(87px, 9999px, 179px, 0);
   }
-  91% {
-    -webkit-filter: hue-rotate(100deg);
-            filter: hue-rotate(100deg);
-    text-shadow: -6px -3px #C400FF;
-    clip: rect(7px, 9999px, 198px, 0);
+  9% {
+    -webkit-filter: hue-rotate(237deg);
+            filter: hue-rotate(237deg);
+    opacity: 0.76;
+    text-shadow: -2px 0px #FC0000;
+    clip: rect(18px, 9999px, 23px, 0);
   }
-  92% {
-    -webkit-filter: hue-rotate(342deg);
-            filter: hue-rotate(342deg);
-    text-shadow: -2px -6px #C400FF;
-    clip: rect(16px, 9999px, 232px, 0);
+  10% {
+    -webkit-filter: hue-rotate(71deg);
+            filter: hue-rotate(71deg);
+    opacity: 0.34;
+    text-shadow: -10px 0px #FC0000;
+    clip: rect(4px, 9999px, 102px, 0);
   }
-  93% {
-    -webkit-filter: hue-rotate(86deg);
-            filter: hue-rotate(86deg);
-    text-shadow: -3px 0px #C400FF;
-    clip: rect(35px, 9999px, 250px, 0);
+  11% {
+    -webkit-filter: hue-rotate(25deg);
+            filter: hue-rotate(25deg);
+    opacity: 0.06;
+    text-shadow: -11px -5px #FC0000;
+    clip: rect(28px, 9999px, 289px, 0);
   }
-  94% {
-    -webkit-filter: hue-rotate(108deg);
-            filter: hue-rotate(108deg);
-    text-shadow: -8px -4px #C400FF;
-    clip: rect(60px, 9999px, 44px, 0);
+  12% {
+    -webkit-filter: hue-rotate(233deg);
+            filter: hue-rotate(233deg);
+    opacity: 0.25;
+    text-shadow: -10px -7px #FC0000;
+    clip: rect(18px, 9999px, 227px, 0);
   }
-  95% {
-    -webkit-filter: hue-rotate(352deg);
-            filter: hue-rotate(352deg);
-    text-shadow: -2px -5px #C400FF;
-    clip: rect(82px, 9999px, 71px, 0);
+  13% {
+    -webkit-filter: hue-rotate(237deg);
+            filter: hue-rotate(237deg);
+    opacity: 0.14;
+    text-shadow: -7px -2px #FC0000;
+    clip: rect(61px, 9999px, 186px, 0);
   }
-  96% {
+  14% {
+    -webkit-filter: hue-rotate(345deg);
+            filter: hue-rotate(345deg);
+    opacity: 0.68;
+    text-shadow: -8px -2px #FC0000;
+    clip: rect(38px, 9999px, 294px, 0);
+  }
+  15% {
     -webkit-filter: hue-rotate(347deg);
             filter: hue-rotate(347deg);
-    text-shadow: -5px -7px #C400FF;
-    clip: rect(21px, 9999px, 36px, 0);
+    opacity: 0.85;
+    text-shadow: -6px -6px #FC0000;
+    clip: rect(95px, 9999px, 19px, 0);
   }
-  97% {
-    -webkit-filter: hue-rotate(177deg);
-            filter: hue-rotate(177deg);
-    text-shadow: -5px -8px #C400FF;
-    clip: rect(67px, 9999px, 166px, 0);
+  16% {
+    -webkit-filter: hue-rotate(171deg);
+            filter: hue-rotate(171deg);
+    opacity: 0.81;
+    text-shadow: -4px -10px #FC0000;
+    clip: rect(64px, 9999px, 298px, 0);
   }
-  98% {
+  17% {
+    -webkit-filter: hue-rotate(107deg);
+            filter: hue-rotate(107deg);
+    opacity: 0.73;
+    text-shadow: -4px -7px #FC0000;
+    clip: rect(99px, 9999px, 277px, 0);
+  }
+  18% {
+    -webkit-filter: hue-rotate(68deg);
+            filter: hue-rotate(68deg);
+    opacity: 0.25;
+    text-shadow: -4px -8px #FC0000;
+    clip: rect(78px, 9999px, 91px, 0);
+  }
+  19% {
+    -webkit-filter: hue-rotate(360deg);
+            filter: hue-rotate(360deg);
+    opacity: 0.95;
+    text-shadow: -7px -2px #FC0000;
+    clip: rect(37px, 9999px, 88px, 0);
+  }
+  20% {
+    -webkit-filter: hue-rotate(358deg);
+            filter: hue-rotate(358deg);
+    opacity: 0.54;
+    text-shadow: -3px -1px #FC0000;
+    clip: rect(12px, 9999px, 44px, 0);
+  }
+  21% {
+    -webkit-filter: hue-rotate(154deg);
+            filter: hue-rotate(154deg);
+    opacity: 0.55;
+    text-shadow: -9px -11px #FC0000;
+    clip: rect(1px, 9999px, 16px, 0);
+  }
+  22% {
+    -webkit-filter: hue-rotate(218deg);
+            filter: hue-rotate(218deg);
+    opacity: 0.26;
+    text-shadow: -11px -4px #FC0000;
+    clip: rect(52px, 9999px, 263px, 0);
+  }
+  23% {
+    -webkit-filter: hue-rotate(323deg);
+            filter: hue-rotate(323deg);
+    opacity: 0.79;
+    text-shadow: -8px -11px #FC0000;
+    clip: rect(44px, 9999px, 218px, 0);
+  }
+  24% {
+    -webkit-filter: hue-rotate(18deg);
+            filter: hue-rotate(18deg);
+    opacity: 0.84;
+    text-shadow: -5px -2px #FC0000;
+    clip: rect(24px, 9999px, 51px, 0);
+  }
+  25% {
+    -webkit-filter: hue-rotate(181deg);
+            filter: hue-rotate(181deg);
+    opacity: 0.13;
+    text-shadow: -4px -5px #FC0000;
+    clip: rect(24px, 9999px, 200px, 0);
+  }
+  26% {
+    -webkit-filter: hue-rotate(35deg);
+            filter: hue-rotate(35deg);
+    opacity: 0.85;
+    text-shadow: -5px -4px #FC0000;
+    clip: rect(52px, 9999px, 56px, 0);
+  }
+  27% {
+    -webkit-filter: hue-rotate(174deg);
+            filter: hue-rotate(174deg);
+    opacity: 0.02;
+    text-shadow: 0px -11px #FC0000;
+    clip: rect(89px, 9999px, 130px, 0);
+  }
+  28% {
+    -webkit-filter: hue-rotate(279deg);
+            filter: hue-rotate(279deg);
+    opacity: 0.79;
+    text-shadow: -10px -5px #FC0000;
+    clip: rect(3px, 9999px, 224px, 0);
+  }
+  29% {
+    -webkit-filter: hue-rotate(288deg);
+            filter: hue-rotate(288deg);
+    opacity: 0.36;
+    text-shadow: -2px -9px #FC0000;
+    clip: rect(58px, 9999px, 146px, 0);
+  }
+  30% {
+    -webkit-filter: hue-rotate(193deg);
+            filter: hue-rotate(193deg);
+    opacity: 0.95;
+    text-shadow: -1px -8px #FC0000;
+    clip: rect(97px, 9999px, 182px, 0);
+  }
+  31% {
+    -webkit-filter: hue-rotate(87deg);
+            filter: hue-rotate(87deg);
+    opacity: 0.55;
+    text-shadow: 0px -6px #FC0000;
+    clip: rect(98px, 9999px, 134px, 0);
+  }
+  32% {
+    -webkit-filter: hue-rotate(34deg);
+            filter: hue-rotate(34deg);
+    opacity: 0.21;
+    text-shadow: -8px -10px #FC0000;
+    clip: rect(67px, 9999px, 59px, 0);
+  }
+  33% {
+    -webkit-filter: hue-rotate(87deg);
+            filter: hue-rotate(87deg);
+    opacity: 0.9;
+    text-shadow: -2px -1px #FC0000;
+    clip: rect(26px, 9999px, 110px, 0);
+  }
+  34% {
+    -webkit-filter: hue-rotate(76deg);
+            filter: hue-rotate(76deg);
+    opacity: 0.11;
+    text-shadow: -8px -2px #FC0000;
+    clip: rect(90px, 9999px, 2px, 0);
+  }
+  35% {
+    -webkit-filter: hue-rotate(160deg);
+            filter: hue-rotate(160deg);
+    opacity: 0.1;
+    text-shadow: -4px -10px #FC0000;
+    clip: rect(25px, 9999px, 106px, 0);
+  }
+  36% {
+    -webkit-filter: hue-rotate(122deg);
+            filter: hue-rotate(122deg);
+    opacity: 0.31;
+    text-shadow: -5px -1px #FC0000;
+    clip: rect(41px, 9999px, 183px, 0);
+  }
+  37% {
+    -webkit-filter: hue-rotate(324deg);
+            filter: hue-rotate(324deg);
+    opacity: 0.45;
+    text-shadow: -7px -2px #FC0000;
+    clip: rect(57px, 9999px, 84px, 0);
+  }
+  38% {
+    -webkit-filter: hue-rotate(103deg);
+            filter: hue-rotate(103deg);
+    opacity: 0.17;
+    text-shadow: -6px -5px #FC0000;
+    clip: rect(90px, 9999px, 123px, 0);
+  }
+  39% {
+    -webkit-filter: hue-rotate(47deg);
+            filter: hue-rotate(47deg);
+    opacity: 0.59;
+    text-shadow: -3px -2px #FC0000;
+    clip: rect(75px, 9999px, 135px, 0);
+  }
+  40% {
+    -webkit-filter: hue-rotate(334deg);
+            filter: hue-rotate(334deg);
+    opacity: 0.86;
+    text-shadow: -1px -2px #FC0000;
+    clip: rect(32px, 9999px, 99px, 0);
+  }
+  41% {
+    -webkit-filter: hue-rotate(226deg);
+            filter: hue-rotate(226deg);
+    opacity: 0.83;
+    text-shadow: -5px -6px #FC0000;
+    clip: rect(2px, 9999px, 213px, 0);
+  }
+  42% {
+    -webkit-filter: hue-rotate(54deg);
+            filter: hue-rotate(54deg);
+    opacity: 0.53;
+    text-shadow: -1px -11px #FC0000;
+    clip: rect(24px, 9999px, 87px, 0);
+  }
+  43% {
+    -webkit-filter: hue-rotate(106deg);
+            filter: hue-rotate(106deg);
+    opacity: 0.84;
+    text-shadow: -8px -1px #FC0000;
+    clip: rect(77px, 9999px, 87px, 0);
+  }
+  44% {
+    -webkit-filter: hue-rotate(10deg);
+            filter: hue-rotate(10deg);
+    opacity: 0.7;
+    text-shadow: -6px -1px #FC0000;
+    clip: rect(51px, 9999px, 108px, 0);
+  }
+  45% {
+    -webkit-filter: hue-rotate(98deg);
+            filter: hue-rotate(98deg);
+    opacity: 0.96;
+    text-shadow: -7px -1px #FC0000;
+    clip: rect(42px, 9999px, 3px, 0);
+  }
+  46% {
+    -webkit-filter: hue-rotate(224deg);
+            filter: hue-rotate(224deg);
+    opacity: 0.3;
+    text-shadow: -3px -6px #FC0000;
+    clip: rect(2px, 9999px, 208px, 0);
+  }
+  47% {
+    -webkit-filter: hue-rotate(83deg);
+            filter: hue-rotate(83deg);
+    opacity: 0.56;
+    text-shadow: -3px -6px #FC0000;
+    clip: rect(76px, 9999px, 212px, 0);
+  }
+  48% {
+    -webkit-filter: hue-rotate(343deg);
+            filter: hue-rotate(343deg);
+    opacity: 0.68;
+    text-shadow: -5px -9px #FC0000;
+    clip: rect(7px, 9999px, 146px, 0);
+  }
+  49% {
+    -webkit-filter: hue-rotate(184deg);
+            filter: hue-rotate(184deg);
+    opacity: 0.83;
+    text-shadow: -7px -7px #FC0000;
+    clip: rect(42px, 9999px, 108px, 0);
+  }
+  50% {
+    -webkit-filter: hue-rotate(197deg);
+            filter: hue-rotate(197deg);
+    opacity: 0.16;
+    text-shadow: -11px -1px #FC0000;
+    clip: rect(4px, 9999px, 87px, 0);
+  }
+  51% {
+    -webkit-filter: hue-rotate(8deg);
+            filter: hue-rotate(8deg);
+    opacity: 0.64;
+    text-shadow: -10px -7px #FC0000;
+    clip: rect(91px, 9999px, 251px, 0);
+  }
+  52% {
+    -webkit-filter: hue-rotate(249deg);
+            filter: hue-rotate(249deg);
+    opacity: 0.77;
+    text-shadow: -4px -7px #FC0000;
+    clip: rect(65px, 9999px, 228px, 0);
+  }
+  53% {
+    -webkit-filter: hue-rotate(174deg);
+            filter: hue-rotate(174deg);
+    opacity: 0.23;
+    text-shadow: -8px -10px #FC0000;
+    clip: rect(82px, 9999px, 96px, 0);
+  }
+  54% {
+    -webkit-filter: hue-rotate(170deg);
+            filter: hue-rotate(170deg);
+    opacity: 0.12;
+    text-shadow: -6px -10px #FC0000;
+    clip: rect(29px, 9999px, 242px, 0);
+  }
+  55% {
+    -webkit-filter: hue-rotate(299deg);
+            filter: hue-rotate(299deg);
+    opacity: 0.94;
+    text-shadow: -4px -8px #FC0000;
+    clip: rect(9px, 9999px, 19px, 0);
+  }
+  56% {
+    -webkit-filter: hue-rotate(335deg);
+            filter: hue-rotate(335deg);
+    opacity: 0.39;
+    text-shadow: -1px -10px #FC0000;
+    clip: rect(47px, 9999px, 54px, 0);
+  }
+  57% {
+    -webkit-filter: hue-rotate(315deg);
+            filter: hue-rotate(315deg);
+    opacity: 0.33;
+    text-shadow: 0px -9px #FC0000;
+    clip: rect(91px, 9999px, 274px, 0);
+  }
+  58% {
+    -webkit-filter: hue-rotate(93deg);
+            filter: hue-rotate(93deg);
+    opacity: 0.14;
+    text-shadow: -4px -5px #FC0000;
+    clip: rect(96px, 9999px, 164px, 0);
+  }
+  59% {
+    -webkit-filter: hue-rotate(323deg);
+            filter: hue-rotate(323deg);
+    opacity: 0.92;
+    text-shadow: -9px -2px #FC0000;
+    clip: rect(7px, 9999px, 125px, 0);
+  }
+  60% {
+    -webkit-filter: hue-rotate(189deg);
+            filter: hue-rotate(189deg);
+    opacity: 0.16;
+    text-shadow: -7px -8px #FC0000;
+    clip: rect(42px, 9999px, 215px, 0);
+  }
+  61% {
+    -webkit-filter: hue-rotate(349deg);
+            filter: hue-rotate(349deg);
+    opacity: 0.67;
+    text-shadow: -4px -1px #FC0000;
+    clip: rect(100px, 9999px, 212px, 0);
+  }
+  62% {
+    -webkit-filter: hue-rotate(242deg);
+            filter: hue-rotate(242deg);
+    opacity: 0.53;
+    text-shadow: -3px -8px #FC0000;
+    clip: rect(39px, 9999px, 90px, 0);
+  }
+  63% {
+    -webkit-filter: hue-rotate(103deg);
+            filter: hue-rotate(103deg);
+    opacity: 0.31;
+    text-shadow: -9px 0px #FC0000;
+    clip: rect(3px, 9999px, 108px, 0);
+  }
+  64% {
+    -webkit-filter: hue-rotate(48deg);
+            filter: hue-rotate(48deg);
+    opacity: 0.79;
+    text-shadow: -8px -8px #FC0000;
+    clip: rect(38px, 9999px, 91px, 0);
+  }
+  65% {
+    -webkit-filter: hue-rotate(88deg);
+            filter: hue-rotate(88deg);
+    opacity: 0.8;
+    text-shadow: 0px -4px #FC0000;
+    clip: rect(17px, 9999px, 206px, 0);
+  }
+  66% {
+    -webkit-filter: hue-rotate(173deg);
+            filter: hue-rotate(173deg);
+    opacity: 0.89;
+    text-shadow: -4px -3px #FC0000;
+    clip: rect(68px, 9999px, 162px, 0);
+  }
+  67% {
+    -webkit-filter: hue-rotate(144deg);
+            filter: hue-rotate(144deg);
+    opacity: 0.38;
+    text-shadow: -4px -1px #FC0000;
+    clip: rect(83px, 9999px, 291px, 0);
+  }
+  68% {
+    -webkit-filter: hue-rotate(43deg);
+            filter: hue-rotate(43deg);
+    opacity: 0.62;
+    text-shadow: 0px -1px #FC0000;
+    clip: rect(14px, 9999px, 187px, 0);
+  }
+  69% {
+    -webkit-filter: hue-rotate(130deg);
+            filter: hue-rotate(130deg);
+    opacity: 0.41;
+    text-shadow: -8px -1px #FC0000;
+    clip: rect(51px, 9999px, 154px, 0);
+  }
+  70% {
+    -webkit-filter: hue-rotate(55deg);
+            filter: hue-rotate(55deg);
+    opacity: 0.21;
+    text-shadow: -3px -3px #FC0000;
+    clip: rect(4px, 9999px, 286px, 0);
+  }
+  71% {
+    -webkit-filter: hue-rotate(59deg);
+            filter: hue-rotate(59deg);
+    opacity: 0.39;
+    text-shadow: -4px -5px #FC0000;
+    clip: rect(32px, 9999px, 28px, 0);
+  }
+  72% {
+    -webkit-filter: hue-rotate(254deg);
+            filter: hue-rotate(254deg);
+    opacity: 0.4;
+    text-shadow: 0px -10px #FC0000;
+    clip: rect(34px, 9999px, 113px, 0);
+  }
+  73% {
+    -webkit-filter: hue-rotate(315deg);
+            filter: hue-rotate(315deg);
+    opacity: 0.68;
+    text-shadow: -11px -1px #FC0000;
+    clip: rect(3px, 9999px, 190px, 0);
+  }
+  74% {
+    -webkit-filter: hue-rotate(99deg);
+            filter: hue-rotate(99deg);
+    opacity: 0.65;
+    text-shadow: -3px -5px #FC0000;
+    clip: rect(89px, 9999px, 55px, 0);
+  }
+  75% {
+    -webkit-filter: hue-rotate(319deg);
+            filter: hue-rotate(319deg);
+    opacity: 0.47;
+    text-shadow: -4px -7px #FC0000;
+    clip: rect(22px, 9999px, 52px, 0);
+  }
+  76% {
+    -webkit-filter: hue-rotate(227deg);
+            filter: hue-rotate(227deg);
+    opacity: 0.98;
+    text-shadow: 0px -3px #FC0000;
+    clip: rect(39px, 9999px, 5px, 0);
+  }
+  77% {
+    -webkit-filter: hue-rotate(27deg);
+            filter: hue-rotate(27deg);
+    opacity: 0.41;
+    text-shadow: -11px -2px #FC0000;
+    clip: rect(50px, 9999px, 7px, 0);
+  }
+  78% {
+    -webkit-filter: hue-rotate(5deg);
+            filter: hue-rotate(5deg);
+    opacity: 0.24;
+    text-shadow: 0px -5px #FC0000;
+    clip: rect(65px, 9999px, 252px, 0);
+  }
+  79% {
+    -webkit-filter: hue-rotate(87deg);
+            filter: hue-rotate(87deg);
+    opacity: 0.54;
+    text-shadow: -9px -2px #FC0000;
+    clip: rect(65px, 9999px, 146px, 0);
+  }
+  80% {
+    -webkit-filter: hue-rotate(10deg);
+            filter: hue-rotate(10deg);
+    opacity: 0.68;
+    text-shadow: 0px -11px #FC0000;
+    clip: rect(24px, 9999px, 59px, 0);
+  }
+  81% {
+    -webkit-filter: hue-rotate(204deg);
+            filter: hue-rotate(204deg);
+    opacity: 0.86;
+    text-shadow: -4px -5px #FC0000;
+    clip: rect(46px, 9999px, 287px, 0);
+  }
+  82% {
+    -webkit-filter: hue-rotate(212deg);
+            filter: hue-rotate(212deg);
+    opacity: 0.4;
+    text-shadow: -2px -10px #FC0000;
+    clip: rect(1px, 9999px, 270px, 0);
+  }
+  83% {
+    -webkit-filter: hue-rotate(74deg);
+            filter: hue-rotate(74deg);
+    opacity: 0.23;
+    text-shadow: 0px -3px #FC0000;
+    clip: rect(38px, 9999px, 264px, 0);
+  }
+  84% {
+    -webkit-filter: hue-rotate(99deg);
+            filter: hue-rotate(99deg);
+    opacity: 0.4;
+    text-shadow: -7px -6px #FC0000;
+    clip: rect(21px, 9999px, 203px, 0);
+  }
+  85% {
+    -webkit-filter: hue-rotate(104deg);
+            filter: hue-rotate(104deg);
+    opacity: 0.38;
+    text-shadow: -4px -7px #FC0000;
+    clip: rect(90px, 9999px, 66px, 0);
+  }
+  86% {
+    -webkit-filter: hue-rotate(116deg);
+            filter: hue-rotate(116deg);
+    opacity: 0.68;
+    text-shadow: -2px -9px #FC0000;
+    clip: rect(76px, 9999px, 55px, 0);
+  }
+  87% {
+    -webkit-filter: hue-rotate(97deg);
+            filter: hue-rotate(97deg);
+    opacity: 0.01;
+    text-shadow: -3px -2px #FC0000;
+    clip: rect(20px, 9999px, 261px, 0);
+  }
+  88% {
+    -webkit-filter: hue-rotate(18deg);
+            filter: hue-rotate(18deg);
+    opacity: 0.74;
+    text-shadow: -5px -11px #FC0000;
+    clip: rect(8px, 9999px, 78px, 0);
+  }
+  89% {
+    -webkit-filter: hue-rotate(54deg);
+            filter: hue-rotate(54deg);
+    opacity: 0.61;
+    text-shadow: -4px -2px #FC0000;
+    clip: rect(95px, 9999px, 17px, 0);
+  }
+  90% {
+    -webkit-filter: hue-rotate(275deg);
+            filter: hue-rotate(275deg);
+    opacity: 0.64;
+    text-shadow: -2px -1px #FC0000;
+    clip: rect(55px, 9999px, 81px, 0);
+  }
+  91% {
     -webkit-filter: hue-rotate(340deg);
             filter: hue-rotate(340deg);
-    text-shadow: 0px -8px #C400FF;
-    clip: rect(65px, 9999px, 16px, 0);
+    opacity: 0.02;
+    text-shadow: -10px -6px #FC0000;
+    clip: rect(3px, 9999px, 22px, 0);
+  }
+  92% {
+    -webkit-filter: hue-rotate(217deg);
+            filter: hue-rotate(217deg);
+    opacity: 0.64;
+    text-shadow: -1px -1px #FC0000;
+    clip: rect(97px, 9999px, 63px, 0);
+  }
+  93% {
+    -webkit-filter: hue-rotate(329deg);
+            filter: hue-rotate(329deg);
+    opacity: 0.08;
+    text-shadow: -8px -6px #FC0000;
+    clip: rect(24px, 9999px, 11px, 0);
+  }
+  94% {
+    -webkit-filter: hue-rotate(241deg);
+            filter: hue-rotate(241deg);
+    opacity: 0.38;
+    text-shadow: -2px -10px #FC0000;
+    clip: rect(39px, 9999px, 61px, 0);
+  }
+  95% {
+    -webkit-filter: hue-rotate(213deg);
+            filter: hue-rotate(213deg);
+    opacity: 0.63;
+    text-shadow: -4px -7px #FC0000;
+    clip: rect(69px, 9999px, 255px, 0);
+  }
+  96% {
+    -webkit-filter: hue-rotate(258deg);
+            filter: hue-rotate(258deg);
+    opacity: 0.66;
+    text-shadow: -7px -1px #FC0000;
+    clip: rect(11px, 9999px, 55px, 0);
+  }
+  97% {
+    -webkit-filter: hue-rotate(344deg);
+            filter: hue-rotate(344deg);
+    opacity: 0.84;
+    text-shadow: -1px -2px #FC0000;
+    clip: rect(66px, 9999px, 299px, 0);
+  }
+  98% {
+    -webkit-filter: hue-rotate(95deg);
+            filter: hue-rotate(95deg);
+    opacity: 0.73;
+    text-shadow: -8px -8px #FC0000;
+    clip: rect(88px, 9999px, 159px, 0);
   }
   99% {
-    -webkit-filter: hue-rotate(73deg);
-            filter: hue-rotate(73deg);
-    text-shadow: -6px -3px #C400FF;
-    clip: rect(44px, 9999px, 108px, 0);
+    -webkit-filter: hue-rotate(353deg);
+            filter: hue-rotate(353deg);
+    opacity: 0.29;
+    text-shadow: -4px -7px #FC0000;
+    clip: rect(4px, 9999px, 208px, 0);
   }
   100% {
-    -webkit-filter: hue-rotate(198deg);
-            filter: hue-rotate(198deg);
-    text-shadow: -5px -3px #C400FF;
-    clip: rect(100px, 9999px, 268px, 0);
+    -webkit-filter: hue-rotate(206deg);
+            filter: hue-rotate(206deg);
+    opacity: 0.43;
+    text-shadow: -11px -9px #FC0000;
+    clip: rect(55px, 9999px, 107px, 0);
   }
 }
 
 @keyframes glitch-anim-1 {
   0% {
-    -webkit-filter: hue-rotate(241deg);
-            filter: hue-rotate(241deg);
-    text-shadow: -5px -6px #C400FF;
-    clip: rect(92px, 9999px, 87px, 0);
+    -webkit-filter: hue-rotate(229deg);
+            filter: hue-rotate(229deg);
+    opacity: 0.58;
+    text-shadow: -6px -6px #FC0000;
+    clip: rect(66px, 9999px, 18px, 0);
   }
   1% {
-    -webkit-filter: hue-rotate(88deg);
-            filter: hue-rotate(88deg);
-    text-shadow: -3px -9px #C400FF;
-    clip: rect(96px, 9999px, 83px, 0);
-  }
-  2% {
-    -webkit-filter: hue-rotate(158deg);
-            filter: hue-rotate(158deg);
-    text-shadow: -3px -7px #C400FF;
-    clip: rect(80px, 9999px, 36px, 0);
-  }
-  3% {
-    -webkit-filter: hue-rotate(206deg);
-            filter: hue-rotate(206deg);
-    text-shadow: -4px -9px #C400FF;
-    clip: rect(38px, 9999px, 149px, 0);
-  }
-  4% {
-    -webkit-filter: hue-rotate(73deg);
-            filter: hue-rotate(73deg);
-    text-shadow: -9px -8px #C400FF;
-    clip: rect(16px, 9999px, 185px, 0);
-  }
-  5% {
-    -webkit-filter: hue-rotate(76deg);
-            filter: hue-rotate(76deg);
-    text-shadow: -6px -3px #C400FF;
-    clip: rect(74px, 9999px, 114px, 0);
-  }
-  6% {
-    -webkit-filter: hue-rotate(326deg);
-            filter: hue-rotate(326deg);
-    text-shadow: -6px -3px #C400FF;
-    clip: rect(78px, 9999px, 7px, 0);
-  }
-  7% {
-    -webkit-filter: hue-rotate(225deg);
-            filter: hue-rotate(225deg);
-    text-shadow: -6px -3px #C400FF;
-    clip: rect(74px, 9999px, 175px, 0);
-  }
-  8% {
-    -webkit-filter: hue-rotate(39deg);
-            filter: hue-rotate(39deg);
-    text-shadow: -3px 0px #C400FF;
-    clip: rect(43px, 9999px, 148px, 0);
-  }
-  9% {
-    -webkit-filter: hue-rotate(338deg);
-            filter: hue-rotate(338deg);
-    text-shadow: -7px -3px #C400FF;
-    clip: rect(16px, 9999px, 40px, 0);
-  }
-  10% {
-    -webkit-filter: hue-rotate(174deg);
-            filter: hue-rotate(174deg);
-    text-shadow: -6px -9px #C400FF;
-    clip: rect(7px, 9999px, 113px, 0);
-  }
-  11% {
-    -webkit-filter: hue-rotate(157deg);
-            filter: hue-rotate(157deg);
-    text-shadow: -5px -5px #C400FF;
-    clip: rect(4px, 9999px, 299px, 0);
-  }
-  12% {
-    -webkit-filter: hue-rotate(69deg);
-            filter: hue-rotate(69deg);
-    text-shadow: -3px -2px #C400FF;
-    clip: rect(28px, 9999px, 212px, 0);
-  }
-  13% {
-    -webkit-filter: hue-rotate(276deg);
-            filter: hue-rotate(276deg);
-    text-shadow: -1px -4px #C400FF;
-    clip: rect(1px, 9999px, 106px, 0);
-  }
-  14% {
-    -webkit-filter: hue-rotate(80deg);
-            filter: hue-rotate(80deg);
-    text-shadow: -7px -4px #C400FF;
-    clip: rect(78px, 9999px, 223px, 0);
-  }
-  15% {
-    -webkit-filter: hue-rotate(116deg);
-            filter: hue-rotate(116deg);
-    text-shadow: -5px -8px #C400FF;
-    clip: rect(71px, 9999px, 194px, 0);
-  }
-  16% {
-    -webkit-filter: hue-rotate(150deg);
-            filter: hue-rotate(150deg);
-    text-shadow: -6px -3px #C400FF;
-    clip: rect(11px, 9999px, 217px, 0);
-  }
-  17% {
-    -webkit-filter: hue-rotate(108deg);
-            filter: hue-rotate(108deg);
-    text-shadow: -8px -3px #C400FF;
-    clip: rect(16px, 9999px, 277px, 0);
-  }
-  18% {
-    -webkit-filter: hue-rotate(55deg);
-            filter: hue-rotate(55deg);
-    text-shadow: -1px -6px #C400FF;
-    clip: rect(77px, 9999px, 166px, 0);
-  }
-  19% {
-    -webkit-filter: hue-rotate(140deg);
-            filter: hue-rotate(140deg);
-    text-shadow: -8px -7px #C400FF;
-    clip: rect(74px, 9999px, 227px, 0);
-  }
-  20% {
-    -webkit-filter: hue-rotate(25deg);
-            filter: hue-rotate(25deg);
-    text-shadow: -2px -5px #C400FF;
-    clip: rect(34px, 9999px, 200px, 0);
-  }
-  21% {
-    -webkit-filter: hue-rotate(235deg);
-            filter: hue-rotate(235deg);
-    text-shadow: -5px -7px #C400FF;
-    clip: rect(30px, 9999px, 262px, 0);
-  }
-  22% {
-    -webkit-filter: hue-rotate(302deg);
-            filter: hue-rotate(302deg);
-    text-shadow: -4px 0px #C400FF;
-    clip: rect(31px, 9999px, 268px, 0);
-  }
-  23% {
-    -webkit-filter: hue-rotate(329deg);
-            filter: hue-rotate(329deg);
-    text-shadow: -3px -3px #C400FF;
-    clip: rect(8px, 9999px, 193px, 0);
-  }
-  24% {
-    -webkit-filter: hue-rotate(262deg);
-            filter: hue-rotate(262deg);
-    text-shadow: -7px -8px #C400FF;
-    clip: rect(27px, 9999px, 107px, 0);
-  }
-  25% {
-    -webkit-filter: hue-rotate(32deg);
-            filter: hue-rotate(32deg);
-    text-shadow: -8px -6px #C400FF;
-    clip: rect(60px, 9999px, 262px, 0);
-  }
-  26% {
-    -webkit-filter: hue-rotate(153deg);
-            filter: hue-rotate(153deg);
-    text-shadow: -2px -5px #C400FF;
-    clip: rect(78px, 9999px, 47px, 0);
-  }
-  27% {
-    -webkit-filter: hue-rotate(99deg);
-            filter: hue-rotate(99deg);
-    text-shadow: -6px -2px #C400FF;
-    clip: rect(20px, 9999px, 222px, 0);
-  }
-  28% {
-    -webkit-filter: hue-rotate(218deg);
-            filter: hue-rotate(218deg);
-    text-shadow: -7px -9px #C400FF;
-    clip: rect(93px, 9999px, 74px, 0);
-  }
-  29% {
-    -webkit-filter: hue-rotate(32deg);
-            filter: hue-rotate(32deg);
-    text-shadow: -4px -5px #C400FF;
-    clip: rect(48px, 9999px, 234px, 0);
-  }
-  30% {
-    -webkit-filter: hue-rotate(12deg);
-            filter: hue-rotate(12deg);
-    text-shadow: -1px -8px #C400FF;
-    clip: rect(99px, 9999px, 287px, 0);
-  }
-  31% {
-    -webkit-filter: hue-rotate(130deg);
-            filter: hue-rotate(130deg);
-    text-shadow: -6px -5px #C400FF;
-    clip: rect(40px, 9999px, 100px, 0);
-  }
-  32% {
-    -webkit-filter: hue-rotate(156deg);
-            filter: hue-rotate(156deg);
-    text-shadow: 0px -5px #C400FF;
-    clip: rect(46px, 9999px, 63px, 0);
-  }
-  33% {
-    -webkit-filter: hue-rotate(282deg);
-            filter: hue-rotate(282deg);
-    text-shadow: -2px -8px #C400FF;
-    clip: rect(21px, 9999px, 263px, 0);
-  }
-  34% {
-    -webkit-filter: hue-rotate(305deg);
-            filter: hue-rotate(305deg);
-    text-shadow: -9px -3px #C400FF;
-    clip: rect(30px, 9999px, 210px, 0);
-  }
-  35% {
-    -webkit-filter: hue-rotate(292deg);
-            filter: hue-rotate(292deg);
-    text-shadow: -6px -9px #C400FF;
-    clip: rect(38px, 9999px, 106px, 0);
-  }
-  36% {
-    -webkit-filter: hue-rotate(231deg);
-            filter: hue-rotate(231deg);
-    text-shadow: -4px -4px #C400FF;
-    clip: rect(71px, 9999px, 262px, 0);
-  }
-  37% {
     -webkit-filter: hue-rotate(143deg);
             filter: hue-rotate(143deg);
-    text-shadow: -8px -2px #C400FF;
-    clip: rect(73px, 9999px, 166px, 0);
+    opacity: 0.91;
+    text-shadow: -10px -1px #FC0000;
+    clip: rect(59px, 9999px, 285px, 0);
   }
-  38% {
-    -webkit-filter: hue-rotate(113deg);
-            filter: hue-rotate(113deg);
-    text-shadow: -9px -3px #C400FF;
-    clip: rect(58px, 9999px, 163px, 0);
+  2% {
+    -webkit-filter: hue-rotate(169deg);
+            filter: hue-rotate(169deg);
+    opacity: 0.58;
+    text-shadow: -4px 0px #FC0000;
+    clip: rect(23px, 9999px, 200px, 0);
   }
-  39% {
-    -webkit-filter: hue-rotate(196deg);
-            filter: hue-rotate(196deg);
-    text-shadow: -9px -2px #C400FF;
-    clip: rect(39px, 9999px, 289px, 0);
-  }
-  40% {
-    -webkit-filter: hue-rotate(303deg);
-            filter: hue-rotate(303deg);
-    text-shadow: -4px 0px #C400FF;
-    clip: rect(26px, 9999px, 118px, 0);
-  }
-  41% {
-    -webkit-filter: hue-rotate(111deg);
-            filter: hue-rotate(111deg);
-    text-shadow: -1px -2px #C400FF;
-    clip: rect(28px, 9999px, 182px, 0);
-  }
-  42% {
-    -webkit-filter: hue-rotate(29deg);
-            filter: hue-rotate(29deg);
-    text-shadow: -2px -3px #C400FF;
-    clip: rect(88px, 9999px, 288px, 0);
-  }
-  43% {
-    -webkit-filter: hue-rotate(64deg);
-            filter: hue-rotate(64deg);
-    text-shadow: -5px 0px #C400FF;
-    clip: rect(23px, 9999px, 63px, 0);
-  }
-  44% {
+  3% {
     -webkit-filter: hue-rotate(38deg);
             filter: hue-rotate(38deg);
-    text-shadow: -7px -4px #C400FF;
-    clip: rect(46px, 9999px, 146px, 0);
+    opacity: 0.33;
+    text-shadow: -1px -2px #FC0000;
+    clip: rect(31px, 9999px, 161px, 0);
   }
-  45% {
-    -webkit-filter: hue-rotate(315deg);
-            filter: hue-rotate(315deg);
-    text-shadow: -3px -6px #C400FF;
-    clip: rect(32px, 9999px, 40px, 0);
+  4% {
+    -webkit-filter: hue-rotate(272deg);
+            filter: hue-rotate(272deg);
+    opacity: 0.74;
+    text-shadow: -10px -1px #FC0000;
+    clip: rect(29px, 9999px, 40px, 0);
   }
-  46% {
-    -webkit-filter: hue-rotate(278deg);
-            filter: hue-rotate(278deg);
-    text-shadow: -2px -3px #C400FF;
-    clip: rect(45px, 9999px, 246px, 0);
+  5% {
+    -webkit-filter: hue-rotate(114deg);
+            filter: hue-rotate(114deg);
+    opacity: 0.43;
+    text-shadow: -2px -8px #FC0000;
+    clip: rect(42px, 9999px, 166px, 0);
   }
-  47% {
-    -webkit-filter: hue-rotate(77deg);
-            filter: hue-rotate(77deg);
-    text-shadow: -2px -9px #C400FF;
-    clip: rect(48px, 9999px, 86px, 0);
-  }
-  48% {
-    -webkit-filter: hue-rotate(207deg);
-            filter: hue-rotate(207deg);
-    text-shadow: -4px -7px #C400FF;
-    clip: rect(86px, 9999px, 53px, 0);
-  }
-  49% {
-    -webkit-filter: hue-rotate(289deg);
-            filter: hue-rotate(289deg);
-    text-shadow: -8px -8px #C400FF;
-    clip: rect(45px, 9999px, 48px, 0);
-  }
-  50% {
-    -webkit-filter: hue-rotate(359deg);
-            filter: hue-rotate(359deg);
-    text-shadow: -3px -7px #C400FF;
-    clip: rect(74px, 9999px, 51px, 0);
-  }
-  51% {
-    -webkit-filter: hue-rotate(123deg);
-            filter: hue-rotate(123deg);
-    text-shadow: -3px -8px #C400FF;
-    clip: rect(54px, 9999px, 155px, 0);
-  }
-  52% {
-    -webkit-filter: hue-rotate(335deg);
-            filter: hue-rotate(335deg);
-    text-shadow: -4px -1px #C400FF;
-    clip: rect(79px, 9999px, 126px, 0);
-  }
-  53% {
-    -webkit-filter: hue-rotate(13deg);
-            filter: hue-rotate(13deg);
-    text-shadow: -7px -8px #C400FF;
-    clip: rect(62px, 9999px, 142px, 0);
-  }
-  54% {
-    -webkit-filter: hue-rotate(48deg);
-            filter: hue-rotate(48deg);
-    text-shadow: -2px -4px #C400FF;
-    clip: rect(23px, 9999px, 57px, 0);
-  }
-  55% {
-    -webkit-filter: hue-rotate(141deg);
-            filter: hue-rotate(141deg);
-    text-shadow: -4px -2px #C400FF;
-    clip: rect(86px, 9999px, 104px, 0);
-  }
-  56% {
-    -webkit-filter: hue-rotate(358deg);
-            filter: hue-rotate(358deg);
-    text-shadow: -6px -4px #C400FF;
-    clip: rect(8px, 9999px, 118px, 0);
-  }
-  57% {
-    -webkit-filter: hue-rotate(16deg);
-            filter: hue-rotate(16deg);
-    text-shadow: -8px 0px #C400FF;
-    clip: rect(73px, 9999px, 285px, 0);
-  }
-  58% {
-    -webkit-filter: hue-rotate(123deg);
-            filter: hue-rotate(123deg);
-    text-shadow: -1px -4px #C400FF;
-    clip: rect(78px, 9999px, 198px, 0);
-  }
-  59% {
-    -webkit-filter: hue-rotate(33deg);
-            filter: hue-rotate(33deg);
-    text-shadow: -5px -7px #C400FF;
-    clip: rect(60px, 9999px, 136px, 0);
-  }
-  60% {
-    -webkit-filter: hue-rotate(91deg);
-            filter: hue-rotate(91deg);
-    text-shadow: -9px -1px #C400FF;
-    clip: rect(20px, 9999px, 3px, 0);
-  }
-  61% {
-    -webkit-filter: hue-rotate(278deg);
-            filter: hue-rotate(278deg);
-    text-shadow: -9px -3px #C400FF;
-    clip: rect(87px, 9999px, 14px, 0);
-  }
-  62% {
-    -webkit-filter: hue-rotate(310deg);
-            filter: hue-rotate(310deg);
-    text-shadow: -1px -6px #C400FF;
-    clip: rect(50px, 9999px, 76px, 0);
-  }
-  63% {
-    -webkit-filter: hue-rotate(135deg);
-            filter: hue-rotate(135deg);
-    text-shadow: -3px -1px #C400FF;
-    clip: rect(64px, 9999px, 268px, 0);
-  }
-  64% {
-    -webkit-filter: hue-rotate(266deg);
-            filter: hue-rotate(266deg);
-    text-shadow: 0px -4px #C400FF;
-    clip: rect(60px, 9999px, 97px, 0);
-  }
-  65% {
-    -webkit-filter: hue-rotate(292deg);
-            filter: hue-rotate(292deg);
-    text-shadow: -1px -1px #C400FF;
-    clip: rect(91px, 9999px, 132px, 0);
-  }
-  66% {
-    -webkit-filter: hue-rotate(193deg);
-            filter: hue-rotate(193deg);
-    text-shadow: -9px -2px #C400FF;
-    clip: rect(35px, 9999px, 204px, 0);
-  }
-  67% {
-    -webkit-filter: hue-rotate(286deg);
-            filter: hue-rotate(286deg);
-    text-shadow: -3px -1px #C400FF;
-    clip: rect(71px, 9999px, 18px, 0);
-  }
-  68% {
-    -webkit-filter: hue-rotate(323deg);
-            filter: hue-rotate(323deg);
-    text-shadow: -6px -5px #C400FF;
-    clip: rect(97px, 9999px, 194px, 0);
-  }
-  69% {
-    -webkit-filter: hue-rotate(304deg);
-            filter: hue-rotate(304deg);
-    text-shadow: -7px -1px #C400FF;
-    clip: rect(3px, 9999px, 32px, 0);
-  }
-  70% {
-    -webkit-filter: hue-rotate(265deg);
-            filter: hue-rotate(265deg);
-    text-shadow: -8px -2px #C400FF;
-    clip: rect(70px, 9999px, 9px, 0);
-  }
-  71% {
-    -webkit-filter: hue-rotate(345deg);
-            filter: hue-rotate(345deg);
-    text-shadow: -4px -5px #C400FF;
-    clip: rect(39px, 9999px, 287px, 0);
-  }
-  72% {
-    -webkit-filter: hue-rotate(23deg);
-            filter: hue-rotate(23deg);
-    text-shadow: 0px -7px #C400FF;
-    clip: rect(87px, 9999px, 244px, 0);
-  }
-  73% {
-    -webkit-filter: hue-rotate(130deg);
-            filter: hue-rotate(130deg);
-    text-shadow: 0px -7px #C400FF;
-    clip: rect(4px, 9999px, 37px, 0);
-  }
-  74% {
-    -webkit-filter: hue-rotate(39deg);
-            filter: hue-rotate(39deg);
-    text-shadow: -8px 0px #C400FF;
-    clip: rect(94px, 9999px, 250px, 0);
-  }
-  75% {
-    -webkit-filter: hue-rotate(73deg);
-            filter: hue-rotate(73deg);
-    text-shadow: -1px -9px #C400FF;
-    clip: rect(51px, 9999px, 58px, 0);
-  }
-  76% {
-    -webkit-filter: hue-rotate(36deg);
-            filter: hue-rotate(36deg);
-    text-shadow: -5px -2px #C400FF;
-    clip: rect(34px, 9999px, 149px, 0);
-  }
-  77% {
-    -webkit-filter: hue-rotate(57deg);
-            filter: hue-rotate(57deg);
-    text-shadow: -9px -1px #C400FF;
-    clip: rect(25px, 9999px, 289px, 0);
-  }
-  78% {
-    -webkit-filter: hue-rotate(107deg);
-            filter: hue-rotate(107deg);
-    text-shadow: -9px -5px #C400FF;
-    clip: rect(3px, 9999px, 17px, 0);
-  }
-  79% {
-    -webkit-filter: hue-rotate(315deg);
-            filter: hue-rotate(315deg);
-    text-shadow: -6px -6px #C400FF;
-    clip: rect(41px, 9999px, 158px, 0);
-  }
-  80% {
-    -webkit-filter: hue-rotate(210deg);
-            filter: hue-rotate(210deg);
-    text-shadow: -4px -5px #C400FF;
-    clip: rect(21px, 9999px, 37px, 0);
-  }
-  81% {
-    -webkit-filter: hue-rotate(200deg);
-            filter: hue-rotate(200deg);
-    text-shadow: 0px -8px #C400FF;
-    clip: rect(55px, 9999px, 175px, 0);
-  }
-  82% {
-    -webkit-filter: hue-rotate(310deg);
-            filter: hue-rotate(310deg);
-    text-shadow: 0px -3px #C400FF;
-    clip: rect(61px, 9999px, 190px, 0);
-  }
-  83% {
-    -webkit-filter: hue-rotate(155deg);
-            filter: hue-rotate(155deg);
-    text-shadow: -6px -6px #C400FF;
-    clip: rect(35px, 9999px, 252px, 0);
-  }
-  84% {
-    -webkit-filter: hue-rotate(324deg);
-            filter: hue-rotate(324deg);
-    text-shadow: -6px -4px #C400FF;
-    clip: rect(73px, 9999px, 52px, 0);
-  }
-  85% {
-    -webkit-filter: hue-rotate(330deg);
-            filter: hue-rotate(330deg);
-    text-shadow: 0px -5px #C400FF;
-    clip: rect(81px, 9999px, 9px, 0);
-  }
-  86% {
-    -webkit-filter: hue-rotate(162deg);
-            filter: hue-rotate(162deg);
-    text-shadow: -8px -1px #C400FF;
-    clip: rect(23px, 9999px, 106px, 0);
-  }
-  87% {
-    -webkit-filter: hue-rotate(296deg);
-            filter: hue-rotate(296deg);
-    text-shadow: -1px -4px #C400FF;
-    clip: rect(43px, 9999px, 243px, 0);
-  }
-  88% {
+  6% {
     -webkit-filter: hue-rotate(181deg);
             filter: hue-rotate(181deg);
-    text-shadow: -5px -8px #C400FF;
-    clip: rect(18px, 9999px, 270px, 0);
+    opacity: 0.01;
+    text-shadow: -7px -1px #FC0000;
+    clip: rect(98px, 9999px, 70px, 0);
   }
-  89% {
-    -webkit-filter: hue-rotate(141deg);
-            filter: hue-rotate(141deg);
-    text-shadow: -6px -4px #C400FF;
-    clip: rect(50px, 9999px, 146px, 0);
+  7% {
+    -webkit-filter: hue-rotate(35deg);
+            filter: hue-rotate(35deg);
+    opacity: 0.79;
+    text-shadow: -11px -2px #FC0000;
+    clip: rect(5px, 9999px, 282px, 0);
   }
-  90% {
-    -webkit-filter: hue-rotate(2deg);
-            filter: hue-rotate(2deg);
-    text-shadow: -9px -3px #C400FF;
-    clip: rect(31px, 9999px, 65px, 0);
+  8% {
+    -webkit-filter: hue-rotate(131deg);
+            filter: hue-rotate(131deg);
+    opacity: 0.34;
+    text-shadow: -6px -9px #FC0000;
+    clip: rect(87px, 9999px, 179px, 0);
   }
-  91% {
-    -webkit-filter: hue-rotate(100deg);
-            filter: hue-rotate(100deg);
-    text-shadow: -6px -3px #C400FF;
-    clip: rect(7px, 9999px, 198px, 0);
+  9% {
+    -webkit-filter: hue-rotate(237deg);
+            filter: hue-rotate(237deg);
+    opacity: 0.76;
+    text-shadow: -2px 0px #FC0000;
+    clip: rect(18px, 9999px, 23px, 0);
   }
-  92% {
-    -webkit-filter: hue-rotate(342deg);
-            filter: hue-rotate(342deg);
-    text-shadow: -2px -6px #C400FF;
-    clip: rect(16px, 9999px, 232px, 0);
+  10% {
+    -webkit-filter: hue-rotate(71deg);
+            filter: hue-rotate(71deg);
+    opacity: 0.34;
+    text-shadow: -10px 0px #FC0000;
+    clip: rect(4px, 9999px, 102px, 0);
   }
-  93% {
-    -webkit-filter: hue-rotate(86deg);
-            filter: hue-rotate(86deg);
-    text-shadow: -3px 0px #C400FF;
-    clip: rect(35px, 9999px, 250px, 0);
+  11% {
+    -webkit-filter: hue-rotate(25deg);
+            filter: hue-rotate(25deg);
+    opacity: 0.06;
+    text-shadow: -11px -5px #FC0000;
+    clip: rect(28px, 9999px, 289px, 0);
   }
-  94% {
-    -webkit-filter: hue-rotate(108deg);
-            filter: hue-rotate(108deg);
-    text-shadow: -8px -4px #C400FF;
-    clip: rect(60px, 9999px, 44px, 0);
+  12% {
+    -webkit-filter: hue-rotate(233deg);
+            filter: hue-rotate(233deg);
+    opacity: 0.25;
+    text-shadow: -10px -7px #FC0000;
+    clip: rect(18px, 9999px, 227px, 0);
   }
-  95% {
-    -webkit-filter: hue-rotate(352deg);
-            filter: hue-rotate(352deg);
-    text-shadow: -2px -5px #C400FF;
-    clip: rect(82px, 9999px, 71px, 0);
+  13% {
+    -webkit-filter: hue-rotate(237deg);
+            filter: hue-rotate(237deg);
+    opacity: 0.14;
+    text-shadow: -7px -2px #FC0000;
+    clip: rect(61px, 9999px, 186px, 0);
   }
-  96% {
+  14% {
+    -webkit-filter: hue-rotate(345deg);
+            filter: hue-rotate(345deg);
+    opacity: 0.68;
+    text-shadow: -8px -2px #FC0000;
+    clip: rect(38px, 9999px, 294px, 0);
+  }
+  15% {
     -webkit-filter: hue-rotate(347deg);
             filter: hue-rotate(347deg);
-    text-shadow: -5px -7px #C400FF;
-    clip: rect(21px, 9999px, 36px, 0);
+    opacity: 0.85;
+    text-shadow: -6px -6px #FC0000;
+    clip: rect(95px, 9999px, 19px, 0);
   }
-  97% {
-    -webkit-filter: hue-rotate(177deg);
-            filter: hue-rotate(177deg);
-    text-shadow: -5px -8px #C400FF;
-    clip: rect(67px, 9999px, 166px, 0);
+  16% {
+    -webkit-filter: hue-rotate(171deg);
+            filter: hue-rotate(171deg);
+    opacity: 0.81;
+    text-shadow: -4px -10px #FC0000;
+    clip: rect(64px, 9999px, 298px, 0);
   }
-  98% {
+  17% {
+    -webkit-filter: hue-rotate(107deg);
+            filter: hue-rotate(107deg);
+    opacity: 0.73;
+    text-shadow: -4px -7px #FC0000;
+    clip: rect(99px, 9999px, 277px, 0);
+  }
+  18% {
+    -webkit-filter: hue-rotate(68deg);
+            filter: hue-rotate(68deg);
+    opacity: 0.25;
+    text-shadow: -4px -8px #FC0000;
+    clip: rect(78px, 9999px, 91px, 0);
+  }
+  19% {
+    -webkit-filter: hue-rotate(360deg);
+            filter: hue-rotate(360deg);
+    opacity: 0.95;
+    text-shadow: -7px -2px #FC0000;
+    clip: rect(37px, 9999px, 88px, 0);
+  }
+  20% {
+    -webkit-filter: hue-rotate(358deg);
+            filter: hue-rotate(358deg);
+    opacity: 0.54;
+    text-shadow: -3px -1px #FC0000;
+    clip: rect(12px, 9999px, 44px, 0);
+  }
+  21% {
+    -webkit-filter: hue-rotate(154deg);
+            filter: hue-rotate(154deg);
+    opacity: 0.55;
+    text-shadow: -9px -11px #FC0000;
+    clip: rect(1px, 9999px, 16px, 0);
+  }
+  22% {
+    -webkit-filter: hue-rotate(218deg);
+            filter: hue-rotate(218deg);
+    opacity: 0.26;
+    text-shadow: -11px -4px #FC0000;
+    clip: rect(52px, 9999px, 263px, 0);
+  }
+  23% {
+    -webkit-filter: hue-rotate(323deg);
+            filter: hue-rotate(323deg);
+    opacity: 0.79;
+    text-shadow: -8px -11px #FC0000;
+    clip: rect(44px, 9999px, 218px, 0);
+  }
+  24% {
+    -webkit-filter: hue-rotate(18deg);
+            filter: hue-rotate(18deg);
+    opacity: 0.84;
+    text-shadow: -5px -2px #FC0000;
+    clip: rect(24px, 9999px, 51px, 0);
+  }
+  25% {
+    -webkit-filter: hue-rotate(181deg);
+            filter: hue-rotate(181deg);
+    opacity: 0.13;
+    text-shadow: -4px -5px #FC0000;
+    clip: rect(24px, 9999px, 200px, 0);
+  }
+  26% {
+    -webkit-filter: hue-rotate(35deg);
+            filter: hue-rotate(35deg);
+    opacity: 0.85;
+    text-shadow: -5px -4px #FC0000;
+    clip: rect(52px, 9999px, 56px, 0);
+  }
+  27% {
+    -webkit-filter: hue-rotate(174deg);
+            filter: hue-rotate(174deg);
+    opacity: 0.02;
+    text-shadow: 0px -11px #FC0000;
+    clip: rect(89px, 9999px, 130px, 0);
+  }
+  28% {
+    -webkit-filter: hue-rotate(279deg);
+            filter: hue-rotate(279deg);
+    opacity: 0.79;
+    text-shadow: -10px -5px #FC0000;
+    clip: rect(3px, 9999px, 224px, 0);
+  }
+  29% {
+    -webkit-filter: hue-rotate(288deg);
+            filter: hue-rotate(288deg);
+    opacity: 0.36;
+    text-shadow: -2px -9px #FC0000;
+    clip: rect(58px, 9999px, 146px, 0);
+  }
+  30% {
+    -webkit-filter: hue-rotate(193deg);
+            filter: hue-rotate(193deg);
+    opacity: 0.95;
+    text-shadow: -1px -8px #FC0000;
+    clip: rect(97px, 9999px, 182px, 0);
+  }
+  31% {
+    -webkit-filter: hue-rotate(87deg);
+            filter: hue-rotate(87deg);
+    opacity: 0.55;
+    text-shadow: 0px -6px #FC0000;
+    clip: rect(98px, 9999px, 134px, 0);
+  }
+  32% {
+    -webkit-filter: hue-rotate(34deg);
+            filter: hue-rotate(34deg);
+    opacity: 0.21;
+    text-shadow: -8px -10px #FC0000;
+    clip: rect(67px, 9999px, 59px, 0);
+  }
+  33% {
+    -webkit-filter: hue-rotate(87deg);
+            filter: hue-rotate(87deg);
+    opacity: 0.9;
+    text-shadow: -2px -1px #FC0000;
+    clip: rect(26px, 9999px, 110px, 0);
+  }
+  34% {
+    -webkit-filter: hue-rotate(76deg);
+            filter: hue-rotate(76deg);
+    opacity: 0.11;
+    text-shadow: -8px -2px #FC0000;
+    clip: rect(90px, 9999px, 2px, 0);
+  }
+  35% {
+    -webkit-filter: hue-rotate(160deg);
+            filter: hue-rotate(160deg);
+    opacity: 0.1;
+    text-shadow: -4px -10px #FC0000;
+    clip: rect(25px, 9999px, 106px, 0);
+  }
+  36% {
+    -webkit-filter: hue-rotate(122deg);
+            filter: hue-rotate(122deg);
+    opacity: 0.31;
+    text-shadow: -5px -1px #FC0000;
+    clip: rect(41px, 9999px, 183px, 0);
+  }
+  37% {
+    -webkit-filter: hue-rotate(324deg);
+            filter: hue-rotate(324deg);
+    opacity: 0.45;
+    text-shadow: -7px -2px #FC0000;
+    clip: rect(57px, 9999px, 84px, 0);
+  }
+  38% {
+    -webkit-filter: hue-rotate(103deg);
+            filter: hue-rotate(103deg);
+    opacity: 0.17;
+    text-shadow: -6px -5px #FC0000;
+    clip: rect(90px, 9999px, 123px, 0);
+  }
+  39% {
+    -webkit-filter: hue-rotate(47deg);
+            filter: hue-rotate(47deg);
+    opacity: 0.59;
+    text-shadow: -3px -2px #FC0000;
+    clip: rect(75px, 9999px, 135px, 0);
+  }
+  40% {
+    -webkit-filter: hue-rotate(334deg);
+            filter: hue-rotate(334deg);
+    opacity: 0.86;
+    text-shadow: -1px -2px #FC0000;
+    clip: rect(32px, 9999px, 99px, 0);
+  }
+  41% {
+    -webkit-filter: hue-rotate(226deg);
+            filter: hue-rotate(226deg);
+    opacity: 0.83;
+    text-shadow: -5px -6px #FC0000;
+    clip: rect(2px, 9999px, 213px, 0);
+  }
+  42% {
+    -webkit-filter: hue-rotate(54deg);
+            filter: hue-rotate(54deg);
+    opacity: 0.53;
+    text-shadow: -1px -11px #FC0000;
+    clip: rect(24px, 9999px, 87px, 0);
+  }
+  43% {
+    -webkit-filter: hue-rotate(106deg);
+            filter: hue-rotate(106deg);
+    opacity: 0.84;
+    text-shadow: -8px -1px #FC0000;
+    clip: rect(77px, 9999px, 87px, 0);
+  }
+  44% {
+    -webkit-filter: hue-rotate(10deg);
+            filter: hue-rotate(10deg);
+    opacity: 0.7;
+    text-shadow: -6px -1px #FC0000;
+    clip: rect(51px, 9999px, 108px, 0);
+  }
+  45% {
+    -webkit-filter: hue-rotate(98deg);
+            filter: hue-rotate(98deg);
+    opacity: 0.96;
+    text-shadow: -7px -1px #FC0000;
+    clip: rect(42px, 9999px, 3px, 0);
+  }
+  46% {
+    -webkit-filter: hue-rotate(224deg);
+            filter: hue-rotate(224deg);
+    opacity: 0.3;
+    text-shadow: -3px -6px #FC0000;
+    clip: rect(2px, 9999px, 208px, 0);
+  }
+  47% {
+    -webkit-filter: hue-rotate(83deg);
+            filter: hue-rotate(83deg);
+    opacity: 0.56;
+    text-shadow: -3px -6px #FC0000;
+    clip: rect(76px, 9999px, 212px, 0);
+  }
+  48% {
+    -webkit-filter: hue-rotate(343deg);
+            filter: hue-rotate(343deg);
+    opacity: 0.68;
+    text-shadow: -5px -9px #FC0000;
+    clip: rect(7px, 9999px, 146px, 0);
+  }
+  49% {
+    -webkit-filter: hue-rotate(184deg);
+            filter: hue-rotate(184deg);
+    opacity: 0.83;
+    text-shadow: -7px -7px #FC0000;
+    clip: rect(42px, 9999px, 108px, 0);
+  }
+  50% {
+    -webkit-filter: hue-rotate(197deg);
+            filter: hue-rotate(197deg);
+    opacity: 0.16;
+    text-shadow: -11px -1px #FC0000;
+    clip: rect(4px, 9999px, 87px, 0);
+  }
+  51% {
+    -webkit-filter: hue-rotate(8deg);
+            filter: hue-rotate(8deg);
+    opacity: 0.64;
+    text-shadow: -10px -7px #FC0000;
+    clip: rect(91px, 9999px, 251px, 0);
+  }
+  52% {
+    -webkit-filter: hue-rotate(249deg);
+            filter: hue-rotate(249deg);
+    opacity: 0.77;
+    text-shadow: -4px -7px #FC0000;
+    clip: rect(65px, 9999px, 228px, 0);
+  }
+  53% {
+    -webkit-filter: hue-rotate(174deg);
+            filter: hue-rotate(174deg);
+    opacity: 0.23;
+    text-shadow: -8px -10px #FC0000;
+    clip: rect(82px, 9999px, 96px, 0);
+  }
+  54% {
+    -webkit-filter: hue-rotate(170deg);
+            filter: hue-rotate(170deg);
+    opacity: 0.12;
+    text-shadow: -6px -10px #FC0000;
+    clip: rect(29px, 9999px, 242px, 0);
+  }
+  55% {
+    -webkit-filter: hue-rotate(299deg);
+            filter: hue-rotate(299deg);
+    opacity: 0.94;
+    text-shadow: -4px -8px #FC0000;
+    clip: rect(9px, 9999px, 19px, 0);
+  }
+  56% {
+    -webkit-filter: hue-rotate(335deg);
+            filter: hue-rotate(335deg);
+    opacity: 0.39;
+    text-shadow: -1px -10px #FC0000;
+    clip: rect(47px, 9999px, 54px, 0);
+  }
+  57% {
+    -webkit-filter: hue-rotate(315deg);
+            filter: hue-rotate(315deg);
+    opacity: 0.33;
+    text-shadow: 0px -9px #FC0000;
+    clip: rect(91px, 9999px, 274px, 0);
+  }
+  58% {
+    -webkit-filter: hue-rotate(93deg);
+            filter: hue-rotate(93deg);
+    opacity: 0.14;
+    text-shadow: -4px -5px #FC0000;
+    clip: rect(96px, 9999px, 164px, 0);
+  }
+  59% {
+    -webkit-filter: hue-rotate(323deg);
+            filter: hue-rotate(323deg);
+    opacity: 0.92;
+    text-shadow: -9px -2px #FC0000;
+    clip: rect(7px, 9999px, 125px, 0);
+  }
+  60% {
+    -webkit-filter: hue-rotate(189deg);
+            filter: hue-rotate(189deg);
+    opacity: 0.16;
+    text-shadow: -7px -8px #FC0000;
+    clip: rect(42px, 9999px, 215px, 0);
+  }
+  61% {
+    -webkit-filter: hue-rotate(349deg);
+            filter: hue-rotate(349deg);
+    opacity: 0.67;
+    text-shadow: -4px -1px #FC0000;
+    clip: rect(100px, 9999px, 212px, 0);
+  }
+  62% {
+    -webkit-filter: hue-rotate(242deg);
+            filter: hue-rotate(242deg);
+    opacity: 0.53;
+    text-shadow: -3px -8px #FC0000;
+    clip: rect(39px, 9999px, 90px, 0);
+  }
+  63% {
+    -webkit-filter: hue-rotate(103deg);
+            filter: hue-rotate(103deg);
+    opacity: 0.31;
+    text-shadow: -9px 0px #FC0000;
+    clip: rect(3px, 9999px, 108px, 0);
+  }
+  64% {
+    -webkit-filter: hue-rotate(48deg);
+            filter: hue-rotate(48deg);
+    opacity: 0.79;
+    text-shadow: -8px -8px #FC0000;
+    clip: rect(38px, 9999px, 91px, 0);
+  }
+  65% {
+    -webkit-filter: hue-rotate(88deg);
+            filter: hue-rotate(88deg);
+    opacity: 0.8;
+    text-shadow: 0px -4px #FC0000;
+    clip: rect(17px, 9999px, 206px, 0);
+  }
+  66% {
+    -webkit-filter: hue-rotate(173deg);
+            filter: hue-rotate(173deg);
+    opacity: 0.89;
+    text-shadow: -4px -3px #FC0000;
+    clip: rect(68px, 9999px, 162px, 0);
+  }
+  67% {
+    -webkit-filter: hue-rotate(144deg);
+            filter: hue-rotate(144deg);
+    opacity: 0.38;
+    text-shadow: -4px -1px #FC0000;
+    clip: rect(83px, 9999px, 291px, 0);
+  }
+  68% {
+    -webkit-filter: hue-rotate(43deg);
+            filter: hue-rotate(43deg);
+    opacity: 0.62;
+    text-shadow: 0px -1px #FC0000;
+    clip: rect(14px, 9999px, 187px, 0);
+  }
+  69% {
+    -webkit-filter: hue-rotate(130deg);
+            filter: hue-rotate(130deg);
+    opacity: 0.41;
+    text-shadow: -8px -1px #FC0000;
+    clip: rect(51px, 9999px, 154px, 0);
+  }
+  70% {
+    -webkit-filter: hue-rotate(55deg);
+            filter: hue-rotate(55deg);
+    opacity: 0.21;
+    text-shadow: -3px -3px #FC0000;
+    clip: rect(4px, 9999px, 286px, 0);
+  }
+  71% {
+    -webkit-filter: hue-rotate(59deg);
+            filter: hue-rotate(59deg);
+    opacity: 0.39;
+    text-shadow: -4px -5px #FC0000;
+    clip: rect(32px, 9999px, 28px, 0);
+  }
+  72% {
+    -webkit-filter: hue-rotate(254deg);
+            filter: hue-rotate(254deg);
+    opacity: 0.4;
+    text-shadow: 0px -10px #FC0000;
+    clip: rect(34px, 9999px, 113px, 0);
+  }
+  73% {
+    -webkit-filter: hue-rotate(315deg);
+            filter: hue-rotate(315deg);
+    opacity: 0.68;
+    text-shadow: -11px -1px #FC0000;
+    clip: rect(3px, 9999px, 190px, 0);
+  }
+  74% {
+    -webkit-filter: hue-rotate(99deg);
+            filter: hue-rotate(99deg);
+    opacity: 0.65;
+    text-shadow: -3px -5px #FC0000;
+    clip: rect(89px, 9999px, 55px, 0);
+  }
+  75% {
+    -webkit-filter: hue-rotate(319deg);
+            filter: hue-rotate(319deg);
+    opacity: 0.47;
+    text-shadow: -4px -7px #FC0000;
+    clip: rect(22px, 9999px, 52px, 0);
+  }
+  76% {
+    -webkit-filter: hue-rotate(227deg);
+            filter: hue-rotate(227deg);
+    opacity: 0.98;
+    text-shadow: 0px -3px #FC0000;
+    clip: rect(39px, 9999px, 5px, 0);
+  }
+  77% {
+    -webkit-filter: hue-rotate(27deg);
+            filter: hue-rotate(27deg);
+    opacity: 0.41;
+    text-shadow: -11px -2px #FC0000;
+    clip: rect(50px, 9999px, 7px, 0);
+  }
+  78% {
+    -webkit-filter: hue-rotate(5deg);
+            filter: hue-rotate(5deg);
+    opacity: 0.24;
+    text-shadow: 0px -5px #FC0000;
+    clip: rect(65px, 9999px, 252px, 0);
+  }
+  79% {
+    -webkit-filter: hue-rotate(87deg);
+            filter: hue-rotate(87deg);
+    opacity: 0.54;
+    text-shadow: -9px -2px #FC0000;
+    clip: rect(65px, 9999px, 146px, 0);
+  }
+  80% {
+    -webkit-filter: hue-rotate(10deg);
+            filter: hue-rotate(10deg);
+    opacity: 0.68;
+    text-shadow: 0px -11px #FC0000;
+    clip: rect(24px, 9999px, 59px, 0);
+  }
+  81% {
+    -webkit-filter: hue-rotate(204deg);
+            filter: hue-rotate(204deg);
+    opacity: 0.86;
+    text-shadow: -4px -5px #FC0000;
+    clip: rect(46px, 9999px, 287px, 0);
+  }
+  82% {
+    -webkit-filter: hue-rotate(212deg);
+            filter: hue-rotate(212deg);
+    opacity: 0.4;
+    text-shadow: -2px -10px #FC0000;
+    clip: rect(1px, 9999px, 270px, 0);
+  }
+  83% {
+    -webkit-filter: hue-rotate(74deg);
+            filter: hue-rotate(74deg);
+    opacity: 0.23;
+    text-shadow: 0px -3px #FC0000;
+    clip: rect(38px, 9999px, 264px, 0);
+  }
+  84% {
+    -webkit-filter: hue-rotate(99deg);
+            filter: hue-rotate(99deg);
+    opacity: 0.4;
+    text-shadow: -7px -6px #FC0000;
+    clip: rect(21px, 9999px, 203px, 0);
+  }
+  85% {
+    -webkit-filter: hue-rotate(104deg);
+            filter: hue-rotate(104deg);
+    opacity: 0.38;
+    text-shadow: -4px -7px #FC0000;
+    clip: rect(90px, 9999px, 66px, 0);
+  }
+  86% {
+    -webkit-filter: hue-rotate(116deg);
+            filter: hue-rotate(116deg);
+    opacity: 0.68;
+    text-shadow: -2px -9px #FC0000;
+    clip: rect(76px, 9999px, 55px, 0);
+  }
+  87% {
+    -webkit-filter: hue-rotate(97deg);
+            filter: hue-rotate(97deg);
+    opacity: 0.01;
+    text-shadow: -3px -2px #FC0000;
+    clip: rect(20px, 9999px, 261px, 0);
+  }
+  88% {
+    -webkit-filter: hue-rotate(18deg);
+            filter: hue-rotate(18deg);
+    opacity: 0.74;
+    text-shadow: -5px -11px #FC0000;
+    clip: rect(8px, 9999px, 78px, 0);
+  }
+  89% {
+    -webkit-filter: hue-rotate(54deg);
+            filter: hue-rotate(54deg);
+    opacity: 0.61;
+    text-shadow: -4px -2px #FC0000;
+    clip: rect(95px, 9999px, 17px, 0);
+  }
+  90% {
+    -webkit-filter: hue-rotate(275deg);
+            filter: hue-rotate(275deg);
+    opacity: 0.64;
+    text-shadow: -2px -1px #FC0000;
+    clip: rect(55px, 9999px, 81px, 0);
+  }
+  91% {
     -webkit-filter: hue-rotate(340deg);
             filter: hue-rotate(340deg);
-    text-shadow: 0px -8px #C400FF;
-    clip: rect(65px, 9999px, 16px, 0);
+    opacity: 0.02;
+    text-shadow: -10px -6px #FC0000;
+    clip: rect(3px, 9999px, 22px, 0);
+  }
+  92% {
+    -webkit-filter: hue-rotate(217deg);
+            filter: hue-rotate(217deg);
+    opacity: 0.64;
+    text-shadow: -1px -1px #FC0000;
+    clip: rect(97px, 9999px, 63px, 0);
+  }
+  93% {
+    -webkit-filter: hue-rotate(329deg);
+            filter: hue-rotate(329deg);
+    opacity: 0.08;
+    text-shadow: -8px -6px #FC0000;
+    clip: rect(24px, 9999px, 11px, 0);
+  }
+  94% {
+    -webkit-filter: hue-rotate(241deg);
+            filter: hue-rotate(241deg);
+    opacity: 0.38;
+    text-shadow: -2px -10px #FC0000;
+    clip: rect(39px, 9999px, 61px, 0);
+  }
+  95% {
+    -webkit-filter: hue-rotate(213deg);
+            filter: hue-rotate(213deg);
+    opacity: 0.63;
+    text-shadow: -4px -7px #FC0000;
+    clip: rect(69px, 9999px, 255px, 0);
+  }
+  96% {
+    -webkit-filter: hue-rotate(258deg);
+            filter: hue-rotate(258deg);
+    opacity: 0.66;
+    text-shadow: -7px -1px #FC0000;
+    clip: rect(11px, 9999px, 55px, 0);
+  }
+  97% {
+    -webkit-filter: hue-rotate(344deg);
+            filter: hue-rotate(344deg);
+    opacity: 0.84;
+    text-shadow: -1px -2px #FC0000;
+    clip: rect(66px, 9999px, 299px, 0);
+  }
+  98% {
+    -webkit-filter: hue-rotate(95deg);
+            filter: hue-rotate(95deg);
+    opacity: 0.73;
+    text-shadow: -8px -8px #FC0000;
+    clip: rect(88px, 9999px, 159px, 0);
   }
   99% {
-    -webkit-filter: hue-rotate(73deg);
-            filter: hue-rotate(73deg);
-    text-shadow: -6px -3px #C400FF;
-    clip: rect(44px, 9999px, 108px, 0);
+    -webkit-filter: hue-rotate(353deg);
+            filter: hue-rotate(353deg);
+    opacity: 0.29;
+    text-shadow: -4px -7px #FC0000;
+    clip: rect(4px, 9999px, 208px, 0);
   }
   100% {
-    -webkit-filter: hue-rotate(198deg);
-            filter: hue-rotate(198deg);
-    text-shadow: -5px -3px #C400FF;
-    clip: rect(100px, 9999px, 268px, 0);
+    -webkit-filter: hue-rotate(206deg);
+            filter: hue-rotate(206deg);
+    opacity: 0.43;
+    text-shadow: -11px -9px #FC0000;
+    clip: rect(55px, 9999px, 107px, 0);
   }
 }
 
 @-webkit-keyframes glitch-anim-2 {
   0% {
-    -webkit-filter: hue-rotate(296deg);
-            filter: hue-rotate(296deg);
-    text-shadow: 9px 5px blue;
-    clip: rect(9px, 9999px, 113px, 0);
+    -webkit-filter: hue-rotate(25deg);
+            filter: hue-rotate(25deg);
+    opacity: 0.88;
+    text-shadow: 11px 3px #3C8D39;
+    clip: rect(81px, 9999px, 173px, 0);
   }
   1% {
-    -webkit-filter: hue-rotate(139deg);
-            filter: hue-rotate(139deg);
-    text-shadow: 1px 3px blue;
-    clip: rect(45px, 9999px, 55px, 0);
+    -webkit-filter: hue-rotate(15deg);
+            filter: hue-rotate(15deg);
+    opacity: 0.33;
+    text-shadow: 3px 4px #3C8D39;
+    clip: rect(2px, 9999px, 103px, 0);
   }
   2% {
-    -webkit-filter: hue-rotate(251deg);
-            filter: hue-rotate(251deg);
-    text-shadow: 9px 2px blue;
-    clip: rect(62px, 9999px, 7px, 0);
+    -webkit-filter: hue-rotate(147deg);
+            filter: hue-rotate(147deg);
+    opacity: 0.27;
+    text-shadow: 7px 4px #3C8D39;
+    clip: rect(49px, 9999px, 226px, 0);
   }
   3% {
-    -webkit-filter: hue-rotate(166deg);
-            filter: hue-rotate(166deg);
-    text-shadow: 2px 2px blue;
-    clip: rect(63px, 9999px, 221px, 0);
-  }
-  4% {
-    -webkit-filter: hue-rotate(40deg);
-            filter: hue-rotate(40deg);
-    text-shadow: 4px 5px blue;
-    clip: rect(66px, 9999px, 45px, 0);
-  }
-  5% {
-    -webkit-filter: hue-rotate(58deg);
-            filter: hue-rotate(58deg);
-    text-shadow: 4px 2px blue;
-    clip: rect(56px, 9999px, 164px, 0);
-  }
-  6% {
-    -webkit-filter: hue-rotate(67deg);
-            filter: hue-rotate(67deg);
-    text-shadow: 4px 5px blue;
-    clip: rect(53px, 9999px, 117px, 0);
-  }
-  7% {
-    -webkit-filter: hue-rotate(117deg);
-            filter: hue-rotate(117deg);
-    text-shadow: 6px 9px blue;
-    clip: rect(97px, 9999px, 64px, 0);
-  }
-  8% {
-    -webkit-filter: hue-rotate(273deg);
-            filter: hue-rotate(273deg);
-    text-shadow: 9px 4px blue;
-    clip: rect(53px, 9999px, 45px, 0);
-  }
-  9% {
-    -webkit-filter: hue-rotate(284deg);
-            filter: hue-rotate(284deg);
-    text-shadow: 9px 6px blue;
-    clip: rect(85px, 9999px, 93px, 0);
-  }
-  10% {
-    -webkit-filter: hue-rotate(34deg);
-            filter: hue-rotate(34deg);
-    text-shadow: 7px 9px blue;
-    clip: rect(70px, 9999px, 269px, 0);
-  }
-  11% {
-    -webkit-filter: hue-rotate(101deg);
-            filter: hue-rotate(101deg);
-    text-shadow: 8px 3px blue;
-    clip: rect(44px, 9999px, 81px, 0);
-  }
-  12% {
-    -webkit-filter: hue-rotate(120deg);
-            filter: hue-rotate(120deg);
-    text-shadow: 10px 7px blue;
-    clip: rect(21px, 9999px, 86px, 0);
-  }
-  13% {
-    -webkit-filter: hue-rotate(162deg);
-            filter: hue-rotate(162deg);
-    text-shadow: 9px 9px blue;
-    clip: rect(54px, 9999px, 36px, 0);
-  }
-  14% {
-    -webkit-filter: hue-rotate(242deg);
-            filter: hue-rotate(242deg);
-    text-shadow: 3px 1px blue;
-    clip: rect(66px, 9999px, 182px, 0);
-  }
-  15% {
-    -webkit-filter: hue-rotate(119deg);
-            filter: hue-rotate(119deg);
-    text-shadow: 10px 7px blue;
-    clip: rect(77px, 9999px, 169px, 0);
-  }
-  16% {
-    -webkit-filter: hue-rotate(340deg);
-            filter: hue-rotate(340deg);
-    text-shadow: 1px 5px blue;
-    clip: rect(65px, 9999px, 206px, 0);
-  }
-  17% {
-    -webkit-filter: hue-rotate(159deg);
-            filter: hue-rotate(159deg);
-    text-shadow: 5px 6px blue;
-    clip: rect(17px, 9999px, 288px, 0);
-  }
-  18% {
-    -webkit-filter: hue-rotate(4deg);
-            filter: hue-rotate(4deg);
-    text-shadow: 6px 9px blue;
-    clip: rect(81px, 9999px, 72px, 0);
-  }
-  19% {
-    -webkit-filter: hue-rotate(24deg);
-            filter: hue-rotate(24deg);
-    text-shadow: 3px 5px blue;
-    clip: rect(14px, 9999px, 63px, 0);
-  }
-  20% {
-    -webkit-filter: hue-rotate(71deg);
-            filter: hue-rotate(71deg);
-    text-shadow: 9px 10px blue;
-    clip: rect(54px, 9999px, 79px, 0);
-  }
-  21% {
-    -webkit-filter: hue-rotate(110deg);
-            filter: hue-rotate(110deg);
-    text-shadow: 4px 9px blue;
-    clip: rect(70px, 9999px, 14px, 0);
-  }
-  22% {
-    -webkit-filter: hue-rotate(179deg);
-            filter: hue-rotate(179deg);
-    text-shadow: 5px 10px blue;
-    clip: rect(21px, 9999px, 185px, 0);
-  }
-  23% {
-    -webkit-filter: hue-rotate(54deg);
-            filter: hue-rotate(54deg);
-    text-shadow: 7px 7px blue;
-    clip: rect(42px, 9999px, 119px, 0);
-  }
-  24% {
-    -webkit-filter: hue-rotate(146deg);
-            filter: hue-rotate(146deg);
-    text-shadow: 7px 10px blue;
-    clip: rect(39px, 9999px, 121px, 0);
-  }
-  25% {
-    -webkit-filter: hue-rotate(247deg);
-            filter: hue-rotate(247deg);
-    text-shadow: 6px 9px blue;
-    clip: rect(94px, 9999px, 43px, 0);
-  }
-  26% {
-    -webkit-filter: hue-rotate(9deg);
-            filter: hue-rotate(9deg);
-    text-shadow: 8px 1px blue;
-    clip: rect(58px, 9999px, 246px, 0);
-  }
-  27% {
-    -webkit-filter: hue-rotate(258deg);
-            filter: hue-rotate(258deg);
-    text-shadow: 8px 10px blue;
-    clip: rect(74px, 9999px, 287px, 0);
-  }
-  28% {
-    -webkit-filter: hue-rotate(152deg);
-            filter: hue-rotate(152deg);
-    text-shadow: 1px 5px blue;
-    clip: rect(43px, 9999px, 15px, 0);
-  }
-  29% {
-    -webkit-filter: hue-rotate(187deg);
-            filter: hue-rotate(187deg);
-    text-shadow: 5px 4px blue;
-    clip: rect(35px, 9999px, 277px, 0);
-  }
-  30% {
-    -webkit-filter: hue-rotate(346deg);
-            filter: hue-rotate(346deg);
-    text-shadow: 6px 4px blue;
-    clip: rect(19px, 9999px, 199px, 0);
-  }
-  31% {
-    -webkit-filter: hue-rotate(240deg);
-            filter: hue-rotate(240deg);
-    text-shadow: 8px 10px blue;
-    clip: rect(89px, 9999px, 288px, 0);
-  }
-  32% {
-    -webkit-filter: hue-rotate(267deg);
-            filter: hue-rotate(267deg);
-    text-shadow: 6px 5px blue;
-    clip: rect(63px, 9999px, 57px, 0);
-  }
-  33% {
-    -webkit-filter: hue-rotate(190deg);
-            filter: hue-rotate(190deg);
-    text-shadow: 10px 2px blue;
-    clip: rect(60px, 9999px, 238px, 0);
-  }
-  34% {
-    -webkit-filter: hue-rotate(109deg);
-            filter: hue-rotate(109deg);
-    text-shadow: 8px 9px blue;
-    clip: rect(70px, 9999px, 258px, 0);
-  }
-  35% {
-    -webkit-filter: hue-rotate(297deg);
-            filter: hue-rotate(297deg);
-    text-shadow: 6px 4px blue;
-    clip: rect(13px, 9999px, 247px, 0);
-  }
-  36% {
-    -webkit-filter: hue-rotate(323deg);
-            filter: hue-rotate(323deg);
-    text-shadow: 5px 4px blue;
-    clip: rect(64px, 9999px, 288px, 0);
-  }
-  37% {
-    -webkit-filter: hue-rotate(239deg);
-            filter: hue-rotate(239deg);
-    text-shadow: 7px 4px blue;
-    clip: rect(49px, 9999px, 94px, 0);
-  }
-  38% {
-    -webkit-filter: hue-rotate(79deg);
-            filter: hue-rotate(79deg);
-    text-shadow: 2px 5px blue;
-    clip: rect(93px, 9999px, 216px, 0);
-  }
-  39% {
-    -webkit-filter: hue-rotate(253deg);
-            filter: hue-rotate(253deg);
-    text-shadow: 8px 5px blue;
-    clip: rect(19px, 9999px, 238px, 0);
-  }
-  40% {
-    -webkit-filter: hue-rotate(21deg);
-            filter: hue-rotate(21deg);
-    text-shadow: 1px 3px blue;
-    clip: rect(11px, 9999px, 40px, 0);
-  }
-  41% {
-    -webkit-filter: hue-rotate(359deg);
-            filter: hue-rotate(359deg);
-    text-shadow: 1px 6px blue;
-    clip: rect(7px, 9999px, 19px, 0);
-  }
-  42% {
-    -webkit-filter: hue-rotate(131deg);
-            filter: hue-rotate(131deg);
-    text-shadow: 10px 3px blue;
-    clip: rect(90px, 9999px, 44px, 0);
-  }
-  43% {
-    -webkit-filter: hue-rotate(135deg);
-            filter: hue-rotate(135deg);
-    text-shadow: 5px 7px blue;
-    clip: rect(93px, 9999px, 299px, 0);
-  }
-  44% {
-    -webkit-filter: hue-rotate(356deg);
-            filter: hue-rotate(356deg);
-    text-shadow: 2px 9px blue;
-    clip: rect(19px, 9999px, 77px, 0);
-  }
-  45% {
-    -webkit-filter: hue-rotate(297deg);
-            filter: hue-rotate(297deg);
-    text-shadow: 9px 4px blue;
-    clip: rect(16px, 9999px, 16px, 0);
-  }
-  46% {
-    -webkit-filter: hue-rotate(291deg);
-            filter: hue-rotate(291deg);
-    text-shadow: 10px 7px blue;
-    clip: rect(28px, 9999px, 142px, 0);
-  }
-  47% {
-    -webkit-filter: hue-rotate(295deg);
-            filter: hue-rotate(295deg);
-    text-shadow: 3px 3px blue;
-    clip: rect(21px, 9999px, 52px, 0);
-  }
-  48% {
-    -webkit-filter: hue-rotate(184deg);
-            filter: hue-rotate(184deg);
-    text-shadow: 8px 9px blue;
-    clip: rect(85px, 9999px, 276px, 0);
-  }
-  49% {
-    -webkit-filter: hue-rotate(305deg);
-            filter: hue-rotate(305deg);
-    text-shadow: 8px 4px blue;
-    clip: rect(69px, 9999px, 5px, 0);
-  }
-  50% {
-    -webkit-filter: hue-rotate(48deg);
-            filter: hue-rotate(48deg);
-    text-shadow: 1px 9px blue;
-    clip: rect(6px, 9999px, 43px, 0);
-  }
-  51% {
-    -webkit-filter: hue-rotate(248deg);
-            filter: hue-rotate(248deg);
-    text-shadow: 4px 10px blue;
-    clip: rect(25px, 9999px, 222px, 0);
-  }
-  52% {
-    -webkit-filter: hue-rotate(150deg);
-            filter: hue-rotate(150deg);
-    text-shadow: 9px 9px blue;
-    clip: rect(70px, 9999px, 203px, 0);
-  }
-  53% {
-    -webkit-filter: hue-rotate(192deg);
-            filter: hue-rotate(192deg);
-    text-shadow: 10px 10px blue;
-    clip: rect(35px, 9999px, 69px, 0);
-  }
-  54% {
-    -webkit-filter: hue-rotate(129deg);
-            filter: hue-rotate(129deg);
-    text-shadow: 8px 7px blue;
-    clip: rect(67px, 9999px, 74px, 0);
-  }
-  55% {
-    -webkit-filter: hue-rotate(92deg);
-            filter: hue-rotate(92deg);
-    text-shadow: 10px 1px blue;
-    clip: rect(90px, 9999px, 228px, 0);
-  }
-  56% {
-    -webkit-filter: hue-rotate(83deg);
-            filter: hue-rotate(83deg);
-    text-shadow: 10px 4px blue;
-    clip: rect(40px, 9999px, 189px, 0);
-  }
-  57% {
-    -webkit-filter: hue-rotate(126deg);
-            filter: hue-rotate(126deg);
-    text-shadow: 4px 4px blue;
-    clip: rect(4px, 9999px, 271px, 0);
-  }
-  58% {
-    -webkit-filter: hue-rotate(147deg);
-            filter: hue-rotate(147deg);
-    text-shadow: 10px 1px blue;
-    clip: rect(90px, 9999px, 100px, 0);
-  }
-  59% {
-    -webkit-filter: hue-rotate(72deg);
-            filter: hue-rotate(72deg);
-    text-shadow: 6px 9px blue;
-    clip: rect(26px, 9999px, 195px, 0);
-  }
-  60% {
-    -webkit-filter: hue-rotate(326deg);
-            filter: hue-rotate(326deg);
-    text-shadow: 10px 8px blue;
-    clip: rect(53px, 9999px, 80px, 0);
-  }
-  61% {
-    -webkit-filter: hue-rotate(179deg);
-            filter: hue-rotate(179deg);
-    text-shadow: 2px 1px blue;
-    clip: rect(37px, 9999px, 16px, 0);
-  }
-  62% {
-    -webkit-filter: hue-rotate(172deg);
-            filter: hue-rotate(172deg);
-    text-shadow: 3px 7px blue;
-    clip: rect(20px, 9999px, 96px, 0);
-  }
-  63% {
-    -webkit-filter: hue-rotate(194deg);
-            filter: hue-rotate(194deg);
-    text-shadow: 3px 7px blue;
-    clip: rect(68px, 9999px, 284px, 0);
-  }
-  64% {
-    -webkit-filter: hue-rotate(147deg);
-            filter: hue-rotate(147deg);
-    text-shadow: 10px 8px blue;
-    clip: rect(38px, 9999px, 158px, 0);
-  }
-  65% {
-    -webkit-filter: hue-rotate(275deg);
-            filter: hue-rotate(275deg);
-    text-shadow: 4px 8px blue;
-    clip: rect(52px, 9999px, 188px, 0);
-  }
-  66% {
-    -webkit-filter: hue-rotate(277deg);
-            filter: hue-rotate(277deg);
-    text-shadow: 9px 2px blue;
-    clip: rect(58px, 9999px, 274px, 0);
-  }
-  67% {
-    -webkit-filter: hue-rotate(223deg);
-            filter: hue-rotate(223deg);
-    text-shadow: 2px 1px blue;
-    clip: rect(32px, 9999px, 79px, 0);
-  }
-  68% {
-    -webkit-filter: hue-rotate(359deg);
-            filter: hue-rotate(359deg);
-    text-shadow: 7px 1px blue;
-    clip: rect(95px, 9999px, 254px, 0);
-  }
-  69% {
-    -webkit-filter: hue-rotate(314deg);
-            filter: hue-rotate(314deg);
-    text-shadow: 4px 6px blue;
-    clip: rect(82px, 9999px, 111px, 0);
-  }
-  70% {
-    -webkit-filter: hue-rotate(320deg);
-            filter: hue-rotate(320deg);
-    text-shadow: 2px 7px blue;
-    clip: rect(8px, 9999px, 230px, 0);
-  }
-  71% {
-    -webkit-filter: hue-rotate(317deg);
-            filter: hue-rotate(317deg);
-    text-shadow: 6px 1px blue;
-    clip: rect(61px, 9999px, 208px, 0);
-  }
-  72% {
-    -webkit-filter: hue-rotate(321deg);
-            filter: hue-rotate(321deg);
-    text-shadow: 1px 10px blue;
-    clip: rect(49px, 9999px, 294px, 0);
-  }
-  73% {
-    -webkit-filter: hue-rotate(232deg);
-            filter: hue-rotate(232deg);
-    text-shadow: 1px 9px blue;
-    clip: rect(43px, 9999px, 37px, 0);
-  }
-  74% {
-    -webkit-filter: hue-rotate(274deg);
-            filter: hue-rotate(274deg);
-    text-shadow: 5px 5px blue;
-    clip: rect(45px, 9999px, 178px, 0);
-  }
-  75% {
-    -webkit-filter: hue-rotate(202deg);
-            filter: hue-rotate(202deg);
-    text-shadow: 3px 1px blue;
-    clip: rect(12px, 9999px, 48px, 0);
-  }
-  76% {
-    -webkit-filter: hue-rotate(252deg);
-            filter: hue-rotate(252deg);
-    text-shadow: 10px 10px blue;
-    clip: rect(37px, 9999px, 83px, 0);
-  }
-  77% {
-    -webkit-filter: hue-rotate(107deg);
-            filter: hue-rotate(107deg);
-    text-shadow: 10px 1px blue;
-    clip: rect(24px, 9999px, 234px, 0);
-  }
-  78% {
-    -webkit-filter: hue-rotate(137deg);
-            filter: hue-rotate(137deg);
-    text-shadow: 6px 6px blue;
-    clip: rect(1px, 9999px, 153px, 0);
-  }
-  79% {
-    -webkit-filter: hue-rotate(359deg);
-            filter: hue-rotate(359deg);
-    text-shadow: 4px 10px blue;
-    clip: rect(30px, 9999px, 128px, 0);
-  }
-  80% {
-    -webkit-filter: hue-rotate(308deg);
-            filter: hue-rotate(308deg);
-    text-shadow: 7px 1px blue;
-    clip: rect(69px, 9999px, 128px, 0);
-  }
-  81% {
-    -webkit-filter: hue-rotate(37deg);
-            filter: hue-rotate(37deg);
-    text-shadow: 3px 10px blue;
-    clip: rect(27px, 9999px, 158px, 0);
-  }
-  82% {
-    -webkit-filter: hue-rotate(127deg);
-            filter: hue-rotate(127deg);
-    text-shadow: 4px 4px blue;
-    clip: rect(87px, 9999px, 51px, 0);
-  }
-  83% {
-    -webkit-filter: hue-rotate(249deg);
-            filter: hue-rotate(249deg);
-    text-shadow: 8px 9px blue;
-    clip: rect(8px, 9999px, 47px, 0);
-  }
-  84% {
-    -webkit-filter: hue-rotate(46deg);
-            filter: hue-rotate(46deg);
-    text-shadow: 9px 5px blue;
-    clip: rect(83px, 9999px, 54px, 0);
-  }
-  85% {
-    -webkit-filter: hue-rotate(76deg);
-            filter: hue-rotate(76deg);
-    text-shadow: 9px 4px blue;
-    clip: rect(60px, 9999px, 132px, 0);
-  }
-  86% {
-    -webkit-filter: hue-rotate(268deg);
-            filter: hue-rotate(268deg);
-    text-shadow: 2px 3px blue;
-    clip: rect(46px, 9999px, 227px, 0);
-  }
-  87% {
-    -webkit-filter: hue-rotate(52deg);
-            filter: hue-rotate(52deg);
-    text-shadow: 3px 6px blue;
-    clip: rect(75px, 9999px, 240px, 0);
-  }
-  88% {
-    -webkit-filter: hue-rotate(212deg);
-            filter: hue-rotate(212deg);
-    text-shadow: 10px 4px blue;
-    clip: rect(45px, 9999px, 49px, 0);
-  }
-  89% {
-    -webkit-filter: hue-rotate(288deg);
-            filter: hue-rotate(288deg);
-    text-shadow: 7px 1px blue;
-    clip: rect(96px, 9999px, 110px, 0);
-  }
-  90% {
-    -webkit-filter: hue-rotate(130deg);
-            filter: hue-rotate(130deg);
-    text-shadow: 2px 6px blue;
-    clip: rect(60px, 9999px, 128px, 0);
-  }
-  91% {
-    -webkit-filter: hue-rotate(225deg);
-            filter: hue-rotate(225deg);
-    text-shadow: 6px 10px blue;
-    clip: rect(42px, 9999px, 239px, 0);
-  }
-  92% {
-    -webkit-filter: hue-rotate(19deg);
-            filter: hue-rotate(19deg);
-    text-shadow: 7px 4px blue;
-    clip: rect(43px, 9999px, 177px, 0);
-  }
-  93% {
-    -webkit-filter: hue-rotate(110deg);
-            filter: hue-rotate(110deg);
-    text-shadow: 4px 4px blue;
-    clip: rect(8px, 9999px, 79px, 0);
-  }
-  94% {
     -webkit-filter: hue-rotate(358deg);
             filter: hue-rotate(358deg);
-    text-shadow: 5px 5px blue;
-    clip: rect(100px, 9999px, 193px, 0);
+    opacity: 0.52;
+    text-shadow: 1px 3px #3C8D39;
+    clip: rect(22px, 9999px, 298px, 0);
   }
-  95% {
-    -webkit-filter: hue-rotate(246deg);
-            filter: hue-rotate(246deg);
-    text-shadow: 7px 6px blue;
-    clip: rect(90px, 9999px, 235px, 0);
+  4% {
+    -webkit-filter: hue-rotate(170deg);
+            filter: hue-rotate(170deg);
+    opacity: 0.48;
+    text-shadow: 12px 11px #3C8D39;
+    clip: rect(60px, 9999px, 238px, 0);
   }
-  96% {
-    -webkit-filter: hue-rotate(178deg);
-            filter: hue-rotate(178deg);
-    text-shadow: 8px 4px blue;
-    clip: rect(70px, 9999px, 217px, 0);
+  5% {
+    -webkit-filter: hue-rotate(32deg);
+            filter: hue-rotate(32deg);
+    opacity: 0.38;
+    text-shadow: 5px 3px #3C8D39;
+    clip: rect(65px, 9999px, 217px, 0);
   }
-  97% {
-    -webkit-filter: hue-rotate(308deg);
-            filter: hue-rotate(308deg);
-    text-shadow: 7px 1px blue;
-    clip: rect(84px, 9999px, 195px, 0);
+  6% {
+    -webkit-filter: hue-rotate(21deg);
+            filter: hue-rotate(21deg);
+    opacity: 0.67;
+    text-shadow: 10px 1px #3C8D39;
+    clip: rect(29px, 9999px, 87px, 0);
   }
-  98% {
+  7% {
+    -webkit-filter: hue-rotate(26deg);
+            filter: hue-rotate(26deg);
+    opacity: 0.63;
+    text-shadow: 9px 3px #3C8D39;
+    clip: rect(46px, 9999px, 164px, 0);
+  }
+  8% {
+    -webkit-filter: hue-rotate(238deg);
+            filter: hue-rotate(238deg);
+    opacity: 0.04;
+    text-shadow: 1px 12px #3C8D39;
+    clip: rect(64px, 9999px, 175px, 0);
+  }
+  9% {
+    -webkit-filter: hue-rotate(212deg);
+            filter: hue-rotate(212deg);
+    opacity: 0.43;
+    text-shadow: 4px 1px #3C8D39;
+    clip: rect(79px, 9999px, 252px, 0);
+  }
+  10% {
+    -webkit-filter: hue-rotate(160deg);
+            filter: hue-rotate(160deg);
+    opacity: 0.75;
+    text-shadow: 10px 8px #3C8D39;
+    clip: rect(16px, 9999px, 230px, 0);
+  }
+  11% {
+    -webkit-filter: hue-rotate(327deg);
+            filter: hue-rotate(327deg);
+    opacity: 0.38;
+    text-shadow: 7px 11px #3C8D39;
+    clip: rect(48px, 9999px, 185px, 0);
+  }
+  12% {
     -webkit-filter: hue-rotate(72deg);
             filter: hue-rotate(72deg);
-    text-shadow: 7px 5px blue;
-    clip: rect(90px, 9999px, 224px, 0);
+    opacity: 0.53;
+    text-shadow: 11px 12px #3C8D39;
+    clip: rect(16px, 9999px, 14px, 0);
   }
-  99% {
+  13% {
+    -webkit-filter: hue-rotate(219deg);
+            filter: hue-rotate(219deg);
+    opacity: 0.28;
+    text-shadow: 2px 3px #3C8D39;
+    clip: rect(22px, 9999px, 56px, 0);
+  }
+  14% {
+    -webkit-filter: hue-rotate(70deg);
+            filter: hue-rotate(70deg);
+    opacity: 0.41;
+    text-shadow: 3px 5px #3C8D39;
+    clip: rect(49px, 9999px, 243px, 0);
+  }
+  15% {
+    -webkit-filter: hue-rotate(239deg);
+            filter: hue-rotate(239deg);
+    opacity: 0.47;
+    text-shadow: 10px 4px #3C8D39;
+    clip: rect(77px, 9999px, 133px, 0);
+  }
+  16% {
+    -webkit-filter: hue-rotate(290deg);
+            filter: hue-rotate(290deg);
+    opacity: 0.08;
+    text-shadow: 1px 5px #3C8D39;
+    clip: rect(70px, 9999px, 179px, 0);
+  }
+  17% {
+    -webkit-filter: hue-rotate(189deg);
+            filter: hue-rotate(189deg);
+    opacity: 0.59;
+    text-shadow: 5px 4px #3C8D39;
+    clip: rect(32px, 9999px, 291px, 0);
+  }
+  18% {
+    -webkit-filter: hue-rotate(17deg);
+            filter: hue-rotate(17deg);
+    opacity: 0.58;
+    text-shadow: 10px 10px #3C8D39;
+    clip: rect(40px, 9999px, 81px, 0);
+  }
+  19% {
+    -webkit-filter: hue-rotate(357deg);
+            filter: hue-rotate(357deg);
+    opacity: 0.38;
+    text-shadow: 10px 11px #3C8D39;
+    clip: rect(48px, 9999px, 265px, 0);
+  }
+  20% {
+    -webkit-filter: hue-rotate(342deg);
+            filter: hue-rotate(342deg);
+    opacity: 0.46;
+    text-shadow: 8px 7px #3C8D39;
+    clip: rect(93px, 9999px, 156px, 0);
+  }
+  21% {
+    -webkit-filter: hue-rotate(217deg);
+            filter: hue-rotate(217deg);
+    opacity: 0.86;
+    text-shadow: 3px 3px #3C8D39;
+    clip: rect(49px, 9999px, 86px, 0);
+  }
+  22% {
+    -webkit-filter: hue-rotate(277deg);
+            filter: hue-rotate(277deg);
+    opacity: 0.75;
+    text-shadow: 7px 8px #3C8D39;
+    clip: rect(48px, 9999px, 222px, 0);
+  }
+  23% {
+    -webkit-filter: hue-rotate(240deg);
+            filter: hue-rotate(240deg);
+    opacity: 0.23;
+    text-shadow: 6px 9px #3C8D39;
+    clip: rect(13px, 9999px, 223px, 0);
+  }
+  24% {
+    -webkit-filter: hue-rotate(322deg);
+            filter: hue-rotate(322deg);
+    opacity: 0.87;
+    text-shadow: 8px 9px #3C8D39;
+    clip: rect(48px, 9999px, 58px, 0);
+  }
+  25% {
+    -webkit-filter: hue-rotate(75deg);
+            filter: hue-rotate(75deg);
+    opacity: 0.54;
+    text-shadow: 7px 10px #3C8D39;
+    clip: rect(22px, 9999px, 196px, 0);
+  }
+  26% {
+    -webkit-filter: hue-rotate(248deg);
+            filter: hue-rotate(248deg);
+    opacity: 0.36;
+    text-shadow: 12px 7px #3C8D39;
+    clip: rect(70px, 9999px, 31px, 0);
+  }
+  27% {
+    -webkit-filter: hue-rotate(133deg);
+            filter: hue-rotate(133deg);
+    opacity: 0.25;
+    text-shadow: 2px 4px #3C8D39;
+    clip: rect(20px, 9999px, 191px, 0);
+  }
+  28% {
+    -webkit-filter: hue-rotate(351deg);
+            filter: hue-rotate(351deg);
+    opacity: 0.91;
+    text-shadow: 8px 4px #3C8D39;
+    clip: rect(90px, 9999px, 92px, 0);
+  }
+  29% {
+    -webkit-filter: hue-rotate(190deg);
+            filter: hue-rotate(190deg);
+    opacity: 0.56;
+    text-shadow: 1px 12px #3C8D39;
+    clip: rect(95px, 9999px, 161px, 0);
+  }
+  30% {
+    -webkit-filter: hue-rotate(345deg);
+            filter: hue-rotate(345deg);
+    opacity: 0.15;
+    text-shadow: 3px 8px #3C8D39;
+    clip: rect(17px, 9999px, 111px, 0);
+  }
+  31% {
+    -webkit-filter: hue-rotate(305deg);
+            filter: hue-rotate(305deg);
+    opacity: 0.54;
+    text-shadow: 12px 11px #3C8D39;
+    clip: rect(2px, 9999px, 286px, 0);
+  }
+  32% {
+    -webkit-filter: hue-rotate(83deg);
+            filter: hue-rotate(83deg);
+    opacity: 0.75;
+    text-shadow: 5px 11px #3C8D39;
+    clip: rect(39px, 9999px, 2px, 0);
+  }
+  33% {
+    -webkit-filter: hue-rotate(133deg);
+            filter: hue-rotate(133deg);
+    opacity: 0.76;
+    text-shadow: 2px 9px #3C8D39;
+    clip: rect(52px, 9999px, 109px, 0);
+  }
+  34% {
+    -webkit-filter: hue-rotate(89deg);
+            filter: hue-rotate(89deg);
+    opacity: 0.99;
+    text-shadow: 7px 1px #3C8D39;
+    clip: rect(42px, 9999px, 239px, 0);
+  }
+  35% {
+    -webkit-filter: hue-rotate(155deg);
+            filter: hue-rotate(155deg);
+    opacity: 0.01;
+    text-shadow: 2px 12px #3C8D39;
+    clip: rect(34px, 9999px, 126px, 0);
+  }
+  36% {
+    -webkit-filter: hue-rotate(35deg);
+            filter: hue-rotate(35deg);
+    opacity: 0.89;
+    text-shadow: 7px 12px #3C8D39;
+    clip: rect(61px, 9999px, 223px, 0);
+  }
+  37% {
+    -webkit-filter: hue-rotate(110deg);
+            filter: hue-rotate(110deg);
+    opacity: 0.15;
+    text-shadow: 3px 10px #3C8D39;
+    clip: rect(18px, 9999px, 179px, 0);
+  }
+  38% {
+    -webkit-filter: hue-rotate(356deg);
+            filter: hue-rotate(356deg);
+    opacity: 0.23;
+    text-shadow: 2px 10px #3C8D39;
+    clip: rect(18px, 9999px, 218px, 0);
+  }
+  39% {
+    -webkit-filter: hue-rotate(225deg);
+            filter: hue-rotate(225deg);
+    opacity: 0.16;
+    text-shadow: 11px 7px #3C8D39;
+    clip: rect(73px, 9999px, 70px, 0);
+  }
+  40% {
+    -webkit-filter: hue-rotate(149deg);
+            filter: hue-rotate(149deg);
+    opacity: 0.1;
+    text-shadow: 12px 2px #3C8D39;
+    clip: rect(55px, 9999px, 225px, 0);
+  }
+  41% {
+    -webkit-filter: hue-rotate(273deg);
+            filter: hue-rotate(273deg);
+    opacity: 0.4;
+    text-shadow: 5px 5px #3C8D39;
+    clip: rect(43px, 9999px, 15px, 0);
+  }
+  42% {
+    -webkit-filter: hue-rotate(314deg);
+            filter: hue-rotate(314deg);
+    opacity: 0.29;
+    text-shadow: 9px 12px #3C8D39;
+    clip: rect(3px, 9999px, 284px, 0);
+  }
+  43% {
+    -webkit-filter: hue-rotate(167deg);
+            filter: hue-rotate(167deg);
+    opacity: 0.37;
+    text-shadow: 11px 7px #3C8D39;
+    clip: rect(42px, 9999px, 268px, 0);
+  }
+  44% {
+    -webkit-filter: hue-rotate(173deg);
+            filter: hue-rotate(173deg);
+    opacity: 0.9;
+    text-shadow: 5px 11px #3C8D39;
+    clip: rect(35px, 9999px, 20px, 0);
+  }
+  45% {
+    -webkit-filter: hue-rotate(257deg);
+            filter: hue-rotate(257deg);
+    opacity: 0.35;
+    text-shadow: 9px 3px #3C8D39;
+    clip: rect(27px, 9999px, 261px, 0);
+  }
+  46% {
+    -webkit-filter: hue-rotate(312deg);
+            filter: hue-rotate(312deg);
+    opacity: 0.19;
+    text-shadow: 11px 6px #3C8D39;
+    clip: rect(4px, 9999px, 13px, 0);
+  }
+  47% {
+    -webkit-filter: hue-rotate(120deg);
+            filter: hue-rotate(120deg);
+    opacity: 0.84;
+    text-shadow: 7px 3px #3C8D39;
+    clip: rect(32px, 9999px, 65px, 0);
+  }
+  48% {
     -webkit-filter: hue-rotate(127deg);
             filter: hue-rotate(127deg);
-    text-shadow: 6px 5px blue;
-    clip: rect(59px, 9999px, 76px, 0);
+    opacity: 0.02;
+    text-shadow: 10px 12px #3C8D39;
+    clip: rect(53px, 9999px, 95px, 0);
+  }
+  49% {
+    -webkit-filter: hue-rotate(351deg);
+            filter: hue-rotate(351deg);
+    opacity: 0.17;
+    text-shadow: 4px 9px #3C8D39;
+    clip: rect(7px, 9999px, 63px, 0);
+  }
+  50% {
+    -webkit-filter: hue-rotate(250deg);
+            filter: hue-rotate(250deg);
+    opacity: 0.17;
+    text-shadow: 10px 12px #3C8D39;
+    clip: rect(15px, 9999px, 231px, 0);
+  }
+  51% {
+    -webkit-filter: hue-rotate(36deg);
+            filter: hue-rotate(36deg);
+    opacity: 0.27;
+    text-shadow: 3px 7px #3C8D39;
+    clip: rect(94px, 9999px, 8px, 0);
+  }
+  52% {
+    -webkit-filter: hue-rotate(77deg);
+            filter: hue-rotate(77deg);
+    opacity: 0.34;
+    text-shadow: 8px 4px #3C8D39;
+    clip: rect(68px, 9999px, 11px, 0);
+  }
+  53% {
+    -webkit-filter: hue-rotate(64deg);
+            filter: hue-rotate(64deg);
+    opacity: 0.74;
+    text-shadow: 2px 10px #3C8D39;
+    clip: rect(61px, 9999px, 11px, 0);
+  }
+  54% {
+    -webkit-filter: hue-rotate(170deg);
+            filter: hue-rotate(170deg);
+    opacity: 0.08;
+    text-shadow: 1px 7px #3C8D39;
+    clip: rect(52px, 9999px, 100px, 0);
+  }
+  55% {
+    -webkit-filter: hue-rotate(155deg);
+            filter: hue-rotate(155deg);
+    opacity: 0.19;
+    text-shadow: 11px 3px #3C8D39;
+    clip: rect(79px, 9999px, 216px, 0);
+  }
+  56% {
+    -webkit-filter: hue-rotate(163deg);
+            filter: hue-rotate(163deg);
+    opacity: 0.14;
+    text-shadow: 4px 6px #3C8D39;
+    clip: rect(30px, 9999px, 168px, 0);
+  }
+  57% {
+    -webkit-filter: hue-rotate(139deg);
+            filter: hue-rotate(139deg);
+    opacity: 0.92;
+    text-shadow: 11px 11px #3C8D39;
+    clip: rect(70px, 9999px, 128px, 0);
+  }
+  58% {
+    -webkit-filter: hue-rotate(159deg);
+            filter: hue-rotate(159deg);
+    opacity: 0.19;
+    text-shadow: 2px 3px #3C8D39;
+    clip: rect(11px, 9999px, 130px, 0);
+  }
+  59% {
+    -webkit-filter: hue-rotate(170deg);
+            filter: hue-rotate(170deg);
+    opacity: 0.17;
+    text-shadow: 6px 4px #3C8D39;
+    clip: rect(17px, 9999px, 275px, 0);
+  }
+  60% {
+    -webkit-filter: hue-rotate(198deg);
+            filter: hue-rotate(198deg);
+    opacity: 0.54;
+    text-shadow: 10px 12px #3C8D39;
+    clip: rect(98px, 9999px, 200px, 0);
+  }
+  61% {
+    -webkit-filter: hue-rotate(18deg);
+            filter: hue-rotate(18deg);
+    opacity: 0.62;
+    text-shadow: 12px 6px #3C8D39;
+    clip: rect(96px, 9999px, 289px, 0);
+  }
+  62% {
+    -webkit-filter: hue-rotate(315deg);
+            filter: hue-rotate(315deg);
+    opacity: 0.11;
+    text-shadow: 6px 11px #3C8D39;
+    clip: rect(95px, 9999px, 119px, 0);
+  }
+  63% {
+    -webkit-filter: hue-rotate(200deg);
+            filter: hue-rotate(200deg);
+    opacity: 0.51;
+    text-shadow: 11px 10px #3C8D39;
+    clip: rect(62px, 9999px, 39px, 0);
+  }
+  64% {
+    -webkit-filter: hue-rotate(241deg);
+            filter: hue-rotate(241deg);
+    opacity: 0.4;
+    text-shadow: 5px 5px #3C8D39;
+    clip: rect(53px, 9999px, 25px, 0);
+  }
+  65% {
+    -webkit-filter: hue-rotate(232deg);
+            filter: hue-rotate(232deg);
+    opacity: 0.45;
+    text-shadow: 3px 12px #3C8D39;
+    clip: rect(14px, 9999px, 261px, 0);
+  }
+  66% {
+    -webkit-filter: hue-rotate(270deg);
+            filter: hue-rotate(270deg);
+    opacity: 0.19;
+    text-shadow: 10px 5px #3C8D39;
+    clip: rect(42px, 9999px, 236px, 0);
+  }
+  67% {
+    -webkit-filter: hue-rotate(339deg);
+            filter: hue-rotate(339deg);
+    opacity: 0.68;
+    text-shadow: 5px 3px #3C8D39;
+    clip: rect(1px, 9999px, 228px, 0);
+  }
+  68% {
+    -webkit-filter: hue-rotate(163deg);
+            filter: hue-rotate(163deg);
+    opacity: 0.67;
+    text-shadow: 10px 3px #3C8D39;
+    clip: rect(1px, 9999px, 259px, 0);
+  }
+  69% {
+    -webkit-filter: hue-rotate(158deg);
+            filter: hue-rotate(158deg);
+    opacity: 0.43;
+    text-shadow: 5px 11px #3C8D39;
+    clip: rect(46px, 9999px, 161px, 0);
+  }
+  70% {
+    -webkit-filter: hue-rotate(189deg);
+            filter: hue-rotate(189deg);
+    opacity: 0.53;
+    text-shadow: 7px 7px #3C8D39;
+    clip: rect(57px, 9999px, 69px, 0);
+  }
+  71% {
+    -webkit-filter: hue-rotate(175deg);
+            filter: hue-rotate(175deg);
+    opacity: 0.94;
+    text-shadow: 12px 12px #3C8D39;
+    clip: rect(14px, 9999px, 185px, 0);
+  }
+  72% {
+    -webkit-filter: hue-rotate(212deg);
+            filter: hue-rotate(212deg);
+    opacity: 0.42;
+    text-shadow: 2px 5px #3C8D39;
+    clip: rect(92px, 9999px, 184px, 0);
+  }
+  73% {
+    -webkit-filter: hue-rotate(137deg);
+            filter: hue-rotate(137deg);
+    opacity: 0.83;
+    text-shadow: 3px 3px #3C8D39;
+    clip: rect(57px, 9999px, 197px, 0);
+  }
+  74% {
+    -webkit-filter: hue-rotate(333deg);
+            filter: hue-rotate(333deg);
+    opacity: 0.62;
+    text-shadow: 7px 5px #3C8D39;
+    clip: rect(60px, 9999px, 169px, 0);
+  }
+  75% {
+    -webkit-filter: hue-rotate(346deg);
+            filter: hue-rotate(346deg);
+    opacity: 0.07;
+    text-shadow: 2px 4px #3C8D39;
+    clip: rect(99px, 9999px, 52px, 0);
+  }
+  76% {
+    -webkit-filter: hue-rotate(151deg);
+            filter: hue-rotate(151deg);
+    opacity: 0.66;
+    text-shadow: 7px 10px #3C8D39;
+    clip: rect(74px, 9999px, 20px, 0);
+  }
+  77% {
+    -webkit-filter: hue-rotate(298deg);
+            filter: hue-rotate(298deg);
+    opacity: 0.88;
+    text-shadow: 1px 4px #3C8D39;
+    clip: rect(28px, 9999px, 125px, 0);
+  }
+  78% {
+    -webkit-filter: hue-rotate(243deg);
+            filter: hue-rotate(243deg);
+    opacity: 0.09;
+    text-shadow: 3px 7px #3C8D39;
+    clip: rect(25px, 9999px, 72px, 0);
+  }
+  79% {
+    -webkit-filter: hue-rotate(239deg);
+            filter: hue-rotate(239deg);
+    opacity: 0.57;
+    text-shadow: 10px 11px #3C8D39;
+    clip: rect(84px, 9999px, 189px, 0);
+  }
+  80% {
+    -webkit-filter: hue-rotate(138deg);
+            filter: hue-rotate(138deg);
+    opacity: 0.54;
+    text-shadow: 8px 11px #3C8D39;
+    clip: rect(76px, 9999px, 137px, 0);
+  }
+  81% {
+    -webkit-filter: hue-rotate(323deg);
+            filter: hue-rotate(323deg);
+    opacity: 0.87;
+    text-shadow: 8px 1px #3C8D39;
+    clip: rect(92px, 9999px, 192px, 0);
+  }
+  82% {
+    -webkit-filter: hue-rotate(330deg);
+            filter: hue-rotate(330deg);
+    opacity: 0.84;
+    text-shadow: 6px 9px #3C8D39;
+    clip: rect(30px, 9999px, 203px, 0);
+  }
+  83% {
+    -webkit-filter: hue-rotate(240deg);
+            filter: hue-rotate(240deg);
+    opacity: 0.37;
+    text-shadow: 4px 7px #3C8D39;
+    clip: rect(95px, 9999px, 65px, 0);
+  }
+  84% {
+    -webkit-filter: hue-rotate(175deg);
+            filter: hue-rotate(175deg);
+    opacity: 0.95;
+    text-shadow: 12px 6px #3C8D39;
+    clip: rect(15px, 9999px, 10px, 0);
+  }
+  85% {
+    -webkit-filter: hue-rotate(214deg);
+            filter: hue-rotate(214deg);
+    opacity: 0.87;
+    text-shadow: 1px 3px #3C8D39;
+    clip: rect(35px, 9999px, 85px, 0);
+  }
+  86% {
+    -webkit-filter: hue-rotate(50deg);
+            filter: hue-rotate(50deg);
+    opacity: 0.24;
+    text-shadow: 12px 11px #3C8D39;
+    clip: rect(54px, 9999px, 71px, 0);
+  }
+  87% {
+    -webkit-filter: hue-rotate(353deg);
+            filter: hue-rotate(353deg);
+    opacity: 0.63;
+    text-shadow: 10px 12px #3C8D39;
+    clip: rect(38px, 9999px, 82px, 0);
+  }
+  88% {
+    -webkit-filter: hue-rotate(57deg);
+            filter: hue-rotate(57deg);
+    opacity: 0.39;
+    text-shadow: 7px 7px #3C8D39;
+    clip: rect(43px, 9999px, 221px, 0);
+  }
+  89% {
+    -webkit-filter: hue-rotate(311deg);
+            filter: hue-rotate(311deg);
+    opacity: 0.23;
+    text-shadow: 10px 3px #3C8D39;
+    clip: rect(66px, 9999px, 232px, 0);
+  }
+  90% {
+    -webkit-filter: hue-rotate(107deg);
+            filter: hue-rotate(107deg);
+    opacity: 0.42;
+    text-shadow: 3px 6px #3C8D39;
+    clip: rect(72px, 9999px, 192px, 0);
+  }
+  91% {
+    -webkit-filter: hue-rotate(141deg);
+            filter: hue-rotate(141deg);
+    opacity: 0.83;
+    text-shadow: 7px 4px #3C8D39;
+    clip: rect(66px, 9999px, 135px, 0);
+  }
+  92% {
+    -webkit-filter: hue-rotate(200deg);
+            filter: hue-rotate(200deg);
+    opacity: 0.17;
+    text-shadow: 1px 4px #3C8D39;
+    clip: rect(26px, 9999px, 86px, 0);
+  }
+  93% {
+    -webkit-filter: hue-rotate(338deg);
+            filter: hue-rotate(338deg);
+    opacity: 0.4;
+    text-shadow: 11px 3px #3C8D39;
+    clip: rect(79px, 9999px, 266px, 0);
+  }
+  94% {
+    -webkit-filter: hue-rotate(86deg);
+            filter: hue-rotate(86deg);
+    opacity: 0.34;
+    text-shadow: 6px 9px #3C8D39;
+    clip: rect(9px, 9999px, 121px, 0);
+  }
+  95% {
+    -webkit-filter: hue-rotate(299deg);
+            filter: hue-rotate(299deg);
+    opacity: 0.19;
+    text-shadow: 8px 10px #3C8D39;
+    clip: rect(72px, 9999px, 102px, 0);
+  }
+  96% {
+    -webkit-filter: hue-rotate(358deg);
+            filter: hue-rotate(358deg);
+    opacity: 0.19;
+    text-shadow: 4px 8px #3C8D39;
+    clip: rect(32px, 9999px, 217px, 0);
+  }
+  97% {
+    -webkit-filter: hue-rotate(73deg);
+            filter: hue-rotate(73deg);
+    opacity: 0.41;
+    text-shadow: 9px 7px #3C8D39;
+    clip: rect(30px, 9999px, 246px, 0);
+  }
+  98% {
+    -webkit-filter: hue-rotate(241deg);
+            filter: hue-rotate(241deg);
+    opacity: 0.47;
+    text-shadow: 9px 1px #3C8D39;
+    clip: rect(61px, 9999px, 171px, 0);
+  }
+  99% {
+    -webkit-filter: hue-rotate(87deg);
+            filter: hue-rotate(87deg);
+    opacity: 0.04;
+    text-shadow: 10px 12px #3C8D39;
+    clip: rect(20px, 9999px, 106px, 0);
   }
   100% {
-    -webkit-filter: hue-rotate(360deg);
-            filter: hue-rotate(360deg);
-    text-shadow: 1px 6px blue;
-    clip: rect(49px, 9999px, 122px, 0);
+    -webkit-filter: hue-rotate(287deg);
+            filter: hue-rotate(287deg);
+    opacity: 0.21;
+    text-shadow: 12px 4px #3C8D39;
+    clip: rect(30px, 9999px, 47px, 0);
   }
 }
 
 @keyframes glitch-anim-2 {
   0% {
-    -webkit-filter: hue-rotate(296deg);
-            filter: hue-rotate(296deg);
-    text-shadow: 9px 5px blue;
-    clip: rect(9px, 9999px, 113px, 0);
+    -webkit-filter: hue-rotate(25deg);
+            filter: hue-rotate(25deg);
+    opacity: 0.88;
+    text-shadow: 11px 3px #3C8D39;
+    clip: rect(81px, 9999px, 173px, 0);
   }
   1% {
-    -webkit-filter: hue-rotate(139deg);
-            filter: hue-rotate(139deg);
-    text-shadow: 1px 3px blue;
-    clip: rect(45px, 9999px, 55px, 0);
+    -webkit-filter: hue-rotate(15deg);
+            filter: hue-rotate(15deg);
+    opacity: 0.33;
+    text-shadow: 3px 4px #3C8D39;
+    clip: rect(2px, 9999px, 103px, 0);
   }
   2% {
-    -webkit-filter: hue-rotate(251deg);
-            filter: hue-rotate(251deg);
-    text-shadow: 9px 2px blue;
-    clip: rect(62px, 9999px, 7px, 0);
+    -webkit-filter: hue-rotate(147deg);
+            filter: hue-rotate(147deg);
+    opacity: 0.27;
+    text-shadow: 7px 4px #3C8D39;
+    clip: rect(49px, 9999px, 226px, 0);
   }
   3% {
-    -webkit-filter: hue-rotate(166deg);
-            filter: hue-rotate(166deg);
-    text-shadow: 2px 2px blue;
-    clip: rect(63px, 9999px, 221px, 0);
-  }
-  4% {
-    -webkit-filter: hue-rotate(40deg);
-            filter: hue-rotate(40deg);
-    text-shadow: 4px 5px blue;
-    clip: rect(66px, 9999px, 45px, 0);
-  }
-  5% {
-    -webkit-filter: hue-rotate(58deg);
-            filter: hue-rotate(58deg);
-    text-shadow: 4px 2px blue;
-    clip: rect(56px, 9999px, 164px, 0);
-  }
-  6% {
-    -webkit-filter: hue-rotate(67deg);
-            filter: hue-rotate(67deg);
-    text-shadow: 4px 5px blue;
-    clip: rect(53px, 9999px, 117px, 0);
-  }
-  7% {
-    -webkit-filter: hue-rotate(117deg);
-            filter: hue-rotate(117deg);
-    text-shadow: 6px 9px blue;
-    clip: rect(97px, 9999px, 64px, 0);
-  }
-  8% {
-    -webkit-filter: hue-rotate(273deg);
-            filter: hue-rotate(273deg);
-    text-shadow: 9px 4px blue;
-    clip: rect(53px, 9999px, 45px, 0);
-  }
-  9% {
-    -webkit-filter: hue-rotate(284deg);
-            filter: hue-rotate(284deg);
-    text-shadow: 9px 6px blue;
-    clip: rect(85px, 9999px, 93px, 0);
-  }
-  10% {
-    -webkit-filter: hue-rotate(34deg);
-            filter: hue-rotate(34deg);
-    text-shadow: 7px 9px blue;
-    clip: rect(70px, 9999px, 269px, 0);
-  }
-  11% {
-    -webkit-filter: hue-rotate(101deg);
-            filter: hue-rotate(101deg);
-    text-shadow: 8px 3px blue;
-    clip: rect(44px, 9999px, 81px, 0);
-  }
-  12% {
-    -webkit-filter: hue-rotate(120deg);
-            filter: hue-rotate(120deg);
-    text-shadow: 10px 7px blue;
-    clip: rect(21px, 9999px, 86px, 0);
-  }
-  13% {
-    -webkit-filter: hue-rotate(162deg);
-            filter: hue-rotate(162deg);
-    text-shadow: 9px 9px blue;
-    clip: rect(54px, 9999px, 36px, 0);
-  }
-  14% {
-    -webkit-filter: hue-rotate(242deg);
-            filter: hue-rotate(242deg);
-    text-shadow: 3px 1px blue;
-    clip: rect(66px, 9999px, 182px, 0);
-  }
-  15% {
-    -webkit-filter: hue-rotate(119deg);
-            filter: hue-rotate(119deg);
-    text-shadow: 10px 7px blue;
-    clip: rect(77px, 9999px, 169px, 0);
-  }
-  16% {
-    -webkit-filter: hue-rotate(340deg);
-            filter: hue-rotate(340deg);
-    text-shadow: 1px 5px blue;
-    clip: rect(65px, 9999px, 206px, 0);
-  }
-  17% {
-    -webkit-filter: hue-rotate(159deg);
-            filter: hue-rotate(159deg);
-    text-shadow: 5px 6px blue;
-    clip: rect(17px, 9999px, 288px, 0);
-  }
-  18% {
-    -webkit-filter: hue-rotate(4deg);
-            filter: hue-rotate(4deg);
-    text-shadow: 6px 9px blue;
-    clip: rect(81px, 9999px, 72px, 0);
-  }
-  19% {
-    -webkit-filter: hue-rotate(24deg);
-            filter: hue-rotate(24deg);
-    text-shadow: 3px 5px blue;
-    clip: rect(14px, 9999px, 63px, 0);
-  }
-  20% {
-    -webkit-filter: hue-rotate(71deg);
-            filter: hue-rotate(71deg);
-    text-shadow: 9px 10px blue;
-    clip: rect(54px, 9999px, 79px, 0);
-  }
-  21% {
-    -webkit-filter: hue-rotate(110deg);
-            filter: hue-rotate(110deg);
-    text-shadow: 4px 9px blue;
-    clip: rect(70px, 9999px, 14px, 0);
-  }
-  22% {
-    -webkit-filter: hue-rotate(179deg);
-            filter: hue-rotate(179deg);
-    text-shadow: 5px 10px blue;
-    clip: rect(21px, 9999px, 185px, 0);
-  }
-  23% {
-    -webkit-filter: hue-rotate(54deg);
-            filter: hue-rotate(54deg);
-    text-shadow: 7px 7px blue;
-    clip: rect(42px, 9999px, 119px, 0);
-  }
-  24% {
-    -webkit-filter: hue-rotate(146deg);
-            filter: hue-rotate(146deg);
-    text-shadow: 7px 10px blue;
-    clip: rect(39px, 9999px, 121px, 0);
-  }
-  25% {
-    -webkit-filter: hue-rotate(247deg);
-            filter: hue-rotate(247deg);
-    text-shadow: 6px 9px blue;
-    clip: rect(94px, 9999px, 43px, 0);
-  }
-  26% {
-    -webkit-filter: hue-rotate(9deg);
-            filter: hue-rotate(9deg);
-    text-shadow: 8px 1px blue;
-    clip: rect(58px, 9999px, 246px, 0);
-  }
-  27% {
-    -webkit-filter: hue-rotate(258deg);
-            filter: hue-rotate(258deg);
-    text-shadow: 8px 10px blue;
-    clip: rect(74px, 9999px, 287px, 0);
-  }
-  28% {
-    -webkit-filter: hue-rotate(152deg);
-            filter: hue-rotate(152deg);
-    text-shadow: 1px 5px blue;
-    clip: rect(43px, 9999px, 15px, 0);
-  }
-  29% {
-    -webkit-filter: hue-rotate(187deg);
-            filter: hue-rotate(187deg);
-    text-shadow: 5px 4px blue;
-    clip: rect(35px, 9999px, 277px, 0);
-  }
-  30% {
-    -webkit-filter: hue-rotate(346deg);
-            filter: hue-rotate(346deg);
-    text-shadow: 6px 4px blue;
-    clip: rect(19px, 9999px, 199px, 0);
-  }
-  31% {
-    -webkit-filter: hue-rotate(240deg);
-            filter: hue-rotate(240deg);
-    text-shadow: 8px 10px blue;
-    clip: rect(89px, 9999px, 288px, 0);
-  }
-  32% {
-    -webkit-filter: hue-rotate(267deg);
-            filter: hue-rotate(267deg);
-    text-shadow: 6px 5px blue;
-    clip: rect(63px, 9999px, 57px, 0);
-  }
-  33% {
-    -webkit-filter: hue-rotate(190deg);
-            filter: hue-rotate(190deg);
-    text-shadow: 10px 2px blue;
-    clip: rect(60px, 9999px, 238px, 0);
-  }
-  34% {
-    -webkit-filter: hue-rotate(109deg);
-            filter: hue-rotate(109deg);
-    text-shadow: 8px 9px blue;
-    clip: rect(70px, 9999px, 258px, 0);
-  }
-  35% {
-    -webkit-filter: hue-rotate(297deg);
-            filter: hue-rotate(297deg);
-    text-shadow: 6px 4px blue;
-    clip: rect(13px, 9999px, 247px, 0);
-  }
-  36% {
-    -webkit-filter: hue-rotate(323deg);
-            filter: hue-rotate(323deg);
-    text-shadow: 5px 4px blue;
-    clip: rect(64px, 9999px, 288px, 0);
-  }
-  37% {
-    -webkit-filter: hue-rotate(239deg);
-            filter: hue-rotate(239deg);
-    text-shadow: 7px 4px blue;
-    clip: rect(49px, 9999px, 94px, 0);
-  }
-  38% {
-    -webkit-filter: hue-rotate(79deg);
-            filter: hue-rotate(79deg);
-    text-shadow: 2px 5px blue;
-    clip: rect(93px, 9999px, 216px, 0);
-  }
-  39% {
-    -webkit-filter: hue-rotate(253deg);
-            filter: hue-rotate(253deg);
-    text-shadow: 8px 5px blue;
-    clip: rect(19px, 9999px, 238px, 0);
-  }
-  40% {
-    -webkit-filter: hue-rotate(21deg);
-            filter: hue-rotate(21deg);
-    text-shadow: 1px 3px blue;
-    clip: rect(11px, 9999px, 40px, 0);
-  }
-  41% {
-    -webkit-filter: hue-rotate(359deg);
-            filter: hue-rotate(359deg);
-    text-shadow: 1px 6px blue;
-    clip: rect(7px, 9999px, 19px, 0);
-  }
-  42% {
-    -webkit-filter: hue-rotate(131deg);
-            filter: hue-rotate(131deg);
-    text-shadow: 10px 3px blue;
-    clip: rect(90px, 9999px, 44px, 0);
-  }
-  43% {
-    -webkit-filter: hue-rotate(135deg);
-            filter: hue-rotate(135deg);
-    text-shadow: 5px 7px blue;
-    clip: rect(93px, 9999px, 299px, 0);
-  }
-  44% {
-    -webkit-filter: hue-rotate(356deg);
-            filter: hue-rotate(356deg);
-    text-shadow: 2px 9px blue;
-    clip: rect(19px, 9999px, 77px, 0);
-  }
-  45% {
-    -webkit-filter: hue-rotate(297deg);
-            filter: hue-rotate(297deg);
-    text-shadow: 9px 4px blue;
-    clip: rect(16px, 9999px, 16px, 0);
-  }
-  46% {
-    -webkit-filter: hue-rotate(291deg);
-            filter: hue-rotate(291deg);
-    text-shadow: 10px 7px blue;
-    clip: rect(28px, 9999px, 142px, 0);
-  }
-  47% {
-    -webkit-filter: hue-rotate(295deg);
-            filter: hue-rotate(295deg);
-    text-shadow: 3px 3px blue;
-    clip: rect(21px, 9999px, 52px, 0);
-  }
-  48% {
-    -webkit-filter: hue-rotate(184deg);
-            filter: hue-rotate(184deg);
-    text-shadow: 8px 9px blue;
-    clip: rect(85px, 9999px, 276px, 0);
-  }
-  49% {
-    -webkit-filter: hue-rotate(305deg);
-            filter: hue-rotate(305deg);
-    text-shadow: 8px 4px blue;
-    clip: rect(69px, 9999px, 5px, 0);
-  }
-  50% {
-    -webkit-filter: hue-rotate(48deg);
-            filter: hue-rotate(48deg);
-    text-shadow: 1px 9px blue;
-    clip: rect(6px, 9999px, 43px, 0);
-  }
-  51% {
-    -webkit-filter: hue-rotate(248deg);
-            filter: hue-rotate(248deg);
-    text-shadow: 4px 10px blue;
-    clip: rect(25px, 9999px, 222px, 0);
-  }
-  52% {
-    -webkit-filter: hue-rotate(150deg);
-            filter: hue-rotate(150deg);
-    text-shadow: 9px 9px blue;
-    clip: rect(70px, 9999px, 203px, 0);
-  }
-  53% {
-    -webkit-filter: hue-rotate(192deg);
-            filter: hue-rotate(192deg);
-    text-shadow: 10px 10px blue;
-    clip: rect(35px, 9999px, 69px, 0);
-  }
-  54% {
-    -webkit-filter: hue-rotate(129deg);
-            filter: hue-rotate(129deg);
-    text-shadow: 8px 7px blue;
-    clip: rect(67px, 9999px, 74px, 0);
-  }
-  55% {
-    -webkit-filter: hue-rotate(92deg);
-            filter: hue-rotate(92deg);
-    text-shadow: 10px 1px blue;
-    clip: rect(90px, 9999px, 228px, 0);
-  }
-  56% {
-    -webkit-filter: hue-rotate(83deg);
-            filter: hue-rotate(83deg);
-    text-shadow: 10px 4px blue;
-    clip: rect(40px, 9999px, 189px, 0);
-  }
-  57% {
-    -webkit-filter: hue-rotate(126deg);
-            filter: hue-rotate(126deg);
-    text-shadow: 4px 4px blue;
-    clip: rect(4px, 9999px, 271px, 0);
-  }
-  58% {
-    -webkit-filter: hue-rotate(147deg);
-            filter: hue-rotate(147deg);
-    text-shadow: 10px 1px blue;
-    clip: rect(90px, 9999px, 100px, 0);
-  }
-  59% {
-    -webkit-filter: hue-rotate(72deg);
-            filter: hue-rotate(72deg);
-    text-shadow: 6px 9px blue;
-    clip: rect(26px, 9999px, 195px, 0);
-  }
-  60% {
-    -webkit-filter: hue-rotate(326deg);
-            filter: hue-rotate(326deg);
-    text-shadow: 10px 8px blue;
-    clip: rect(53px, 9999px, 80px, 0);
-  }
-  61% {
-    -webkit-filter: hue-rotate(179deg);
-            filter: hue-rotate(179deg);
-    text-shadow: 2px 1px blue;
-    clip: rect(37px, 9999px, 16px, 0);
-  }
-  62% {
-    -webkit-filter: hue-rotate(172deg);
-            filter: hue-rotate(172deg);
-    text-shadow: 3px 7px blue;
-    clip: rect(20px, 9999px, 96px, 0);
-  }
-  63% {
-    -webkit-filter: hue-rotate(194deg);
-            filter: hue-rotate(194deg);
-    text-shadow: 3px 7px blue;
-    clip: rect(68px, 9999px, 284px, 0);
-  }
-  64% {
-    -webkit-filter: hue-rotate(147deg);
-            filter: hue-rotate(147deg);
-    text-shadow: 10px 8px blue;
-    clip: rect(38px, 9999px, 158px, 0);
-  }
-  65% {
-    -webkit-filter: hue-rotate(275deg);
-            filter: hue-rotate(275deg);
-    text-shadow: 4px 8px blue;
-    clip: rect(52px, 9999px, 188px, 0);
-  }
-  66% {
-    -webkit-filter: hue-rotate(277deg);
-            filter: hue-rotate(277deg);
-    text-shadow: 9px 2px blue;
-    clip: rect(58px, 9999px, 274px, 0);
-  }
-  67% {
-    -webkit-filter: hue-rotate(223deg);
-            filter: hue-rotate(223deg);
-    text-shadow: 2px 1px blue;
-    clip: rect(32px, 9999px, 79px, 0);
-  }
-  68% {
-    -webkit-filter: hue-rotate(359deg);
-            filter: hue-rotate(359deg);
-    text-shadow: 7px 1px blue;
-    clip: rect(95px, 9999px, 254px, 0);
-  }
-  69% {
-    -webkit-filter: hue-rotate(314deg);
-            filter: hue-rotate(314deg);
-    text-shadow: 4px 6px blue;
-    clip: rect(82px, 9999px, 111px, 0);
-  }
-  70% {
-    -webkit-filter: hue-rotate(320deg);
-            filter: hue-rotate(320deg);
-    text-shadow: 2px 7px blue;
-    clip: rect(8px, 9999px, 230px, 0);
-  }
-  71% {
-    -webkit-filter: hue-rotate(317deg);
-            filter: hue-rotate(317deg);
-    text-shadow: 6px 1px blue;
-    clip: rect(61px, 9999px, 208px, 0);
-  }
-  72% {
-    -webkit-filter: hue-rotate(321deg);
-            filter: hue-rotate(321deg);
-    text-shadow: 1px 10px blue;
-    clip: rect(49px, 9999px, 294px, 0);
-  }
-  73% {
-    -webkit-filter: hue-rotate(232deg);
-            filter: hue-rotate(232deg);
-    text-shadow: 1px 9px blue;
-    clip: rect(43px, 9999px, 37px, 0);
-  }
-  74% {
-    -webkit-filter: hue-rotate(274deg);
-            filter: hue-rotate(274deg);
-    text-shadow: 5px 5px blue;
-    clip: rect(45px, 9999px, 178px, 0);
-  }
-  75% {
-    -webkit-filter: hue-rotate(202deg);
-            filter: hue-rotate(202deg);
-    text-shadow: 3px 1px blue;
-    clip: rect(12px, 9999px, 48px, 0);
-  }
-  76% {
-    -webkit-filter: hue-rotate(252deg);
-            filter: hue-rotate(252deg);
-    text-shadow: 10px 10px blue;
-    clip: rect(37px, 9999px, 83px, 0);
-  }
-  77% {
-    -webkit-filter: hue-rotate(107deg);
-            filter: hue-rotate(107deg);
-    text-shadow: 10px 1px blue;
-    clip: rect(24px, 9999px, 234px, 0);
-  }
-  78% {
-    -webkit-filter: hue-rotate(137deg);
-            filter: hue-rotate(137deg);
-    text-shadow: 6px 6px blue;
-    clip: rect(1px, 9999px, 153px, 0);
-  }
-  79% {
-    -webkit-filter: hue-rotate(359deg);
-            filter: hue-rotate(359deg);
-    text-shadow: 4px 10px blue;
-    clip: rect(30px, 9999px, 128px, 0);
-  }
-  80% {
-    -webkit-filter: hue-rotate(308deg);
-            filter: hue-rotate(308deg);
-    text-shadow: 7px 1px blue;
-    clip: rect(69px, 9999px, 128px, 0);
-  }
-  81% {
-    -webkit-filter: hue-rotate(37deg);
-            filter: hue-rotate(37deg);
-    text-shadow: 3px 10px blue;
-    clip: rect(27px, 9999px, 158px, 0);
-  }
-  82% {
-    -webkit-filter: hue-rotate(127deg);
-            filter: hue-rotate(127deg);
-    text-shadow: 4px 4px blue;
-    clip: rect(87px, 9999px, 51px, 0);
-  }
-  83% {
-    -webkit-filter: hue-rotate(249deg);
-            filter: hue-rotate(249deg);
-    text-shadow: 8px 9px blue;
-    clip: rect(8px, 9999px, 47px, 0);
-  }
-  84% {
-    -webkit-filter: hue-rotate(46deg);
-            filter: hue-rotate(46deg);
-    text-shadow: 9px 5px blue;
-    clip: rect(83px, 9999px, 54px, 0);
-  }
-  85% {
-    -webkit-filter: hue-rotate(76deg);
-            filter: hue-rotate(76deg);
-    text-shadow: 9px 4px blue;
-    clip: rect(60px, 9999px, 132px, 0);
-  }
-  86% {
-    -webkit-filter: hue-rotate(268deg);
-            filter: hue-rotate(268deg);
-    text-shadow: 2px 3px blue;
-    clip: rect(46px, 9999px, 227px, 0);
-  }
-  87% {
-    -webkit-filter: hue-rotate(52deg);
-            filter: hue-rotate(52deg);
-    text-shadow: 3px 6px blue;
-    clip: rect(75px, 9999px, 240px, 0);
-  }
-  88% {
-    -webkit-filter: hue-rotate(212deg);
-            filter: hue-rotate(212deg);
-    text-shadow: 10px 4px blue;
-    clip: rect(45px, 9999px, 49px, 0);
-  }
-  89% {
-    -webkit-filter: hue-rotate(288deg);
-            filter: hue-rotate(288deg);
-    text-shadow: 7px 1px blue;
-    clip: rect(96px, 9999px, 110px, 0);
-  }
-  90% {
-    -webkit-filter: hue-rotate(130deg);
-            filter: hue-rotate(130deg);
-    text-shadow: 2px 6px blue;
-    clip: rect(60px, 9999px, 128px, 0);
-  }
-  91% {
-    -webkit-filter: hue-rotate(225deg);
-            filter: hue-rotate(225deg);
-    text-shadow: 6px 10px blue;
-    clip: rect(42px, 9999px, 239px, 0);
-  }
-  92% {
-    -webkit-filter: hue-rotate(19deg);
-            filter: hue-rotate(19deg);
-    text-shadow: 7px 4px blue;
-    clip: rect(43px, 9999px, 177px, 0);
-  }
-  93% {
-    -webkit-filter: hue-rotate(110deg);
-            filter: hue-rotate(110deg);
-    text-shadow: 4px 4px blue;
-    clip: rect(8px, 9999px, 79px, 0);
-  }
-  94% {
     -webkit-filter: hue-rotate(358deg);
             filter: hue-rotate(358deg);
-    text-shadow: 5px 5px blue;
-    clip: rect(100px, 9999px, 193px, 0);
+    opacity: 0.52;
+    text-shadow: 1px 3px #3C8D39;
+    clip: rect(22px, 9999px, 298px, 0);
   }
-  95% {
-    -webkit-filter: hue-rotate(246deg);
-            filter: hue-rotate(246deg);
-    text-shadow: 7px 6px blue;
-    clip: rect(90px, 9999px, 235px, 0);
+  4% {
+    -webkit-filter: hue-rotate(170deg);
+            filter: hue-rotate(170deg);
+    opacity: 0.48;
+    text-shadow: 12px 11px #3C8D39;
+    clip: rect(60px, 9999px, 238px, 0);
   }
-  96% {
-    -webkit-filter: hue-rotate(178deg);
-            filter: hue-rotate(178deg);
-    text-shadow: 8px 4px blue;
-    clip: rect(70px, 9999px, 217px, 0);
+  5% {
+    -webkit-filter: hue-rotate(32deg);
+            filter: hue-rotate(32deg);
+    opacity: 0.38;
+    text-shadow: 5px 3px #3C8D39;
+    clip: rect(65px, 9999px, 217px, 0);
   }
-  97% {
-    -webkit-filter: hue-rotate(308deg);
-            filter: hue-rotate(308deg);
-    text-shadow: 7px 1px blue;
-    clip: rect(84px, 9999px, 195px, 0);
+  6% {
+    -webkit-filter: hue-rotate(21deg);
+            filter: hue-rotate(21deg);
+    opacity: 0.67;
+    text-shadow: 10px 1px #3C8D39;
+    clip: rect(29px, 9999px, 87px, 0);
   }
-  98% {
+  7% {
+    -webkit-filter: hue-rotate(26deg);
+            filter: hue-rotate(26deg);
+    opacity: 0.63;
+    text-shadow: 9px 3px #3C8D39;
+    clip: rect(46px, 9999px, 164px, 0);
+  }
+  8% {
+    -webkit-filter: hue-rotate(238deg);
+            filter: hue-rotate(238deg);
+    opacity: 0.04;
+    text-shadow: 1px 12px #3C8D39;
+    clip: rect(64px, 9999px, 175px, 0);
+  }
+  9% {
+    -webkit-filter: hue-rotate(212deg);
+            filter: hue-rotate(212deg);
+    opacity: 0.43;
+    text-shadow: 4px 1px #3C8D39;
+    clip: rect(79px, 9999px, 252px, 0);
+  }
+  10% {
+    -webkit-filter: hue-rotate(160deg);
+            filter: hue-rotate(160deg);
+    opacity: 0.75;
+    text-shadow: 10px 8px #3C8D39;
+    clip: rect(16px, 9999px, 230px, 0);
+  }
+  11% {
+    -webkit-filter: hue-rotate(327deg);
+            filter: hue-rotate(327deg);
+    opacity: 0.38;
+    text-shadow: 7px 11px #3C8D39;
+    clip: rect(48px, 9999px, 185px, 0);
+  }
+  12% {
     -webkit-filter: hue-rotate(72deg);
             filter: hue-rotate(72deg);
-    text-shadow: 7px 5px blue;
-    clip: rect(90px, 9999px, 224px, 0);
+    opacity: 0.53;
+    text-shadow: 11px 12px #3C8D39;
+    clip: rect(16px, 9999px, 14px, 0);
   }
-  99% {
+  13% {
+    -webkit-filter: hue-rotate(219deg);
+            filter: hue-rotate(219deg);
+    opacity: 0.28;
+    text-shadow: 2px 3px #3C8D39;
+    clip: rect(22px, 9999px, 56px, 0);
+  }
+  14% {
+    -webkit-filter: hue-rotate(70deg);
+            filter: hue-rotate(70deg);
+    opacity: 0.41;
+    text-shadow: 3px 5px #3C8D39;
+    clip: rect(49px, 9999px, 243px, 0);
+  }
+  15% {
+    -webkit-filter: hue-rotate(239deg);
+            filter: hue-rotate(239deg);
+    opacity: 0.47;
+    text-shadow: 10px 4px #3C8D39;
+    clip: rect(77px, 9999px, 133px, 0);
+  }
+  16% {
+    -webkit-filter: hue-rotate(290deg);
+            filter: hue-rotate(290deg);
+    opacity: 0.08;
+    text-shadow: 1px 5px #3C8D39;
+    clip: rect(70px, 9999px, 179px, 0);
+  }
+  17% {
+    -webkit-filter: hue-rotate(189deg);
+            filter: hue-rotate(189deg);
+    opacity: 0.59;
+    text-shadow: 5px 4px #3C8D39;
+    clip: rect(32px, 9999px, 291px, 0);
+  }
+  18% {
+    -webkit-filter: hue-rotate(17deg);
+            filter: hue-rotate(17deg);
+    opacity: 0.58;
+    text-shadow: 10px 10px #3C8D39;
+    clip: rect(40px, 9999px, 81px, 0);
+  }
+  19% {
+    -webkit-filter: hue-rotate(357deg);
+            filter: hue-rotate(357deg);
+    opacity: 0.38;
+    text-shadow: 10px 11px #3C8D39;
+    clip: rect(48px, 9999px, 265px, 0);
+  }
+  20% {
+    -webkit-filter: hue-rotate(342deg);
+            filter: hue-rotate(342deg);
+    opacity: 0.46;
+    text-shadow: 8px 7px #3C8D39;
+    clip: rect(93px, 9999px, 156px, 0);
+  }
+  21% {
+    -webkit-filter: hue-rotate(217deg);
+            filter: hue-rotate(217deg);
+    opacity: 0.86;
+    text-shadow: 3px 3px #3C8D39;
+    clip: rect(49px, 9999px, 86px, 0);
+  }
+  22% {
+    -webkit-filter: hue-rotate(277deg);
+            filter: hue-rotate(277deg);
+    opacity: 0.75;
+    text-shadow: 7px 8px #3C8D39;
+    clip: rect(48px, 9999px, 222px, 0);
+  }
+  23% {
+    -webkit-filter: hue-rotate(240deg);
+            filter: hue-rotate(240deg);
+    opacity: 0.23;
+    text-shadow: 6px 9px #3C8D39;
+    clip: rect(13px, 9999px, 223px, 0);
+  }
+  24% {
+    -webkit-filter: hue-rotate(322deg);
+            filter: hue-rotate(322deg);
+    opacity: 0.87;
+    text-shadow: 8px 9px #3C8D39;
+    clip: rect(48px, 9999px, 58px, 0);
+  }
+  25% {
+    -webkit-filter: hue-rotate(75deg);
+            filter: hue-rotate(75deg);
+    opacity: 0.54;
+    text-shadow: 7px 10px #3C8D39;
+    clip: rect(22px, 9999px, 196px, 0);
+  }
+  26% {
+    -webkit-filter: hue-rotate(248deg);
+            filter: hue-rotate(248deg);
+    opacity: 0.36;
+    text-shadow: 12px 7px #3C8D39;
+    clip: rect(70px, 9999px, 31px, 0);
+  }
+  27% {
+    -webkit-filter: hue-rotate(133deg);
+            filter: hue-rotate(133deg);
+    opacity: 0.25;
+    text-shadow: 2px 4px #3C8D39;
+    clip: rect(20px, 9999px, 191px, 0);
+  }
+  28% {
+    -webkit-filter: hue-rotate(351deg);
+            filter: hue-rotate(351deg);
+    opacity: 0.91;
+    text-shadow: 8px 4px #3C8D39;
+    clip: rect(90px, 9999px, 92px, 0);
+  }
+  29% {
+    -webkit-filter: hue-rotate(190deg);
+            filter: hue-rotate(190deg);
+    opacity: 0.56;
+    text-shadow: 1px 12px #3C8D39;
+    clip: rect(95px, 9999px, 161px, 0);
+  }
+  30% {
+    -webkit-filter: hue-rotate(345deg);
+            filter: hue-rotate(345deg);
+    opacity: 0.15;
+    text-shadow: 3px 8px #3C8D39;
+    clip: rect(17px, 9999px, 111px, 0);
+  }
+  31% {
+    -webkit-filter: hue-rotate(305deg);
+            filter: hue-rotate(305deg);
+    opacity: 0.54;
+    text-shadow: 12px 11px #3C8D39;
+    clip: rect(2px, 9999px, 286px, 0);
+  }
+  32% {
+    -webkit-filter: hue-rotate(83deg);
+            filter: hue-rotate(83deg);
+    opacity: 0.75;
+    text-shadow: 5px 11px #3C8D39;
+    clip: rect(39px, 9999px, 2px, 0);
+  }
+  33% {
+    -webkit-filter: hue-rotate(133deg);
+            filter: hue-rotate(133deg);
+    opacity: 0.76;
+    text-shadow: 2px 9px #3C8D39;
+    clip: rect(52px, 9999px, 109px, 0);
+  }
+  34% {
+    -webkit-filter: hue-rotate(89deg);
+            filter: hue-rotate(89deg);
+    opacity: 0.99;
+    text-shadow: 7px 1px #3C8D39;
+    clip: rect(42px, 9999px, 239px, 0);
+  }
+  35% {
+    -webkit-filter: hue-rotate(155deg);
+            filter: hue-rotate(155deg);
+    opacity: 0.01;
+    text-shadow: 2px 12px #3C8D39;
+    clip: rect(34px, 9999px, 126px, 0);
+  }
+  36% {
+    -webkit-filter: hue-rotate(35deg);
+            filter: hue-rotate(35deg);
+    opacity: 0.89;
+    text-shadow: 7px 12px #3C8D39;
+    clip: rect(61px, 9999px, 223px, 0);
+  }
+  37% {
+    -webkit-filter: hue-rotate(110deg);
+            filter: hue-rotate(110deg);
+    opacity: 0.15;
+    text-shadow: 3px 10px #3C8D39;
+    clip: rect(18px, 9999px, 179px, 0);
+  }
+  38% {
+    -webkit-filter: hue-rotate(356deg);
+            filter: hue-rotate(356deg);
+    opacity: 0.23;
+    text-shadow: 2px 10px #3C8D39;
+    clip: rect(18px, 9999px, 218px, 0);
+  }
+  39% {
+    -webkit-filter: hue-rotate(225deg);
+            filter: hue-rotate(225deg);
+    opacity: 0.16;
+    text-shadow: 11px 7px #3C8D39;
+    clip: rect(73px, 9999px, 70px, 0);
+  }
+  40% {
+    -webkit-filter: hue-rotate(149deg);
+            filter: hue-rotate(149deg);
+    opacity: 0.1;
+    text-shadow: 12px 2px #3C8D39;
+    clip: rect(55px, 9999px, 225px, 0);
+  }
+  41% {
+    -webkit-filter: hue-rotate(273deg);
+            filter: hue-rotate(273deg);
+    opacity: 0.4;
+    text-shadow: 5px 5px #3C8D39;
+    clip: rect(43px, 9999px, 15px, 0);
+  }
+  42% {
+    -webkit-filter: hue-rotate(314deg);
+            filter: hue-rotate(314deg);
+    opacity: 0.29;
+    text-shadow: 9px 12px #3C8D39;
+    clip: rect(3px, 9999px, 284px, 0);
+  }
+  43% {
+    -webkit-filter: hue-rotate(167deg);
+            filter: hue-rotate(167deg);
+    opacity: 0.37;
+    text-shadow: 11px 7px #3C8D39;
+    clip: rect(42px, 9999px, 268px, 0);
+  }
+  44% {
+    -webkit-filter: hue-rotate(173deg);
+            filter: hue-rotate(173deg);
+    opacity: 0.9;
+    text-shadow: 5px 11px #3C8D39;
+    clip: rect(35px, 9999px, 20px, 0);
+  }
+  45% {
+    -webkit-filter: hue-rotate(257deg);
+            filter: hue-rotate(257deg);
+    opacity: 0.35;
+    text-shadow: 9px 3px #3C8D39;
+    clip: rect(27px, 9999px, 261px, 0);
+  }
+  46% {
+    -webkit-filter: hue-rotate(312deg);
+            filter: hue-rotate(312deg);
+    opacity: 0.19;
+    text-shadow: 11px 6px #3C8D39;
+    clip: rect(4px, 9999px, 13px, 0);
+  }
+  47% {
+    -webkit-filter: hue-rotate(120deg);
+            filter: hue-rotate(120deg);
+    opacity: 0.84;
+    text-shadow: 7px 3px #3C8D39;
+    clip: rect(32px, 9999px, 65px, 0);
+  }
+  48% {
     -webkit-filter: hue-rotate(127deg);
             filter: hue-rotate(127deg);
-    text-shadow: 6px 5px blue;
-    clip: rect(59px, 9999px, 76px, 0);
+    opacity: 0.02;
+    text-shadow: 10px 12px #3C8D39;
+    clip: rect(53px, 9999px, 95px, 0);
+  }
+  49% {
+    -webkit-filter: hue-rotate(351deg);
+            filter: hue-rotate(351deg);
+    opacity: 0.17;
+    text-shadow: 4px 9px #3C8D39;
+    clip: rect(7px, 9999px, 63px, 0);
+  }
+  50% {
+    -webkit-filter: hue-rotate(250deg);
+            filter: hue-rotate(250deg);
+    opacity: 0.17;
+    text-shadow: 10px 12px #3C8D39;
+    clip: rect(15px, 9999px, 231px, 0);
+  }
+  51% {
+    -webkit-filter: hue-rotate(36deg);
+            filter: hue-rotate(36deg);
+    opacity: 0.27;
+    text-shadow: 3px 7px #3C8D39;
+    clip: rect(94px, 9999px, 8px, 0);
+  }
+  52% {
+    -webkit-filter: hue-rotate(77deg);
+            filter: hue-rotate(77deg);
+    opacity: 0.34;
+    text-shadow: 8px 4px #3C8D39;
+    clip: rect(68px, 9999px, 11px, 0);
+  }
+  53% {
+    -webkit-filter: hue-rotate(64deg);
+            filter: hue-rotate(64deg);
+    opacity: 0.74;
+    text-shadow: 2px 10px #3C8D39;
+    clip: rect(61px, 9999px, 11px, 0);
+  }
+  54% {
+    -webkit-filter: hue-rotate(170deg);
+            filter: hue-rotate(170deg);
+    opacity: 0.08;
+    text-shadow: 1px 7px #3C8D39;
+    clip: rect(52px, 9999px, 100px, 0);
+  }
+  55% {
+    -webkit-filter: hue-rotate(155deg);
+            filter: hue-rotate(155deg);
+    opacity: 0.19;
+    text-shadow: 11px 3px #3C8D39;
+    clip: rect(79px, 9999px, 216px, 0);
+  }
+  56% {
+    -webkit-filter: hue-rotate(163deg);
+            filter: hue-rotate(163deg);
+    opacity: 0.14;
+    text-shadow: 4px 6px #3C8D39;
+    clip: rect(30px, 9999px, 168px, 0);
+  }
+  57% {
+    -webkit-filter: hue-rotate(139deg);
+            filter: hue-rotate(139deg);
+    opacity: 0.92;
+    text-shadow: 11px 11px #3C8D39;
+    clip: rect(70px, 9999px, 128px, 0);
+  }
+  58% {
+    -webkit-filter: hue-rotate(159deg);
+            filter: hue-rotate(159deg);
+    opacity: 0.19;
+    text-shadow: 2px 3px #3C8D39;
+    clip: rect(11px, 9999px, 130px, 0);
+  }
+  59% {
+    -webkit-filter: hue-rotate(170deg);
+            filter: hue-rotate(170deg);
+    opacity: 0.17;
+    text-shadow: 6px 4px #3C8D39;
+    clip: rect(17px, 9999px, 275px, 0);
+  }
+  60% {
+    -webkit-filter: hue-rotate(198deg);
+            filter: hue-rotate(198deg);
+    opacity: 0.54;
+    text-shadow: 10px 12px #3C8D39;
+    clip: rect(98px, 9999px, 200px, 0);
+  }
+  61% {
+    -webkit-filter: hue-rotate(18deg);
+            filter: hue-rotate(18deg);
+    opacity: 0.62;
+    text-shadow: 12px 6px #3C8D39;
+    clip: rect(96px, 9999px, 289px, 0);
+  }
+  62% {
+    -webkit-filter: hue-rotate(315deg);
+            filter: hue-rotate(315deg);
+    opacity: 0.11;
+    text-shadow: 6px 11px #3C8D39;
+    clip: rect(95px, 9999px, 119px, 0);
+  }
+  63% {
+    -webkit-filter: hue-rotate(200deg);
+            filter: hue-rotate(200deg);
+    opacity: 0.51;
+    text-shadow: 11px 10px #3C8D39;
+    clip: rect(62px, 9999px, 39px, 0);
+  }
+  64% {
+    -webkit-filter: hue-rotate(241deg);
+            filter: hue-rotate(241deg);
+    opacity: 0.4;
+    text-shadow: 5px 5px #3C8D39;
+    clip: rect(53px, 9999px, 25px, 0);
+  }
+  65% {
+    -webkit-filter: hue-rotate(232deg);
+            filter: hue-rotate(232deg);
+    opacity: 0.45;
+    text-shadow: 3px 12px #3C8D39;
+    clip: rect(14px, 9999px, 261px, 0);
+  }
+  66% {
+    -webkit-filter: hue-rotate(270deg);
+            filter: hue-rotate(270deg);
+    opacity: 0.19;
+    text-shadow: 10px 5px #3C8D39;
+    clip: rect(42px, 9999px, 236px, 0);
+  }
+  67% {
+    -webkit-filter: hue-rotate(339deg);
+            filter: hue-rotate(339deg);
+    opacity: 0.68;
+    text-shadow: 5px 3px #3C8D39;
+    clip: rect(1px, 9999px, 228px, 0);
+  }
+  68% {
+    -webkit-filter: hue-rotate(163deg);
+            filter: hue-rotate(163deg);
+    opacity: 0.67;
+    text-shadow: 10px 3px #3C8D39;
+    clip: rect(1px, 9999px, 259px, 0);
+  }
+  69% {
+    -webkit-filter: hue-rotate(158deg);
+            filter: hue-rotate(158deg);
+    opacity: 0.43;
+    text-shadow: 5px 11px #3C8D39;
+    clip: rect(46px, 9999px, 161px, 0);
+  }
+  70% {
+    -webkit-filter: hue-rotate(189deg);
+            filter: hue-rotate(189deg);
+    opacity: 0.53;
+    text-shadow: 7px 7px #3C8D39;
+    clip: rect(57px, 9999px, 69px, 0);
+  }
+  71% {
+    -webkit-filter: hue-rotate(175deg);
+            filter: hue-rotate(175deg);
+    opacity: 0.94;
+    text-shadow: 12px 12px #3C8D39;
+    clip: rect(14px, 9999px, 185px, 0);
+  }
+  72% {
+    -webkit-filter: hue-rotate(212deg);
+            filter: hue-rotate(212deg);
+    opacity: 0.42;
+    text-shadow: 2px 5px #3C8D39;
+    clip: rect(92px, 9999px, 184px, 0);
+  }
+  73% {
+    -webkit-filter: hue-rotate(137deg);
+            filter: hue-rotate(137deg);
+    opacity: 0.83;
+    text-shadow: 3px 3px #3C8D39;
+    clip: rect(57px, 9999px, 197px, 0);
+  }
+  74% {
+    -webkit-filter: hue-rotate(333deg);
+            filter: hue-rotate(333deg);
+    opacity: 0.62;
+    text-shadow: 7px 5px #3C8D39;
+    clip: rect(60px, 9999px, 169px, 0);
+  }
+  75% {
+    -webkit-filter: hue-rotate(346deg);
+            filter: hue-rotate(346deg);
+    opacity: 0.07;
+    text-shadow: 2px 4px #3C8D39;
+    clip: rect(99px, 9999px, 52px, 0);
+  }
+  76% {
+    -webkit-filter: hue-rotate(151deg);
+            filter: hue-rotate(151deg);
+    opacity: 0.66;
+    text-shadow: 7px 10px #3C8D39;
+    clip: rect(74px, 9999px, 20px, 0);
+  }
+  77% {
+    -webkit-filter: hue-rotate(298deg);
+            filter: hue-rotate(298deg);
+    opacity: 0.88;
+    text-shadow: 1px 4px #3C8D39;
+    clip: rect(28px, 9999px, 125px, 0);
+  }
+  78% {
+    -webkit-filter: hue-rotate(243deg);
+            filter: hue-rotate(243deg);
+    opacity: 0.09;
+    text-shadow: 3px 7px #3C8D39;
+    clip: rect(25px, 9999px, 72px, 0);
+  }
+  79% {
+    -webkit-filter: hue-rotate(239deg);
+            filter: hue-rotate(239deg);
+    opacity: 0.57;
+    text-shadow: 10px 11px #3C8D39;
+    clip: rect(84px, 9999px, 189px, 0);
+  }
+  80% {
+    -webkit-filter: hue-rotate(138deg);
+            filter: hue-rotate(138deg);
+    opacity: 0.54;
+    text-shadow: 8px 11px #3C8D39;
+    clip: rect(76px, 9999px, 137px, 0);
+  }
+  81% {
+    -webkit-filter: hue-rotate(323deg);
+            filter: hue-rotate(323deg);
+    opacity: 0.87;
+    text-shadow: 8px 1px #3C8D39;
+    clip: rect(92px, 9999px, 192px, 0);
+  }
+  82% {
+    -webkit-filter: hue-rotate(330deg);
+            filter: hue-rotate(330deg);
+    opacity: 0.84;
+    text-shadow: 6px 9px #3C8D39;
+    clip: rect(30px, 9999px, 203px, 0);
+  }
+  83% {
+    -webkit-filter: hue-rotate(240deg);
+            filter: hue-rotate(240deg);
+    opacity: 0.37;
+    text-shadow: 4px 7px #3C8D39;
+    clip: rect(95px, 9999px, 65px, 0);
+  }
+  84% {
+    -webkit-filter: hue-rotate(175deg);
+            filter: hue-rotate(175deg);
+    opacity: 0.95;
+    text-shadow: 12px 6px #3C8D39;
+    clip: rect(15px, 9999px, 10px, 0);
+  }
+  85% {
+    -webkit-filter: hue-rotate(214deg);
+            filter: hue-rotate(214deg);
+    opacity: 0.87;
+    text-shadow: 1px 3px #3C8D39;
+    clip: rect(35px, 9999px, 85px, 0);
+  }
+  86% {
+    -webkit-filter: hue-rotate(50deg);
+            filter: hue-rotate(50deg);
+    opacity: 0.24;
+    text-shadow: 12px 11px #3C8D39;
+    clip: rect(54px, 9999px, 71px, 0);
+  }
+  87% {
+    -webkit-filter: hue-rotate(353deg);
+            filter: hue-rotate(353deg);
+    opacity: 0.63;
+    text-shadow: 10px 12px #3C8D39;
+    clip: rect(38px, 9999px, 82px, 0);
+  }
+  88% {
+    -webkit-filter: hue-rotate(57deg);
+            filter: hue-rotate(57deg);
+    opacity: 0.39;
+    text-shadow: 7px 7px #3C8D39;
+    clip: rect(43px, 9999px, 221px, 0);
+  }
+  89% {
+    -webkit-filter: hue-rotate(311deg);
+            filter: hue-rotate(311deg);
+    opacity: 0.23;
+    text-shadow: 10px 3px #3C8D39;
+    clip: rect(66px, 9999px, 232px, 0);
+  }
+  90% {
+    -webkit-filter: hue-rotate(107deg);
+            filter: hue-rotate(107deg);
+    opacity: 0.42;
+    text-shadow: 3px 6px #3C8D39;
+    clip: rect(72px, 9999px, 192px, 0);
+  }
+  91% {
+    -webkit-filter: hue-rotate(141deg);
+            filter: hue-rotate(141deg);
+    opacity: 0.83;
+    text-shadow: 7px 4px #3C8D39;
+    clip: rect(66px, 9999px, 135px, 0);
+  }
+  92% {
+    -webkit-filter: hue-rotate(200deg);
+            filter: hue-rotate(200deg);
+    opacity: 0.17;
+    text-shadow: 1px 4px #3C8D39;
+    clip: rect(26px, 9999px, 86px, 0);
+  }
+  93% {
+    -webkit-filter: hue-rotate(338deg);
+            filter: hue-rotate(338deg);
+    opacity: 0.4;
+    text-shadow: 11px 3px #3C8D39;
+    clip: rect(79px, 9999px, 266px, 0);
+  }
+  94% {
+    -webkit-filter: hue-rotate(86deg);
+            filter: hue-rotate(86deg);
+    opacity: 0.34;
+    text-shadow: 6px 9px #3C8D39;
+    clip: rect(9px, 9999px, 121px, 0);
+  }
+  95% {
+    -webkit-filter: hue-rotate(299deg);
+            filter: hue-rotate(299deg);
+    opacity: 0.19;
+    text-shadow: 8px 10px #3C8D39;
+    clip: rect(72px, 9999px, 102px, 0);
+  }
+  96% {
+    -webkit-filter: hue-rotate(358deg);
+            filter: hue-rotate(358deg);
+    opacity: 0.19;
+    text-shadow: 4px 8px #3C8D39;
+    clip: rect(32px, 9999px, 217px, 0);
+  }
+  97% {
+    -webkit-filter: hue-rotate(73deg);
+            filter: hue-rotate(73deg);
+    opacity: 0.41;
+    text-shadow: 9px 7px #3C8D39;
+    clip: rect(30px, 9999px, 246px, 0);
+  }
+  98% {
+    -webkit-filter: hue-rotate(241deg);
+            filter: hue-rotate(241deg);
+    opacity: 0.47;
+    text-shadow: 9px 1px #3C8D39;
+    clip: rect(61px, 9999px, 171px, 0);
+  }
+  99% {
+    -webkit-filter: hue-rotate(87deg);
+            filter: hue-rotate(87deg);
+    opacity: 0.04;
+    text-shadow: 10px 12px #3C8D39;
+    clip: rect(20px, 9999px, 106px, 0);
   }
   100% {
-    -webkit-filter: hue-rotate(360deg);
-            filter: hue-rotate(360deg);
-    text-shadow: 1px 6px blue;
-    clip: rect(49px, 9999px, 122px, 0);
+    -webkit-filter: hue-rotate(287deg);
+            filter: hue-rotate(287deg);
+    opacity: 0.21;
+    text-shadow: 12px 4px #3C8D39;
+    clip: rect(30px, 9999px, 47px, 0);
   }
+}
+
+.preloader_cloud1 {
+  top: 100px;
+  right: 10%;
+  -webkit-animation: heartBeat 1s 1s infinite linear;
+          animation: heartBeat 1s 1s infinite linear;
+}
+
+.preloader_cloud2 {
+  bottom: 100px;
+  left: 10%;
+  -webkit-animation: heartBeat 1s infinite linear;
+          animation: heartBeat 1s infinite linear;
+}
+
+@-webkit-keyframes heartBeat {
+  50% {
+    -webkit-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1);
+  }
+}
+
+@keyframes heartBeat {
+  50% {
+    -webkit-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1);
+  }
+}
+
+.preloader_cloud1,
+.preloader_cloud2 {
+  width: 20%;
+  position: absolute;
+}
+
+.preloader_cloud1 .cloud_part,
+.preloader_cloud2 .cloud_part {
+  width: 95%;
+  height: 20px;
+  background-color: red;
+  margin: 12px auto 0;
+  border-radius: 50px;
+}
+
+.preloader_cloud1 .cloud_part:nth-child(4),
+.preloader_cloud2 .cloud_part:nth-child(4) {
+  width: 92%;
+  height: 15px;
+}
+
+.preloader_cloud1 .cloud_part:nth-child(6),
+.preloader_cloud2 .cloud_part:nth-child(6) {
+  width: 80%;
+}
+
+.preloader_cloud1 .cloud_part:nth-child(7),
+.preloader_cloud2 .cloud_part:nth-child(7) {
+  width: 60%;
+  height: 15px;
+}
+
+.preloader_cloud1 .cloud_part:nth-child(8),
+.preloader_cloud2 .cloud_part:nth-child(8) {
+  width: 40%;
+  height: 15px;
+}
+
+.preloader_cloud1 .cloud_part:nth-child(9),
+.preloader_cloud2 .cloud_part:nth-child(9) {
+  width: 25%;
+  height: 12px;
+}
+
+.preloader_cloud1 .cloud_part:nth-child(10),
+.preloader_cloud2 .cloud_part:nth-child(10) {
+  width: 15%;
+  height: 9px;
+}
+
+.preloader_cloud1 .cloud_part:nth-child(11),
+.preloader_cloud2 .cloud_part:nth-child(11) {
+  width: 5%;
+  height: 9px;
+}
+
+.cloud_split:nth-child(3) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.cloud_split:nth-child(3) .cloud_part:nth-child(1) {
+  width: 40% !important;
+  height: 15px !important;
+  margin-right: 10px;
+}
+
+.cloud_split:nth-child(3) .cloud_part:nth-child(2) {
+  width: 40% !important;
+  height: 15px !important;
+}
+
+.cloud_split:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.cloud_split:nth-child(2) .cloud_part:nth-child(1) {
+  width: 25% !important;
+  height: 12px !important;
+}
+
+.cloud_split:nth-child(2) .cloud_part:nth-child(2) {
+  width: 25% !important;
+  height: 12px !important;
+}
+
+.cloud_split:nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.cloud_split:nth-child(1) .cloud_part:nth-child(1) {
+  width: 10% !important;
+  height: 9px !important;
+}
+
+.cloud_split:nth-child(1) .cloud_part:nth-child(2) {
+  width: 10% !important;
+  height: 9px !important;
 }
 
 .preloader_line {
-  -webkit-animation: linePulse 3s infinite;
-          animation: linePulse 3s infinite;
-  width: 10%;
-  height: 10px;
+  width: 100%;
+  height: 80px;
   position: absolute;
-  background-color: red;
-  -webkit-transform: translate(-100%, 1000%);
-          transform: translate(-100%, 1000%);
-}
-
-@-webkit-keyframes linePulse {
-  100% {
-    -webkit-transform: translate(1000%, 1000%);
-            transform: translate(1000%, 1000%);
-    -webkit-filter: hue-rotate(270deg);
-            filter: hue-rotate(270deg);
-    -webkit-box-shadow: 0 0 20px red;
-            box-shadow: 0 0 20px red;
-  }
-}
-
-@keyframes linePulse {
-  100% {
-    -webkit-transform: translate(1000%, 1000%);
-            transform: translate(1000%, 1000%);
-    -webkit-filter: hue-rotate(270deg);
-            filter: hue-rotate(270deg);
-    -webkit-box-shadow: 0 0 20px red;
-            box-shadow: 0 0 20px red;
-  }
+  background-color: black;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 
 .off_preloader {
   -webkit-animation: offPreloader 1s 1;
           animation: offPreloader 1s 1;
+}
+
+.off_preloader .preloader_line {
+  -webkit-transform: translate(100%, 0);
+          transform: translate(100%, 0);
 }
 
 @-webkit-keyframes offPreloader {

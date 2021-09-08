@@ -17,6 +17,50 @@ export default (props) => {
                 tschernysh
             </div>
             <div className={s.preloader_line}></div>
+            <div className={s.preloader_cloud1}>
+                <div className={s.cloud_split}  >
+                    <div className={s.cloud_part}></div>
+                    <div className={s.cloud_part}></div>
+                </div>
+                <div className={s.cloud_split}  >
+                    <div className={s.cloud_part}></div>
+                    <div className={s.cloud_part}></div>
+                </div>
+                <div className={s.cloud_split}>
+                    <div className={s.cloud_part}></div>
+                    <div className={s.cloud_part}></div>
+                </div>
+                <div className={s.cloud_part}></div>
+                <div className={s.cloud_part}></div>
+                <div className={s.cloud_part}></div>
+                <div className={s.cloud_part}></div>
+                <div className={s.cloud_part}></div>
+                <div className={s.cloud_part}></div>
+                <div className={s.cloud_part}></div>
+                <div className={s.cloud_part}></div>
+            </div>
+            <div className={s.preloader_cloud2}>
+                <div className={s.cloud_split}  >
+                    <div className={s.cloud_part}></div>
+                    <div className={s.cloud_part}></div>
+                </div>
+                <div className={s.cloud_split}  >
+                    <div className={s.cloud_part}></div>
+                    <div className={s.cloud_part}></div>
+                </div>
+                <div className={s.cloud_split}>
+                    <div className={s.cloud_part}></div>
+                    <div className={s.cloud_part}></div>
+                </div>
+                <div className={s.cloud_part}></div>
+                <div className={s.cloud_part}></div>
+                <div className={s.cloud_part}></div>
+                <div className={s.cloud_part}></div>
+                <div className={s.cloud_part}></div>
+                <div className={s.cloud_part}></div>
+                <div className={s.cloud_part}></div>
+                <div className={s.cloud_part}></div>
+            </div>
         </div>
     )
 }
