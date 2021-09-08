@@ -39,7 +39,7 @@ function App() {
 
   setTimeout(() => {
     setOffPreloader(true)
-  }, 5000)
+  }, 10000)
 
   return (
     <PhaseContext.Provider value={{phase, setPhase, phaseFetch, setPhaseFetch}} >

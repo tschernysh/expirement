@@ -61,6 +61,28 @@ export default (props) => {
                 <div className={s.cloud_part}></div>
                 <div className={s.cloud_part}></div>
             </div>
+            <div className={s.preloader_cloud3}>
+                <div className={s.cloud_split}  >
+                    <div className={s.cloud_part}></div>
+                    <div className={s.cloud_part}></div>
+                </div>
+                <div className={s.cloud_split}  >
+                    <div className={s.cloud_part}></div>
+                    <div className={s.cloud_part}></div>
+                </div>
+                <div className={s.cloud_split}>
+                    <div className={s.cloud_part}></div>
+                    <div className={s.cloud_part}></div>
+                </div>
+                <div className={s.cloud_part}></div>
+                <div className={s.cloud_part}></div>
+                <div className={s.cloud_part}></div>
+                <div className={s.cloud_part}></div>
+                <div className={s.cloud_part}></div>
+                <div className={s.cloud_part}></div>
+                <div className={s.cloud_part}></div>
+                <div className={s.cloud_part}></div>
+            </div>
         </div>
     )
 }
