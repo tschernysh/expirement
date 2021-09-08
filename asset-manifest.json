@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/tschernysh/expirement.git/static/css/main.81bb1b64.chunk.css",
-    "main.js": "/tschernysh/expirement.git/static/js/main.384ab808.chunk.js",
-    "main.js.map": "/tschernysh/expirement.git/static/js/main.384ab808.chunk.js.map",
+    "main.css": "/tschernysh/expirement.git/static/css/main.f559605c.chunk.css",
+    "main.js": "/tschernysh/expirement.git/static/js/main.4c0ba3f4.chunk.js",
+    "main.js.map": "/tschernysh/expirement.git/static/js/main.4c0ba3f4.chunk.js.map",
     "runtime-main.js": "/tschernysh/expirement.git/static/js/runtime-main.bd5b6193.js",
     "runtime-main.js.map": "/tschernysh/expirement.git/static/js/runtime-main.bd5b6193.js.map",
     "static/js/2.b59c75c9.chunk.js": "/tschernysh/expirement.git/static/js/2.b59c75c9.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.6f71e1c3.chunk.js": "/tschernysh/expirement.git/static/js/3.6f71e1c3.chunk.js",
     "static/js/3.6f71e1c3.chunk.js.map": "/tschernysh/expirement.git/static/js/3.6f71e1c3.chunk.js.map",
     "index.html": "/tschernysh/expirement.git/index.html",
-    "static/css/main.81bb1b64.chunk.css.map": "/tschernysh/expirement.git/static/css/main.81bb1b64.chunk.css.map",
+    "static/css/main.f559605c.chunk.css.map": "/tschernysh/expirement.git/static/css/main.f559605c.chunk.css.map",
     "static/js/2.b59c75c9.chunk.js.LICENSE.txt": "/tschernysh/expirement.git/static/js/2.b59c75c9.chunk.js.LICENSE.txt",
     "static/media/DZHIZUS.908c2023.webm": "/tschernysh/expirement.git/static/media/DZHIZUS.908c2023.webm",
     "static/media/index.css": "/tschernysh/expirement.git/static/media/STIXTwoMath-Regular.a36a0501.ttf",
@@ -38,7 +38,7 @@
   "entrypoints": [
     "static/js/runtime-main.bd5b6193.js",
     "static/js/2.b59c75c9.chunk.js",
-    "static/css/main.81bb1b64.chunk.css",
-    "static/js/main.384ab808.chunk.js"
+    "static/css/main.f559605c.chunk.css",
+    "static/js/main.4c0ba3f4.chunk.js"
   ]
 }
