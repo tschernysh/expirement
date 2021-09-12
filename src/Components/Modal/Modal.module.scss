@@ -6,6 +6,8 @@
     user-select: none;
     display: flex;
     flex-direction: column;
+    transition: all 0.5s;
+    animation: appearance 1s ease 1 ;
 }
 .modal{
     position: relative;
@@ -46,4 +48,20 @@
     background-color: #ededed;
     border-radius: 50%;
     border: 5px solid black;
+}
+@keyframes appearance {
+    0%{
+        opacity: 0;
+        transform: translate(0, 25%);    
+    }
+}
+.modal_hide{
+    opacity: 0;
+    transform: translate(0, 25%);
+    transition: all 1s;    
+}
+.text_hide{
+    opacity: 0;
+    transform: translate(0, 25%);
+    transition: all 0.5s;    
 }

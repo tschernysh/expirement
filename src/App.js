@@ -48,7 +48,7 @@ function App() {
           <div className="App">
             {preloader && <Preloader offPreloader={offPreloader} setPreloader={setPreloader} />}
             <ContentWrapper preloader={preloader} phaseFetch={phaseFetch} setPhaseFetch={setPhaseFetch} setUserData={setUserData} userData={userData} setPhase={setPhase} phase={phase} />
-            {modalVisibility && <Modal setModalVisibility={setModalVisibility} modalContent={modalContent} /> }
+            <Modal setModalVisibility={setModalVisibility} modalContent={modalContent} />
           </div>
         </ModalContext.Provider>
       </UserDataContext.Provider>

@@ -14,6 +14,10 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  -webkit-animation: appearance 1s ease 1;
+          animation: appearance 1s ease 1;
 }
 
 .modal {
@@ -59,5 +63,37 @@
   background-color: #ededed;
   border-radius: 50%;
   border: 5px solid black;
+}
+
+@-webkit-keyframes appearance {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(0, 25%);
+            transform: translate(0, 25%);
+  }
+}
+
+@keyframes appearance {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate(0, 25%);
+            transform: translate(0, 25%);
+  }
+}
+
+.modal_hide {
+  opacity: 0;
+  -webkit-transform: translate(0, 25%);
+          transform: translate(0, 25%);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.text_hide {
+  opacity: 0;
+  -webkit-transform: translate(0, 25%);
+          transform: translate(0, 25%);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 /*# sourceMappingURL=Modal.module.css.map */

@@ -9,6 +9,7 @@ import React from 'react'
 
 
 export default (props) => {
+    const [hideModal, setHideModal] = useState(false)
 
     const moodImage = () => {
         switch(props.modalContent.mood){
@@ -28,8 +29,12 @@ export default (props) => {
     
 
     useEffect( () => {
+        setHideModal(false)
         let timer = setTimeout(() => {
-            props.setModalVisibility(false)
+            setHideModal(true)
+            setTimeout(() => {
+                props.setModalVisibility(false)
+            }, 1000)
         }, 4000)
         
 
@@ -39,9 +44,9 @@ export default (props) => {
 
 
     return(
-        <div className={s.modal_wrapper}>
+        <div className={`${s.modal_wrapper} ${hideModal && s.modal_hide}`}>
             <div className={s.modal}>
-                <div className={s.modal_text}>
+                <div className={`${s.modal_text} ${hideModal && s.text_hide}`}>
                     <span>{props.modalContent.content}</span>
                 </div>
                 <img draggable={false} src={moodImage()} className={s.modal_img} />
