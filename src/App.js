@@ -42,9 +42,9 @@ function App() {
   }, 5000)
 
   return (
-    <PhaseContext.Provider value={{phase, setPhase, phaseFetch, setPhaseFetch}} >
-      <UserDataContext.Provider value={{userData, setUserData, userSex}}>
-        <ModalContext.Provider value={{setModalVisibility, setModalContent}}>
+    <PhaseContext.Provider value={{ phase, setPhase, phaseFetch, setPhaseFetch }} >
+      <UserDataContext.Provider value={{ userData, setUserData, userSex }}>
+        <ModalContext.Provider value={{ setModalVisibility, setModalContent }}>
           <div className="App">
             {preloader && <Preloader offPreloader={offPreloader} setPreloader={setPreloader} />}
             <ContentWrapper preloader={preloader} phaseFetch={phaseFetch} setPhaseFetch={setPhaseFetch} setUserData={setUserData} userData={userData} setPhase={setPhase} phase={phase} />
